@@ -42,7 +42,7 @@ EXTERN unsigned lost_ticks;	/* clock ticks counted outside clock task */  //n us
 
 /* Interrupt related variables. */
 EXTERN irq_hook_t irq_hooks[NR_IRQ_HOOKS];	/* hooks for general use */
-EXTERN irq_hook_t *irq_handlers[NR_IRQ_VECTORS];/* list of IRQ handlers */   //n ub put_irq_handler  ,  hwint_master in mpx386.s
+EXTERN irq_hook_t *irq_handlers[NR_IRQ_VECTORS];/* list of IRQ handlers */   //n ub put_irq_handler  ,  hwint_master in mpx386.s,rm_irq_handler
 EXTERN int irq_actids[NR_IRQ_VECTORS];		/* IRQ ID bits active */	//n ub intr_handle
 EXTERN int irq_use;				/* map of all in-use irq's */
 
