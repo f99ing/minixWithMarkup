@@ -36,7 +36,7 @@ EXTERN char k_reenter;		/* kernel reentry count (entry count less 1) */
 /*n  This variable is provided for the use of any function that executes in kernel space that might disable interrupts long enough that one or more clock ticks could be lost. 
 It currently is used by the int86 function in klib386.s. Int86 uses the boot monitor to manage the transfer of control to the BIOS, and the monitor returns the number of clock ticks counted while the BIOS call was busy in the ecx register just before the return to the kernel. This works because, although the clock chip is not triggering the MINIX 3 clock interrupt handler when the BIOS request is handled, the boot monitor can keep track of the time with the help of the BIOS.
 */
-EXTERN unsigned lost_ticks;	/* clock ticks counted outside clock task */  //n used and set to 0 at clock_handler() in clock.c
+EXTERN unsigned lost_ticks;	/* clock ticks counted outside clock task */  //n set at clock_handler() & csinit in klib386.s
 
 #if (CHIP == INTEL)
 
