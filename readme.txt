@@ -18,8 +18,11 @@ Both of these also include assembly language support for other low-level kernel 
 
 Once the bootstrap process has loaded the operating system into memory, control is transferred to the label MINIX (in mpx386.s
 
- boot
- boot monitor,installBoot,boot sector code
+boot
+.boot monitor,installBoot,boot sector code
+.installBoot put these code to hard disk/floppy ?
+.masterboot.s is the first boot to execute ?
+.bootimage.c  bootminix(void) contains code that load minix and run it
 
 try:form a model of minix
 kernel ,system task,clock task are build into one image but run in different process.

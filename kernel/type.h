@@ -92,12 +92,12 @@ struct segdesc_s {		/* segment descriptor for protected mode */
 typedef unsigned long irq_policy_t;	
 typedef unsigned long irq_id_t;	
 
-//n ub clock_hook, put_irq_handler
+//n ub clock_hook, put_irq_handler, rm_irq_handler
 typedef struct irq_hook {
-  struct irq_hook *next;		/* next hook in chain */
+  struct irq_hook *next;		/* next hook in chain */	//n put_irq_handler, rm_irq_handler  
   int (*handler)(struct irq_hook *);	/* interrupt handler */ //n a function with irq_hook parameter & returns int.for exp: clock_handler
-  int irq;				/* IRQ vector number */ 
-  int id;				/* id of this hook */
+  int irq;				/* IRQ vector number */		//n rm_irq_handler
+  int id;				/* id of this hook */		//n rm_irq_handler
   int proc_nr;				/* NONE if not in use */   //n for clock interrupt handler, this is set in init_clock
   irq_id_t notify_id;			/* id to return on interrupt */
   irq_policy_t policy;			/* bit mask for policy */

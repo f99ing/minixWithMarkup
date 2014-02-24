@@ -29,6 +29,16 @@
 	sysind	   =	     4
 	lowsec	   =	     8
 
+/*n 
+minix引导程序剖析之masterboot
+http://simohayha.iteye.com/blog/317089
+
+The Master Boot Record (MBR) and Why it is Necessary?
+http://www.dewassoc.com/kbase/hard_drives/master_boot_record.htm
+
+MBR (x86)
+http://wiki.osdev.org/MBR_(x86)
+*/
 
 .text
 

@@ -334,8 +334,7 @@ struct timer *tp;		/* pointer to timer structure */
  * it to the front of the active list.
  */
   tmrs_clrtimer(&clock_timers, tp, NULL);
-  next_timeout = (clock_timers == NULL) ? 
-	TMR_NEVER : clock_timers->tmr_exp_time;
+  next_timeout = (clock_timers == NULL) ? 	TMR_NEVER : clock_timers->tmr_exp_time;
 }
 
 /*===========================================================================*
