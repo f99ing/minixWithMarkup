@@ -124,8 +124,8 @@ FORWARD _PROTOTYPE( int do_clocktick, (message *m_ptr) );
  * via (re)set_timer().
  * When a timer expires its watchdog function is run by the CLOCK task. 
  */
-PRIVATE timer_t *clock_timers;		/* queue of CLOCK timers */   //n ub do_clocktick set_timer() reset_timer()
-PRIVATE clock_t next_timeout;		/* realtime that next timer expires */  //n set in set_timer() reset_timer(), used in handler & do_clocktick
+PRIVATE timer_t *clock_timers;		/* queue of CLOCK timers */   //n ub do_clocktick set_timer() reset_timer()  ,set at do_clocktick--tmrs_exptimers
+PRIVATE clock_t next_timeout;		/* realtime that next timer expires */  //n set in set_timer() reset_timer() do_clocktick, used in handler & do_clocktick
 
 /* The time is incremented by the interrupt handler on each clock tick. */
 PRIVATE clock_t realtime;		/* real time clock */		//n set(incremented) at clock_handler() in clock.c , returned by get_uptime
@@ -194,8 +194,7 @@ message *m_ptr;				/* pointer to request message */
   /* Check if a clock timer expired and run its watchdog function. */
   if (next_timeout <= realtime) { 
   	tmrs_exptimers(&clock_timers, realtime, NULL);
-  	next_timeout = clock_timers == NULL ? 
-		TMR_NEVER : clock_timers->tmr_exp_time;
+  	next_timeout = clock_timers == NULL ? 	TMR_NEVER : clock_timers->tmr_exp_time;
   }
 
   /* Inhibit sending a reply. */
