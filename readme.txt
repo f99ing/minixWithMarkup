@@ -1,4 +1,15 @@
 
+feature view
+
+user view
+
+file view
+
+concetptual structure view
+
+user view:
+
+
 asm用某个assembler，需要了解其语法和用法。
 有个中国人学习过程中写了篇有关其语法的文章，之前下载了。
 is this?   :THE MINIX ASSEMBLY LANGUAGE MANUAL http://minix1.woodhull.com/faq/MinixAsMn.html
@@ -51,3 +62,4 @@ the kernel has a library of support functions written in assembly language that 
 Klib.s  is a short file similar to mpx.s, which selects the appropriate machine-specific version based upon the definition of WORD_SIZE.
 
 utility.c
+

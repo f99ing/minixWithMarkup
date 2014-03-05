@@ -1,0 +1,27 @@
+struct boot_image image[] 
+
+EXTERN struct proc *prev_ptr;	 
+EXTERN struct proc *proc_ptr;	 
+ 
+EXTERN struct proc *next_ptr;	 
+EXTERN struct proc *bill_ptr;	 
+EXTERN char k_reenter;
+
+unsigned lost_ticks
+
+struct segdesc_s gdt[]
+
+int mon_return
+
+phys_bytes aout
+struct kinfo kinfo
+struct machine machine
+struct kmessages kmess
+struct randomness krandom
+
+irq_hook_t *irq_handlers[NR_IRQ_VECTORS]
+int irq_actids[NR_IRQ_VECTORS]
+
+clock task
+clock_t realtime
+clock_t next_timeout
