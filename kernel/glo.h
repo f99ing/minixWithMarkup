@@ -31,7 +31,7 @@ EXTERN struct proc *proc_ptr;	/* pointer to currently running process */  //n us
 //n modified in _restart(mpx386.s):mov	(_proc_ptr), eax; 
 EXTERN struct proc *next_ptr;	/* next process to run after restart() */   //n used and modified in _restart(mpx386.s), and in pick_proc() in proc.c
 EXTERN struct proc *bill_ptr;	/* process to bill for clock ticks */   //n used in: clock_handler() in clock.c
-EXTERN char k_reenter;		/* kernel reentry count (entry count less 1) */
+EXTERN char k_reenter;		/* kernel reentry count (entry count less 1) */ //n ub save
 
 /*n  This variable is provided for the use of any function that executes in kernel space that might disable interrupts long enough that one or more clock ticks could be lost. 
 It currently is used by the int86 function in klib386.s. Int86 uses the boot monitor to manage the transfer of control to the BIOS, and the monitor returns the number of clock ticks counted while the BIOS call was busy in the ecx register just before the return to the kernel. This works because, although the clock chip is not triggering the MINIX 3 clock interrupt handler when the BIOS request is handled, the boot monitor can keep track of the time with the help of the BIOS.

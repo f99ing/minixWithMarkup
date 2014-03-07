@@ -12,7 +12,7 @@
 /* To translate an address in kernel space to a physical address.  This is
  * the same as umap_local(proc_ptr, D, vir, sizeof(*vir)), but less costly.
  */
-#define vir2phys(vir)	(kinfo.data_base + (vir_bytes) (vir))
+#define vir2phys(vir)	(kinfo.data_base + (vir_bytes) (vir))	//n ub prot_init
 
 /* Map a process number to a privilege structure id. */
 #define s_nr_to_id(n)	(NR_TASKS + (n) + 1)
@@ -31,11 +31,11 @@
 #define RANDOM_SOURCES	16
 
 /* Constants and macros for bit map manipulation. */
- //n used in sys_map_t
+ //n used in sys_map_t . Some times a bitmap is too long to be stored, so divide it to many chunks
 #define BITCHUNK_BITS   (sizeof(bitchunk_t) * CHAR_BIT) // 1*8=8
-#define BITMAP_CHUNKS(nr_bits) (((nr_bits)+BITCHUNK_BITS-1)/BITCHUNK_BITS) //n compute number of chunck needed , if we need 32bits,then (32+8-1)/8=4 chunks are needed 
-#define MAP_CHUNK(map,bit) (map)[((bit)/BITCHUNK_BITS)]//n a bit is at which chunk , ub GET_BIT SET_BIT below.	MAP_CHUNK(map,3)=map[3/8]=map[0]; MAP_CHUNK(map,13)=map[13/8]=map[1]
-#define CHUNK_OFFSET(bit) ((bit)%BITCHUNK_BITS))	//n offset of a bit in a chunk.CHUNK_OFFSET(3)=3%8=3; CHUNK_OFFSET(13)=13%8=5
+#define BITMAP_CHUNKS(nr_bits) (((nr_bits)+BITCHUNK_BITS-1)/BITCHUNK_BITS) //n compute number of chuncks needed , if we need to store a total of 32bits,then (32+8-1)/8=4 chunks are needed 
+#define MAP_CHUNK(map,bit) (map)[((bit)/BITCHUNK_BITS)]//n Given the position of a bit in the bitmap, see the bit is at which chunk , ub GET_BIT SET_BIT below.	MAP_CHUNK(map,3)=map[3/8]=map[0]; MAP_CHUNK(map,13)=map[13/8]=map[1]
+#define CHUNK_OFFSET(bit) ((bit)%BITCHUNK_BITS))	//n given offset of a bit in a bitmap, get offset of a bit in a chunk. CHUNK_OFFSET(3)=3%8=3; CHUNK_OFFSET(13)=13%8=5
 
 #define GET_BIT(map,bit) ( MAP_CHUNK(map,bit) & (1 << CHUNK_OFFSET(bit) ) //n  GET_BIT(map,13)=map[1]&(1<<5)=map[1] & 0001 0000.If map[1]=0000 0000,=0; map[1]=0010 0000,=0; map[1]=0011 0010,=0001 0000
 #define SET_BIT(map,bit) ( MAP_CHUNK(map,bit) |= (1 << CHUNK_OFFSET(bit) )
@@ -53,8 +53,8 @@
 #if (CHIP == INTEL)
 
 /* Program stack words and masks. */
-#define INIT_PSW      0x0200	/* initial psw */
-#define INIT_TASK_PSW 0x1200	/* initial psw for tasks (with IOPL 1) */
+#define INIT_PSW      0x0200	/* initial psw */		//n ub main()
+#define INIT_TASK_PSW 0x1200	/* initial psw for tasks (with IOPL 1) */	//n ub main()
 #define TRACEBIT      0x0100	/* OR this with psw in proc[] for tracing */
 #define SETPSW(rp, new)		/* permits only certain bits to be set */ \
 	((rp)->p_reg.psw = (rp)->p_reg.psw & ~0xCD5 | (new) & 0xCD5)

@@ -8,8 +8,8 @@
 #include "protect.h"
 
 #if _WORD_SIZE == 4
-#define INT_GATE_TYPE	(INT_286_GATE | DESC_386_BIT)
-#define TSS_TYPE	(AVL_286_TSS  | DESC_386_BIT)
+#define INT_GATE_TYPE	(INT_286_GATE | DESC_386_BIT)	//n ub prot_init()
+#define TSS_TYPE	(AVL_286_TSS  | DESC_386_BIT)	//n ub prot_init()
 #else
 #define INT_GATE_TYPE	INT_286_GATE
 #define TSS_TYPE	AVL_286_TSS
@@ -65,10 +65,11 @@ struct tss_s {
 #endif
 };
  
-PUBLIC struct segdesc_s gdt[GDT_SIZE];		/* used in klib.s and mpx.s */		//n inited in prot_init()
-PRIVATE struct gatedesc_s idt[IDT_SIZE];	/* zero-init so none present */  //n used in prot_init()
+PUBLIC struct segdesc_s gdt[GDT_SIZE];		/* used in klib.s and mpx.s */		//n inited in prot_init() ,ub seg2phys phys2seg
+PRIVATE struct gatedesc_s idt[IDT_SIZE];	/* zero-init so none present */  //n used in prot_init() int_gate()
 PUBLIC struct tss_s tss;			/* zero init */		//n inited at the end of prot_init()
 
+//n implemented  below
 FORWARD _PROTOTYPE( void int_gate, (unsigned vec_nr, vir_bytes offset,
 		unsigned dpl_type) );
 FORWARD _PROTOTYPE( void sdesc, (struct segdesc_s *segdp, phys_bytes base,
@@ -201,7 +202,7 @@ PUBLIC void prot_init()
 /*===========================================================================*
  *				init_codeseg				     *
  *===========================================================================*/
- //n used in prot_init()
+ //n used in prot_init() alloc_segments
 PUBLIC void init_codeseg(segdp, base, size, privilege)
 register struct segdesc_s *segdp;
 phys_bytes base;
@@ -218,7 +219,7 @@ int privilege;
 /*===========================================================================*
  *				init_dataseg				     *
  *===========================================================================*/
- //n used in prot_init()
+ //n used in prot_init() phys2seg alloc_segments
 PUBLIC void init_dataseg(segdp, base, size, privilege)
 register struct segdesc_s *segdp;
 phys_bytes base;

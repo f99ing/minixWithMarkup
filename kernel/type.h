@@ -73,13 +73,14 @@ struct stackframe_s {           /* proc_ptr points here */  //n ub struct proc
   reg_t retadr;			/* return address for assembly code save() */
   reg_t pc;			/*  ^  last item pushed by interrupt */					//n ub struct proc and in turn in main()
   reg_t cs;                     /*  | */
-  reg_t psw;                    /*  | */	//n ub struct proc and in turn in main()
+  reg_t psw;                    /*  | */	//n ub struct proc and in turn in main()  enable_iop
   reg_t sp;                     /*  | */
   reg_t ss;                     /* these are pushed by CPU during interrupt */
 };
 
 //n 8 bytes descriptor 
 //n ref intel IA32 manual v3 3.4.5 
+//n ub seg2phys
 struct segdesc_s {		/* segment descriptor for protected mode */
   u16_t limit_low;
   u16_t base_low;

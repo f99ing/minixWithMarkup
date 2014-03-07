@@ -27,7 +27,7 @@ typedef unsigned long vir_bytes;/* virtual addresses and lengths in bytes */
 #endif
 
 /* Memory map for local text, stack, data segments. */
-//n ub proc.p_memmap
+//n ub proc.p_memmap 
 struct mem_map {
   vir_clicks mem_vir;		/* virtual address */
   phys_clicks mem_phys;		/* physical address */

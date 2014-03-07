@@ -17,30 +17,29 @@
 /* Magic numbers for interrupt controller. */
 #define END_OF_INT      0x20	/* code used to re-enable after an interrupt */
 
-/* Interrupt vectors defined/reserved by processor. */
+/* Interrupt vectors defined/reserved by processor. */  //n prot_init
 #define DIVIDE_VECTOR      0	/* divide error */
 #define DEBUG_VECTOR       1	/* single step (trace) */
 #define NMI_VECTOR         2	/* non-maskable interrupt */
 #define BREAKPOINT_VECTOR  3	/* software breakpoint */
 #define OVERFLOW_VECTOR    4	/* from INTO */
 
-/* Fixed system call vector. */
-#define SYS_VECTOR        32	/* system calls are made with int SYSVEC */  //n prot_init
-#define SYS386_VECTOR     33	/* except 386 system calls use this */		//n prot_init
-#define LEVEL0_VECTOR     34	/* for execution of a function at level 0 */	//n prot_init
+/* Fixed system call vector. */		//n ub prot_init
+#define SYS_VECTOR        32	/* system calls are made with int SYSVEC */   
+#define SYS386_VECTOR     33	/* except 386 system calls use this */		 
+#define LEVEL0_VECTOR     34	/* for execution of a function at level 0 */	 
 
 /* Suitable irq bases for hardware interrupts.  Reprogram the 8259(s) from
  * the PC BIOS defaults since the BIOS doesn't respect all the processor's
  * reserved vectors (0 to 31).
  */
-#define BIOS_IRQ0_VEC   0x08	/* base of IRQ0-7 vectors used by BIOS */
-#define BIOS_IRQ8_VEC   0x70	/* base of IRQ8-15 vectors used by BIOS */
-#define IRQ0_VECTOR     0x50	/* nice vectors to relocate IRQ0-7 to */
-#define IRQ8_VECTOR     0x70	/* no need to move IRQ8-15 */
+#define BIOS_IRQ0_VEC   0x08	/* base of IRQ0-7 vectors used by BIOS */  //n ub BIOS_VECTOR
+#define BIOS_IRQ8_VEC   0x70	/* base of IRQ8-15 vectors used by BIOS */	 //n ub BIOS_VECTOR
+#define IRQ0_VECTOR     0x50	/* nice vectors to relocate IRQ0-7 to */  //n ub VECTOR
+#define IRQ8_VECTOR     0x70	/* no need to move IRQ8-15 */			//n ub VECTOR
 
 /* Hardware interrupt numbers. */
-//n ub put_irq_handler
-#define NR_IRQ_VECTORS    16
+#define NR_IRQ_VECTORS    16	//n ub IDT_SIZE   put_irq_handler
 #define CLOCK_IRQ          0
 #define KEYBOARD_IRQ       1
 #define CASCADE_IRQ        2	/* cascade enable for 2nd AT controller */
@@ -56,7 +55,8 @@
 /* Interrupt number to hardware vector. */
 #define BIOS_VECTOR(irq)	\
 	(((irq) < 8 ? BIOS_IRQ0_VEC : BIOS_IRQ8_VEC) + ((irq) & 0x07))
-#define VECTOR(irq)	\
+	//n ub prot_init()
+#define VECTOR(irq)	\	
 	(((irq) < 8 ? IRQ0_VECTOR : IRQ8_VECTOR) + ((irq) & 0x07))
 
 #endif /* (CHIP == INTEL) */

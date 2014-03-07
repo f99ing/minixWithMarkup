@@ -39,9 +39,9 @@
 
 #define LOCAL_SEG     0x0000	/* flags indicating local memory segment */
 #define NR_LOCAL_SEGS      3	/* # local segments per process (fixed) */		//n ub proc.p_memmap 
-#define T                  0	/* proc[i].mem_map[T] is for text */
-#define D                  1	/* proc[i].mem_map[D] is for data */	//n ub     CopyMess  sys_call
-#define S                  2	/* proc[i].mem_map[S] is for stack */
+#define T                  0	/* proc[i].mem_map[T] is for text */		//n ub alloc_segments
+#define D                  1	/* proc[i].mem_map[D] is for data */	//n ub     CopyMess  sys_call alloc_segments
+#define S                  2	/* proc[i].mem_map[S] is for stack */	//n ub alloc_segments
 
 #define REMOTE_SEG    0x0100	/* flags indicating remote memory segment */
 #define NR_REMOTE_SEGS     3    /* # remote memory regions (variable) */
@@ -90,7 +90,7 @@
 #else
 #define click_to_hclick(n) ((n) >> (HCLICK_SHIFT - CLICK_SHIFT))
 #endif
-#define hclick_to_physb(n) ((phys_bytes) (n) << HCLICK_SHIFT)
+#define hclick_to_physb(n) ((phys_bytes) (n) << HCLICK_SHIFT)	//n ub seg2phys
 #define physb_to_hclick(n) ((n) >> HCLICK_SHIFT)
 
 #define ABS             -999	/* this process means absolute memory */

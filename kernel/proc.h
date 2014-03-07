@@ -15,7 +15,7 @@
 #include "priv.h"
  
 struct proc {
-  struct stackframe_s p_reg;	/* process' registers saved in stack frame */  //n main()
+  struct stackframe_s p_reg;	/* process' registers saved in stack frame */  //n main()  enable_iop
 
 #if (CHIP == INTEL)
   reg_t p_ldt_sel;		/* selector in gdt with ldt base and limit */
@@ -37,7 +37,7 @@ struct proc {
   char p_ticks_left;		/* number of scheduling ticks left */  //n reduced in clock_handler() ,used in do_clocktick in clock.c,sched() 
   char p_quantum_size;		/* quantum size in ticks */			//n used in sched()
 
-  struct mem_map p_memmap[NR_LOCAL_SEGS];   /* memory map (T, D, S) */  //n ub CopyMess  sys_call,set at main()
+  struct mem_map p_memmap[NR_LOCAL_SEGS];   /* memory map (T, D, S) */  //n ub CopyMess  sys_call,set at main()  alloc_segments
 
   clock_t p_user_time;		/* user time in ticks */  //n added in clock_handler() in clock.c
   clock_t p_sys_time;		/* sys time in ticks */		//n used in clock_handler() in clock.c
@@ -62,7 +62,7 @@ struct proc {
 
 /* Bits for the runtime flags. A process is runnable if p_rts_flags == 0. */
 #define SLOT_FREE	0x01	/* process slot is free */
-#define NO_MAP		0x02	/* keeps unmapped forked child from running */
+#define NO_MAP		0x02	/* keeps unmapped forked child from running */  //n ub main  
 #define SENDING		0x04	/* process blocked trying to SEND */		//n ub mini_send
 #define RECEIVING	0x08	/* process blocked trying to RECEIVE */  //n ub mini_send
 #define SIGNALED	0x10	/* set when new kernel signal arrives */
@@ -108,7 +108,7 @@ struct proc {
  */
 EXTERN struct proc proc[NR_TASKS + NR_PROCS];	/* process table */
 EXTERN struct proc *pproc_addr[NR_TASKS + NR_PROCS];//n pointers to  process table. inited in main()
-EXTERN struct proc *rdy_head[NR_SCHED_QUEUES]; /* ptrs to ready list headers */
+EXTERN struct proc *rdy_head[NR_SCHED_QUEUES]; /* ptrs to ready list headers */    //n ub dequeue
 EXTERN struct proc *rdy_tail[NR_SCHED_QUEUES]; /* ptrs to ready list tails */
 
 #endif /* PROC_H */
