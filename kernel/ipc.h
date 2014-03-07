@@ -22,7 +22,7 @@
 #define ECHO		   8	/* 1 0 0 0 : echo a message */
 
 /* The following bit masks determine what checks that should be done. */
-#define CHECK_PTR       0x0B	/* 1 0 1 1 : validate message buffer */  //n sys_call  If the call involves a message buffer, i.e., for SEND, RECEIVE, SENDREC, or ECHO, check the message pointer. 
+#define CHECK_PTR       0x0B	/* 1 0 1 1 : validate message buffer */  //n sys_call 
 #define CHECK_DST       0x05	/* 0 1 0 1 : validate message destination */  //n sys_call
 #define CHECK_SRC       0x02	/* 0 0 1 0 : validate message source */
 

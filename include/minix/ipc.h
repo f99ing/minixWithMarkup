@@ -10,6 +10,7 @@
 #define M4                 4
 #define M3_STRING         14
 
+
 typedef struct {int m1i1, m1i2, m1i3; char *m1p1, *m1p2, *m1p3;} mess_1;
 typedef struct {int m2i1, m2i2, m2i3; long m2l1, m2l2; char *m2p1;} mess_2;
 typedef struct {int m3i1, m3i2; char *m3p1; char m3ca1[M3_STRING];} mess_3;
@@ -18,10 +19,11 @@ typedef struct {short m5c1, m5c2; int m5i1, m5i2; long m5l1, m5l2, m5l3;}mess_5;
 typedef struct {int m7i1, m7i2, m7i3, m7i4; char *m7p1, *m7p2;} mess_7;
 typedef struct {int m8i1, m8i2; char *m8p1, *m8p2, *m8p3, *m8p4;} mess_8;
 
+  //n there are 7 different kinds of messages ,each has a source and type and a struct,the struct contains several fields of different basic types,each field  can also be accessed by short hand notation like m1_i1,m1_i2...,m2_i1,m2_i2 ...
 //n ub BuildMess
 typedef struct {
-  int m_source;			/* who sent the message */
-  int m_type;			/* what kind of message is it */
+  int m_source;			/* who sent the message */			//n NOTIFY_SOURCE  BuildMess
+  int m_type;			/* what kind of message is it */	//n NOTIFY_TYPE		BuildMess
   union {
 	mess_1 m_m1;
 	mess_2 m_m2;
@@ -34,7 +36,7 @@ typedef struct {
 } message;
 
 /* The following defines provide names for useful members. */
-//n type_field,7 types, each has different type/number of fields
+//n for fast access of each field of each type of message.
 #define m1_i1  m_u.m_m1.m1i1
 #define m1_i2  m_u.m_m1.m1i2
 #define m1_i3  m_u.m_m1.m1i3
@@ -42,11 +44,11 @@ typedef struct {
 #define m1_p2  m_u.m_m1.m1p2
 #define m1_p3  m_u.m_m1.m1p3
 
-#define m2_i1  m_u.m_m2.m2i1
+#define m2_i1  m_u.m_m2.m2i1	//n NOTIFY_FLAGS
 #define m2_i2  m_u.m_m2.m2i2
 #define m2_i3  m_u.m_m2.m2i3
-#define m2_l1  m_u.m_m2.m2l1
-#define m2_l2  m_u.m_m2.m2l2
+#define m2_l1  m_u.m_m2.m2l1	//n NOTIFY_ARG
+#define m2_l2  m_u.m_m2.m2l2	//n NOTIFY_TIMESTAMP
 #define m2_p1  m_u.m_m2.m2p1
 
 #define m3_i1  m_u.m_m3.m3i1

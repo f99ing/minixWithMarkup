@@ -3,6 +3,7 @@
 /*===========================================================================*
  *                               sys_irqctl				     *
  *===========================================================================*/
+//n for interrupt handling,see mpx386.s ‘interrupt handlers'。
 PUBLIC int sys_irqctl(req, irq_vec, policy, hook_id)
 int req;				/* IRQ control request */
 int irq_vec;				/* IRQ vector to control */

@@ -27,7 +27,7 @@ EXTERN struct randomness krandom;	/* gather kernel random information */
 
 /* Process scheduling information and the kernel reentry count. */
 EXTERN struct proc *prev_ptr;	/* previously running process */  //n used in clocl.c do_clocktick clock_handler(),defined in sched() in proc.c
-EXTERN struct proc *proc_ptr;	/* pointer to currently running process */  //n used in clock_handler(hook)
+EXTERN struct proc *proc_ptr;	/* pointer to currently running process */  //n used in clock_handler(hook) sys_call()
 //n modified in _restart(mpx386.s):mov	(_proc_ptr), eax; 
 EXTERN struct proc *next_ptr;	/* next process to run after restart() */   //n used and modified in _restart(mpx386.s), and in pick_proc() in proc.c
 EXTERN struct proc *bill_ptr;	/* process to bill for clock ticks */   //n used in: clock_handler() in clock.c
@@ -41,10 +41,11 @@ EXTERN unsigned lost_ticks;	/* clock ticks counted outside clock task */  //n se
 #if (CHIP == INTEL)
 
 /* Interrupt related variables. */
+//n for interrupt handling,see "interrupt handlers' in mpx386.s
 EXTERN irq_hook_t irq_hooks[NR_IRQ_HOOKS];	/* hooks for general use */
 EXTERN irq_hook_t *irq_handlers[NR_IRQ_VECTORS];/* list of IRQ handlers */   //n ub put_irq_handler  ,  hwint_master in mpx386.s,rm_irq_handler
-EXTERN int irq_actids[NR_IRQ_VECTORS];		/* IRQ ID bits active */	//n ub intr_handle
-EXTERN int irq_use;				/* map of all in-use irq's */		//n rm_irq_handler
+EXTERN int irq_actids[NR_IRQ_VECTORS];		/* IRQ ID bits active */	//n set at intr_handle, ub  hwint_master
+EXTERN int irq_use;				/* map of all in-use irq's */		//n put_irq_handler  rm_irq_handler
 
 /* Miscellaneous. */
 EXTERN reg_t mon_ss, mon_sp;		/* boot monitor stack */

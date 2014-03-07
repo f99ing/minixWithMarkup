@@ -29,12 +29,12 @@ AAS	commands\i386\asmconv\asm86.h	/^	AAS,$/;"	e	enum:opcode
 ABB_LEN	lib\ansi\loc_time.h	14;"	d
 ABORT	commands\simple\sed.c	159;"	d	file:
 ABORTED	commands\simple\proto.c	17;"	d	file:
-ABRT_HOW	include\minix\com.h	284;"	d
-ABRT_MON_ADDR	include\minix\com.h	287;"	d
-ABRT_MON_LEN	include\minix\com.h	286;"	d
-ABRT_MON_PROC	include\minix\com.h	285;"	d
+ABRT_HOW	include\minix\com.h	286;"	d
+ABRT_MON_ADDR	include\minix\com.h	289;"	d
+ABRT_MON_LEN	include\minix\com.h	288;"	d
+ABRT_MON_PROC	include\minix\com.h	287;"	d
 ABS	commands\flex-2.5.4\flexdef.h	112;"	d
-ABS	include\minix\const.h	95;"	d
+ABS	include\minix\const.h	96;"	d
 ACCEPTABLE_DIFF_PERCENTAGE	commands\flex-2.5.4\flexdef.h	266;"	d
 ACCEPT_DIR	commands\i386\mtools-3.9.7\vfat.h	90;"	d
 ACCEPT_LABEL	commands\i386\mtools-3.9.7\vfat.h	89;"	d
@@ -42,7 +42,7 @@ ACCEPT_PLAIN	commands\i386\mtools-3.9.7\vfat.h	91;"	d
 ACCESS	include\minix\callnr.h	33;"	d
 ACCESS	test\test17.c	51;"	d	file:
 ACCESS	test\test18.c	51;"	d	file:
-ACCESSED	kernel\protect.h	87;"	d
+ACCESSED	kernel\protect.h	88;"	d
 ACC_NR	servers\inet\buf.c	34;"	d	file:
 ACF_EMPTY	servers\inet\generic\arp.c	120;"	d	file:
 ACF_PERM	servers\inet\generic\arp.c	121;"	d	file:
@@ -124,7 +124,7 @@ ADDQ	commands\mdb\mdb.h	115;"	d
 ADDQ	commands\mdb\mdb.h	132;"	d
 ADDQ_CNT	commands\mdb\mdb.h	116;"	d
 ADDQ_CNT	commands\mdb\mdb.h	133;"	d
-ADDRESS	include\minix\com.h	104;"	d
+ADDRESS	include\minix\com.h	106;"	d
 ADDRESS_FUNCTION	commands\flex-2.5.4\MISC\alloca.c	58;"	d	file:
 ADDRSIZE	commands\mdb\mdb.h	83;"	d
 ADDWEIGHTS	commands\bzip2-1.0.3\huffman.c	69;"	d	file:
@@ -217,15 +217,15 @@ ALL_MODES	commands\simple\mkdir.c	26;"	d	file:
 ALL_MODES	commands\simple\mkdir.c	28;"	d	file:
 ALL_MODES	commands\simple\mkfifo.c	21;"	d	file:
 ALL_MODES	commands\simple\mkfifo.c	23;"	d	file:
-ALL_MODES	include\minix\const.h	106;"	d
+ALL_MODES	include\minix\const.h	107;"	d
 ALL_RWXB	test\test34.c	26;"	d	file:
 ALL_SETB	test\test34.c	27;"	d	file:
 ALREADY	commands\simple\du.c	/^} ALREADY;$/;"	t	typeref:struct:already	file:
-ALRM_ABS_TIME	include\minix\com.h	247;"	d
-ALRM_EXP_TIME	include\minix\com.h	246;"	d
-ALRM_FLAG_PTR	include\minix\com.h	250;"	d
-ALRM_PROC_NR	include\minix\com.h	249;"	d
-ALRM_TIME_LEFT	include\minix\com.h	248;"	d
+ALRM_ABS_TIME	include\minix\com.h	249;"	d
+ALRM_EXP_TIME	include\minix\com.h	248;"	d
+ALRM_FLAG_PTR	include\minix\com.h	252;"	d
+ALRM_PROC_NR	include\minix\com.h	251;"	d
+ALRM_TIME_LEFT	include\minix\com.h	250;"	d
 ALT	include\minix\keymap.h	14;"	d
 AM	commands\elvis\curses.c	/^int	AM;		\/* :am:  boolean: auto margins? *\/$/;"	v
 AM	commands\yap\term.h	/^	AM,			\/* Automatic margins *\/$/;"	v
@@ -419,8 +419,8 @@ ATTR_SYSTEM	commands\i386\mtools-3.9.7\msdos.h	189;"	d
 ATTY	commands\ash\shell.h	66;"	d
 AT_MAJOR	servers\fs\cdprobe.c	24;"	d	file:
 AT_MINORS	servers\fs\cdprobe.c	25;"	d	file:
-AT_WINI_0_IRQ	include\ibm\interrupt.h	49;"	d
-AT_WINI_1_IRQ	include\ibm\interrupt.h	50;"	d
+AT_WINI_0_IRQ	include\ibm\interrupt.h	53;"	d
+AT_WINI_1_IRQ	include\ibm\interrupt.h	54;"	d
 AUI_XCVR	drivers\dpeth\3c509.h	119;"	d
 AUP	include\minix\keymap.h	39;"	d
 AUTH_AUTHFAILED	commands\i386\mtools-3.9.7\floppyd_io.h	/^	AUTH_AUTHFAILED,$/;"	e	enum:AuthErrorsEnum
@@ -429,8 +429,8 @@ AUTH_DEVLOCKED	commands\i386\mtools-3.9.7\floppyd_io.h	/^	AUTH_DEVLOCKED,$/;"	e	
 AUTH_PACKETOVERSIZE	commands\i386\mtools-3.9.7\floppyd_io.h	/^	AUTH_PACKETOVERSIZE,$/;"	e	enum:AuthErrorsEnum
 AUTH_SUCCESS	commands\i386\mtools-3.9.7\floppyd_io.h	/^	AUTH_SUCCESS,$/;"	e	enum:AuthErrorsEnum
 AUTH_WRONGVERSION	commands\i386\mtools-3.9.7\floppyd_io.h	/^	AUTH_WRONGVERSION,$/;"	e	enum:AuthErrorsEnum
-AVL	kernel\protect.h	123;"	d
-AVL_286_TSS	kernel\protect.h	90;"	d
+AVL	kernel\protect.h	124;"	d
+AVL_286_TSS	kernel\protect.h	91;"	d
 AX	commands\dis88\dis.h	69;"	d
 AXE	commands\advent\advent.h	38;"	d
 AYT	commands\telnetd\telnet.h	26;"	d
@@ -440,59 +440,59 @@ A_ALTCHARSET	commands\elvis\curses.h	46;"	d
 A_ALTCHARSET	include\curses.h	84;"	d
 A_BLANK	include\curses.h	77;"	d
 A_BLINK	include\curses.h	76;"	d
-A_BLR	include\a.out.h	39;"	d
+A_BLR	include\a.out.h	56;"	d
 A_BOLD	commands\elvis\curses.h	44;"	d
 A_BOLD	include\curses.h	78;"	d
-A_DATAPOS	include\a.out.h	55;"	d
+A_DATAPOS	include\a.out.h	72;"	d
 A_DEV	commands\simple\remsync.c	690;"	d	file:
 A_DIM	include\curses.h	79;"	d
-A_DRELPOS	include\a.out.h	61;"	d
-A_EXEC	include\a.out.h	47;"	d
-A_HASEXT	include\a.out.h	57;"	d
-A_HASLNS	include\a.out.h	58;"	d
-A_HASRELS	include\a.out.h	56;"	d
-A_HASTOFF	include\a.out.h	59;"	d
-A_I80386	include\a.out.h	36;"	d
-A_I8086	include\a.out.h	33;"	d
-A_IMG	include\a.out.h	46;"	d
-A_INDEX	kernel\protect.h	20;"	d
+A_DRELPOS	include\a.out.h	78;"	d
+A_EXEC	include\a.out.h	64;"	d
+A_HASEXT	include\a.out.h	74;"	d
+A_HASLNS	include\a.out.h	75;"	d
+A_HASRELS	include\a.out.h	73;"	d
+A_HASTOFF	include\a.out.h	76;"	d
+A_I80386	include\a.out.h	53;"	d
+A_I8086	include\a.out.h	50;"	d
+A_IMG	include\a.out.h	63;"	d
+A_INDEX	kernel\protect.h	21;"	d
 A_LINK	commands\simple\remsync.c	691;"	d	file:
-A_M68K	include\a.out.h	34;"	d
-A_MAGIC0	include\a.out.h	27;"	d
-A_MAGIC1	include\a.out.h	28;"	d
-A_MINHDR	include\a.out.h	53;"	d
+A_M68K	include\a.out.h	51;"	d
+A_MAGIC0	include\a.out.h	44;"	d
+A_MAGIC1	include\a.out.h	45;"	d
+A_MINHDR	include\a.out.h	70;"	d
 A_MODE	commands\simple\remsync.c	687;"	d	file:
 A_MODE1	commands\simple\remsync.c	686;"	d	file:
-A_NONE	include\a.out.h	32;"	d
+A_NONE	include\a.out.h	49;"	d
 A_NORMAL	commands\elvis\curses.h	42;"	d
-A_NS16K	include\a.out.h	35;"	d
-A_NSYM	include\a.out.h	45;"	d
+A_NS16K	include\a.out.h	52;"	d
+A_NSYM	include\a.out.h	62;"	d
 A_OUT	commands\de\de.h	84;"	d
 A_OUT	commands\de\de.h	89;"	d
 A_OUT	commands\de\de.h	94;"	d
 A_OUT	commands\simple\nm.c	33;"	d	file:
 A_OUT	commands\simple\strip.c	18;"	d	file:
 A_OWNER	commands\simple\remsync.c	688;"	d	file:
-A_PAL	include\a.out.h	44;"	d
+A_PAL	include\a.out.h	61;"	d
 A_POPUP	commands\elvis\curses.h	47;"	d
 A_PROTECT	include\curses.h	80;"	d
-A_PURE	include\a.out.h	49;"	d
+A_PURE	include\a.out.h	66;"	d
 A_REVERSE	include\curses.h	81;"	d
 A_SEP	boot\boothead.s	/^	A_SEP	    =	  0x20	! Separate I&D flag$/;"	d
-A_SEP	include\a.out.h	48;"	d
+A_SEP	include\a.out.h	65;"	d
 A_SIZETIME	commands\simple\remsync.c	689;"	d	file:
-A_SPARC	include\a.out.h	37;"	d
+A_SPARC	include\a.out.h	54;"	d
 A_STANDOUT	commands\elvis\curses.h	43;"	d
 A_STANDOUT	include\curses.h	82;"	d
-A_SYMPOS	include\a.out.h	62;"	d
-A_TEXTPOS	include\a.out.h	54;"	d
-A_TOVLY	include\a.out.h	50;"	d
-A_TRELPOS	include\a.out.h	60;"	d
+A_SYMPOS	include\a.out.h	79;"	d
+A_TEXTPOS	include\a.out.h	71;"	d
+A_TOVLY	include\a.out.h	67;"	d
+A_TRELPOS	include\a.out.h	77;"	d
 A_UNDERLINE	commands\elvis\curses.h	45;"	d
 A_UNDERLINE	include\curses.h	83;"	d
-A_UZP	include\a.out.h	43;"	d
+A_UZP	include\a.out.h	60;"	d
 A_VISIBLE	commands\elvis\curses.h	48;"	d
-A_WLR	include\a.out.h	40;"	d
+A_WLR	include\a.out.h	57;"	d
 Abort	commands\simple\gomoku.c	/^int Abort(s)$/;"	f
 Add	commands\simple\gomoku.c	/^void Add(Num)$/;"	f
 Add	lib\zlib-1.2.3\contrib\dotzlib\DotZLib\CodecBase.cs	/^        public abstract void Add(byte[] data, int offset, int count);$/;"	m	class:DotZLib.CodecBase
@@ -640,7 +640,7 @@ BADCH	lib\posix\getopt.c	43;"	d	file:
 BADCTLADDR	commands\talk\talk.h	54;"	d
 BADCTLADDR	commands\talkd\talk.h	54;"	d
 BADFILE	commands\simple\paste.c	69;"	d	file:
-BADMAG	include\a.out.h	29;"	d
+BADMAG	include\a.out.h	46;"	d
 BADMAGIC	commands\aal\out.h	119;"	d
 BADMAGIC	commands\autil\out.h	119;"	d
 BADSEEK	commands\zmodem\sz.c	63;"	d	file:
@@ -652,14 +652,14 @@ BAD_SUBSCRIPT	commands\flex-2.5.4\flexdef.h	307;"	d
 BANG	commands\elvis\ex.c	21;"	d	file:
 BASE	lib\zlib-1.2.3\adler32.c	11;"	d	file:
 BASECASE	commands\i386\mtools-3.9.7\msdos.h	40;"	d
-BASE_HIGH_SHIFT	kernel\protect.h	109;"	d
+BASE_HIGH_SHIFT	kernel\protect.h	110;"	d
 BASE_INDENT	commands\simple\remsync.c	47;"	d	file:
 BASE_MASK	commands\mdb\mdbdis86.c	37;"	d	file:
 BASE_MEM_BEGIN	include\ibm\memory.h	28;"	d
 BASE_MEM_END	include\ibm\memory.h	30;"	d
 BASE_MEM_TOP	include\ibm\memory.h	29;"	d
 BASE_META	commands\elvis\regexp.c	48;"	d	file:
-BASE_MIDDLE_SHIFT	kernel\protect.h	72;"	d
+BASE_MIDDLE_SHIFT	kernel\protect.h	73;"	d
 BASE_SECTOR	drivers\floppy\floppy.c	136;"	d	file:
 BATTERIES	commands\advent\advent.h	39;"	d
 BBN	commands\elle\eesite.h	15;"	d
@@ -697,15 +697,15 @@ BEGINSEEK	commands\aal\rd.c	40;"	d	file:
 BEGINSEEK	commands\autil\rd.c	39;"	d	file:
 BEGIN_LINE	commands\mined\mined.h	110;"	d
 BEG_PRIV_ADDR	kernel\priv.h	48;"	d
-BEG_PROC_ADDR	kernel\proc.h	82;"	d
-BEG_USER_ADDR	kernel\proc.h	83;"	d
+BEG_PROC_ADDR	kernel\proc.h	86;"	d
+BEG_USER_ADDR	kernel\proc.h	87;"	d
 BEL	commands\simple\ed.c	53;"	d	file:
 BELL	commands\de\de.h	115;"	d
 BELL	commands\elle\elle.h	139;"	d
 BEZET	commands\ash\test\malloc.c	1137;"	d	file:
 BEofseen	commands\zmodem\sz.c	/^int BEofseen;		\/* EOF seen on input set by fooseek *\/$/;"	v
 BH	commands\dis88\dis.h	68;"	d
-BIG	kernel\protect.h	122;"	d
+BIG	kernel\protect.h	123;"	d
 BIG	lib\libp\rdr.c	23;"	d	file:
 BIGBUFSIZE	lib\zlib-1.2.3\contrib\iostream3\zfstream.cc	15;"	d	file:
 BIGFREQ	commands\bzip2-1.0.3\blocksort.c	1060;"	d	file:
@@ -735,22 +735,22 @@ BIOS_HD0_PARAMS_ADDR	include\ibm\bios.h	27;"	d
 BIOS_HD0_PARAMS_SIZE	include\ibm\bios.h	28;"	d
 BIOS_HD1_PARAMS_ADDR	include\ibm\bios.h	30;"	d
 BIOS_HD1_PARAMS_SIZE	include\ibm\bios.h	31;"	d
-BIOS_IRQ0_VEC	include\ibm\interrupt.h	33;"	d
-BIOS_IRQ8_VEC	include\ibm\interrupt.h	34;"	d
+BIOS_IRQ0_VEC	include\ibm\interrupt.h	36;"	d
+BIOS_IRQ8_VEC	include\ibm\interrupt.h	37;"	d
 BIOS_IVT_BEGIN	include\ibm\memory.h	120;"	d
 BIOS_IVT_END	include\ibm\memory.h	121;"	d
 BIOS_MEM_BEGIN	include\ibm\memory.h	118;"	d
 BIOS_MEM_END	include\ibm\memory.h	119;"	d
-BIOS_SEG	include\minix\const.h	48;"	d
-BIOS_VECTOR	include\ibm\interrupt.h	53;"	d
+BIOS_SEG	include\minix\const.h	49;"	d
+BIOS_VECTOR	include\ibm\interrupt.h	57;"	d
 BIOS_VIDEO_PARAMS_ADDR	include\ibm\bios.h	21;"	d
 BIOS_VIDEO_PARAMS_SIZE	include\ibm\bios.h	22;"	d
 BIRD	commands\advent\advent.h	43;"	d
 BIT	commands\byacc\defs.h	36;"	d
 BIT	commands\sh\sh.h	88;"	d
-BITCHUNK_BITS	kernel\const.h	34;"	d
+BITCHUNK_BITS	kernel\const.h	35;"	d
 BITMAP	commands\simple\ed.c	/^typedef char BITMAP;$/;"	t	file:
-BITMAP_CHUNKS	kernel\const.h	35;"	d
+BITMAP_CHUNKS	kernel\const.h	36;"	d
 BITMASK	commands\simple\fsck.c	80;"	d	file:
 BITMASK	commands\simple\fsck1.c	66;"	d	file:
 BITS	commands\ash\test\malloc.c	291;"	d	file:
@@ -883,7 +883,7 @@ BOTHADJ	commands\cawf\cawf.h	66;"	d
 BOTTLE	commands\advent\advent.h	48;"	d
 BOTTOM	commands\simple\ls.c	/^enum state { BOTTOM, SINKING, FLOATING };$/;"	e	enum:state	file:
 BOUND	commands\i386\asmconv\asm86.h	/^	BOUND,$/;"	e	enum:opcode
-BOUNDS_VECTOR	kernel\protect.h	51;"	d
+BOUNDS_VECTOR	kernel\protect.h	52;"	d
 BOW	lib\regex\engine.c	103;"	d	file:
 BOX_ALL	commands\de\de.h	143;"	d
 BOX_ALL	commands\de\de.h	151;"	d
@@ -915,7 +915,7 @@ BREAK	commands\sh\sh2.c	22;"	d	file:
 BREAK	commands\telnetd\telnet.h	29;"	d
 BREAKPOINT_ADVANCE	commands\mdb\mdb.h	118;"	d
 BREAKPOINT_ADVANCE	commands\mdb\mdb.h	135;"	d
-BREAKPOINT_VECTOR	include\ibm\interrupt.h	21;"	d
+BREAKPOINT_VECTOR	include\ibm\interrupt.h	24;"	d
 BREAK_0	lib\other\random.c	89;"	d	file:
 BREAK_1	lib\other\random.c	94;"	d	file:
 BREAK_2	lib\other\random.c	99;"	d	file:
@@ -1013,7 +1013,7 @@ BUILDFIXED	lib\zlib-1.2.3\inflate.c	90;"	d	file:
 BURN	commands\advent\advent.h	195;"	d
 BURNBT	commands\advent\advent.h	244;"	d
 BUSY	commands\sh\sh1.c	793;"	d	file:
-BUSY_286_TSS	kernel\protect.h	92;"	d
+BUSY_286_TSS	kernel\protect.h	93;"	d
 BUSY_STATE	lib\zlib-1.2.3\deflate.h	56;"	d
 BUSY_STATUS	drivers\printer\printer.c	67;"	d	file:
 BX	commands\dis88\dis.h	72;"	d
@@ -1024,7 +1024,7 @@ BYFOUR	lib\zlib-1.2.3\crc32.c	47;"	d	file:
 BYTE	commands\i386\asmconv\asm86.h	/^	PSEUDO,	JUMP,	BYTE,	WORD,	OWORD		\/* Ordered list! *\/$/;"	e	enum:optype
 BYTE	commands\simple\badblocks.c	88;"	d	file:
 BYTE	commands\simple\fgrep.c	35;"	d	file:
-BYTE	include\minix\const.h	62;"	d
+BYTE	include\minix\const.h	63;"	d
 BYTEBITS	lib\zlib-1.2.3\contrib\infback9\infback9.c	168;"	d	file:
 BYTEBITS	lib\zlib-1.2.3\infback.c	192;"	d	file:
 BYTEBITS	lib\zlib-1.2.3\inflate.c	461;"	d	file:
@@ -1034,7 +1034,7 @@ BYTES_REVERSED	commands\aal\byte_order.h	6;"	d
 BYTES_REVERSED	commands\aal\object.h	17;"	d
 BYTES_REVERSED	lib\float\get_put.h	16;"	d
 BYTES_SWAPPED	commands\mdb\mdb.h	136;"	d
-BYTE_GRAN_MAX	kernel\protect.h	110;"	d
+BYTE_GRAN_MAX	kernel\protect.h	111;"	d
 BYTE_ORDER	commands\autil\obj.h	24;"	d
 BYTE_SWAP	servers\fs\const.h	57;"	d
 BZ2DLLFreeLibrary	commands\bzip2-1.0.3\dlltest.c	/^int BZ2DLLFreeLibrary(void)$/;"	f
@@ -1212,7 +1212,7 @@ B_BACKEDUP	commands\elle\elle.h	266;"	d
 B_CMODE	commands\elle\elle.h	265;"	d
 B_DATA	commands\simple\readfs.c	201;"	d	file:
 B_EOLCRLF	commands\elle\elle.h	262;"	d
-B_INDEX	kernel\protect.h	21;"	d
+B_INDEX	kernel\protect.h	22;"	d
 B_INDIRECT	commands\simple\readfs.c	200;"	d	file:
 B_INODE	commands\simple\readfs.c	199;"	d	file:
 B_MODIFIED	commands\elle\elle.h	261;"	d
@@ -1276,7 +1276,7 @@ Buffer	drivers\sb16\sb16_dsp.c	/^PRIVATE char Buffer[DSP_MAX_FRAGMENT_SIZE * DSP
 BufferClass	commands\i386\mtools-3.9.7\buffer.c	/^static Class_t BufferClass = {$/;"	v	file:
 Buffer_t	commands\i386\mtools-3.9.7\buffer.c	/^typedef struct Buffer_t {$/;"	s	file:
 Buffer_t	commands\i386\mtools-3.9.7\buffer.c	/^} Buffer_t;$/;"	t	typeref:struct:Buffer_t	file:
-BuildMess	kernel\proc.c	59;"	d	file:
+BuildMess	kernel\proc.c	69;"	d	file:
 Byte	commands\i386\mtools-3.9.7\floppyd_io.c	/^typedef unsigned char Byte;$/;"	t	file:
 Byte	lib\zlib-1.2.3\zconf.h	/^typedef unsigned char  Byte;  \/* 8 bits *\/$/;"	t
 Byte	lib\zlib-1.2.3\zconf.h	50;"	d
@@ -1303,7 +1303,7 @@ CALL	commands\i386\asmconv\asm86.h	/^	CALL,	CALLF,			\/* CALLF added *\/$/;"	e	e
 CALLF	commands\i386\asmconv\asm86.h	/^	CALL,	CALLF,			\/* CALLF added *\/$/;"	e	enum:opcode
 CALLOC	commands\byacc\defs.h	110;"	d
 CALLVEC	commands\i86\cc.c	/^struct arglist CALLVEC;$/;"	v	typeref:struct:arglist
-CALL_286_GATE	kernel\protect.h	93;"	d
+CALL_286_GATE	kernel\protect.h	94;"	d
 CALM	commands\advent\advent.h	158;"	d
 CALOCK	include\minix\keymap.h	65;"	d
 CALTYP	commands\m4\mdef.h	197;"	d
@@ -1314,7 +1314,7 @@ CANBREAK	commands\zmodem\rbsb.c	408;"	d	file:
 CANBREAK	commands\zmodem\rbsb.c	416;"	d	file:
 CANBRK	commands\zmodem\zmodem.h	65;"	d
 CANCEL	commands\simple\synctree.c	/^	CANCEL,		\/* Current pathname is not installed, remove as link. *\/$/;"	e	enum:orders	file:
-CANCEL	include\minix\com.h	79;"	d
+CANCEL	include\minix\com.h	81;"	d
 CANCRY	commands\zmodem\zmodem.h	66;"	d
 CANFC32	commands\zmodem\zmodem.h	68;"	d
 CANFDX	commands\zmodem\zmodem.h	63;"	d
@@ -1328,7 +1328,7 @@ CARETISBOL	commands\flex-2.5.4\MISC\MVS\initscan-mvs.c	236;"	d	file:
 CARETISBOL	commands\flex-2.5.4\initscan.c	1317;"	d	file:
 CARRYBIT	lib\float\FP_shift.h	12;"	d
 CARVNG	commands\advent\advent.h	52;"	d
-CASCADE_IRQ	include\ibm\interrupt.h	42;"	d
+CASCADE_IRQ	include\ibm\interrupt.h	46;"	d
 CASE	commands\sh\sh2.c	28;"	d	file:
 CASE	lib\editline\editline.c	/^} CASE;$/;"	t	typeref:enum:_CASE	file:
 CASESENSITIVITY	lib\zlib-1.2.3\contrib\minizip\miniunz.c	26;"	d	file:
@@ -1637,7 +1637,7 @@ CHUNK	lib\zlib-1.2.3\examples\gzappend.c	87;"	d	file:
 CHUNK	lib\zlib-1.2.3\examples\gzjoin.c	74;"	d	file:
 CHUNK	lib\zlib-1.2.3\examples\zpipe.c	18;"	d	file:
 CHUNK	lib\zlib-1.2.3\examples\zran.c	59;"	d	file:
-CHUNK_OFFSET	kernel\const.h	37;"	d
+CHUNK_OFFSET	kernel\const.h	38;"	d
 CHUNK_SIZE	commands\simple\cat.c	16;"	d	file:
 CHUNK_SIZE	commands\simple\split.c	10;"	d	file:
 CHUNK_SIZE	commands\simple\tee.c	11;"	d	file:
@@ -1687,10 +1687,10 @@ CLEFT	include\minix\keymap.h	55;"	d
 CLI	commands\i386\asmconv\asm86.h	/^	CLI,$/;"	e	enum:opcode
 CLI	commands\indent\args.c	46;"	d	file:
 CLICK_OFF	boot\bootimage.c	62;"	d	file:
-CLICK_SHIFT	include\minix\const.h	76;"	d
-CLICK_SHIFT	include\minix\const.h	81;"	d
-CLICK_SIZE	include\minix\const.h	75;"	d
-CLICK_SIZE	include\minix\const.h	80;"	d
+CLICK_SHIFT	include\minix\const.h	77;"	d
+CLICK_SHIFT	include\minix\const.h	82;"	d
+CLICK_SIZE	include\minix\const.h	76;"	d
+CLICK_SIZE	include\minix\const.h	81;"	d
 CLID_MAX	commands\dhcpd\dhcpd.h	16;"	d
 CLIENT_NR	servers\inet\buf.c	35;"	d	file:
 CLIMB	commands\advent\english.c	16;"	d	file:
@@ -1698,12 +1698,12 @@ CLK_TCK	include\time.h	15;"	d
 CLNUM	commands\simple\sed.c	98;"	d	file:
 CLOAK	commands\advent\advent.h	59;"	d
 CLOCAL	include\termios.h	41;"	d
-CLOCK	include\minix\com.h	25;"	d
+CLOCK	include\minix\com.h	26;"	d
 CLOCKS_PER_SEC	include\time.h	12;"	d
-CLOCK_ACK_BIT	kernel\clock.c	50;"	d	file:
+CLOCK_ACK_BIT	kernel\clock.c	118;"	d	file:
 CLOCK_GRAN	servers\inet\const.h	20;"	d
 CLOCK_H	servers\inet\generic\clock.h	8;"	d
-CLOCK_IRQ	include\ibm\interrupt.h	40;"	d
+CLOCK_IRQ	include\ibm\interrupt.h	44;"	d
 CLONE	commands\simple\cp.c	/^typedef enum identity { CP, MV, RM, LN, CPDIR, CLONE } identity_t;$/;"	e	enum:identity	file:
 CLOSE	commands\advent\advent.h	154;"	d
 CLOSE	commands\awk\awk.h	55;"	d
@@ -1937,7 +1937,7 @@ COMPRESS	commands\simple\install.c	/^char *COMPRESS[]=	{ "compress", nil };$/;"	
 COND	commands\awk\awk.h	24;"	d
 CONFIG_H	kernel\config.h	2;"	d
 CONFORMING	commands\simple\cp.c	38;"	d	file:
-CONFORMING	kernel\protect.h	82;"	d
+CONFORMING	kernel\protect.h	83;"	d
 CONF_FILE	commands\i386\mtools-3.9.7\mtoolsPaths.h	10;"	d
 CONJUNCTION	commands\advent\advent.h	219;"	d
 CONSOLE	drivers\tty\keyboard.c	49;"	d	file:
@@ -1963,9 +1963,9 @@ CONVERTIBLE_POST	include\ibm\bios.h	74;"	d
 COOKED	include\sgtty.h	43;"	d
 COOKED_SIZE	commands\ibm\dosread.c	106;"	d	file:
 COOKIEJAR	commands\simple\fortune.c	10;"	d	file:
-COPROC_ERR_VECTOR	kernel\protect.h	102;"	d
-COPROC_NOT_VECTOR	kernel\protect.h	53;"	d
-COPROC_SEG_VECTOR	kernel\protect.h	55;"	d
+COPROC_ERR_VECTOR	kernel\protect.h	103;"	d
+COPROC_NOT_VECTOR	kernel\protect.h	54;"	d
+COPROC_SEG_VECTOR	kernel\protect.h	56;"	d
 COPY	commands\i386\mtools-3.9.7\stream.h	52;"	d
 COPY	commands\simple\cp.c	/^typedef enum action { COPY, MOVE, REMOVE, LINK } action_t;$/;"	e	enum:action	file:
 COPY	commands\simple\remsync.c	/^enum { DELETE, REPLACE, COPY, SIMILAR, EQUAL, ADD }$/;"	e	enum:__anon56	file:
@@ -1979,8 +1979,8 @@ CORE	commands\ibm\postmort.c	57;"	d	file:
 CORE_MODE	servers\pm\signal.c	34;"	d	file:
 CORRECT_DMA_MEM	drivers\lance\lance.c	199;"	d	file:
 COS	commands\awk\awk.h	117;"	d
-COUNT	include\minix\com.h	101;"	d
-COUNTER_FREQ	kernel\clock.c	43;"	d	file:
+COUNT	include\minix\com.h	103;"	d
+COUNTER_FREQ	kernel\clock.c	110;"	d	file:
 CP	commands\simple\cp.c	/^typedef enum identity { CP, MV, RM, LN, CPDIR, CLONE } identity_t;$/;"	e	enum:identity	file:
 CPAL_1	drivers\fxp\fxp.h	299;"	d
 CPAL_15	drivers\fxp\fxp.h	302;"	d
@@ -2002,14 +2002,14 @@ CP_CMD_MASK	drivers\fxp\fxp.h	105;"	d
 CP_CMD_SELF_TEST	drivers\fxp\fxp.h	111;"	d
 CP_CMD_SEL_RESET	drivers\fxp\fxp.h	112;"	d
 CP_CMD_SOFT_RESET	drivers\fxp\fxp.h	106;"	d
-CP_DST_ADDR	include\minix\com.h	295;"	d
-CP_DST_PROC_NR	include\minix\com.h	294;"	d
-CP_DST_SPACE	include\minix\com.h	293;"	d
-CP_NR_BYTES	include\minix\com.h	296;"	d
+CP_DST_ADDR	include\minix\com.h	297;"	d
+CP_DST_PROC_NR	include\minix\com.h	296;"	d
+CP_DST_SPACE	include\minix\com.h	295;"	d
+CP_NR_BYTES	include\minix\com.h	298;"	d
 CP_PTR_MASK	drivers\fxp\fxp.h	104;"	d
-CP_SRC_ADDR	include\minix\com.h	292;"	d
-CP_SRC_PROC_NR	include\minix\com.h	291;"	d
-CP_SRC_SPACE	include\minix\com.h	290;"	d
+CP_SRC_ADDR	include\minix\com.h	294;"	d
+CP_SRC_PROC_NR	include\minix\com.h	293;"	d
+CP_SRC_SPACE	include\minix\com.h	292;"	d
 CQ	commands\elvis\curses.c	/^char	*CQ = "";	\/* :cQ=: normal cursor *\/$/;"	v
 CQ	commands\elvis\curses.c	/^char	*CQ = (char *)0;\/* :cQ=: normal cursor *\/$/;"	v
 CR	commands\byacc\defs.h	48;"	d
@@ -2102,12 +2102,12 @@ CS_BAD_CONFIG	include\ibm\cmos.h	77;"	d
 CS_BAD_HD	include\ibm\cmos.h	79;"	d
 CS_BAD_MEMSIZE	include\ibm\cmos.h	78;"	d
 CS_BAD_TIME	include\ibm\cmos.h	80;"	d
-CS_INDEX	kernel\protect.h	15;"	d
-CS_LDT_INDEX	kernel\protect.h	39;"	d
+CS_INDEX	kernel\protect.h	16;"	d
+CS_LDT_INDEX	kernel\protect.h	40;"	d
 CS_LOST_POWER	include\ibm\cmos.h	75;"	d
 CS_SELECTOR	boot\boothead.s	/^	CS_SELECTOR =	   6*8	! Kernel code$/;"	d
 CS_SELECTOR	boot\doshead.s	/^	CS_SELECTOR =	   6*8	! Kernel code$/;"	d
-CS_SELECTOR	kernel\protect.h	32;"	d
+CS_SELECTOR	kernel\protect.h	33;"	d
 CSdispatch	lib\editline\editline.c	/^    CSdone, CSeof, CSmove, CSdispatch, CSstay, CSsignal$/;"	e	enum:_STATUS	file:
 CSdone	lib\editline\editline.c	/^    CSdone, CSeof, CSmove, CSdispatch, CSstay, CSsignal$/;"	e	enum:_STATUS	file:
 CSeof	lib\editline\editline.c	/^    CSdone, CSeof, CSmove, CSdispatch, CSstay, CSsignal$/;"	e	enum:_STATUS	file:
@@ -2123,18 +2123,18 @@ CTLENDVAR	commands\ash\parser.h	42;"	d
 CTLESC	commands\ash\parser.h	40;"	d
 CTLQUOTE	commands\ash\parser.h	44;"	d
 CTLVAR	commands\ash\parser.h	41;"	d
-CTL_ADDRESS	include\minix\com.h	339;"	d
-CTL_ARG_PTR	include\minix\com.h	338;"	d
+CTL_ADDRESS	include\minix\com.h	341;"	d
+CTL_ARG_PTR	include\minix\com.h	340;"	d
 CTL_BUSY	drivers\floppy\floppy.c	58;"	d	file:
-CTL_DATA	include\minix\com.h	340;"	d
+CTL_DATA	include\minix\com.h	342;"	d
 CTL_DEFAULT	drivers\fxp\fxp.h	188;"	d
 CTL_EIGHTHEADS	drivers\at_wini\at_wini.c	82;"	d	file:
 CTL_INTDISABLE	drivers\at_wini\at_wini.c	84;"	d	file:
-CTL_MM_PRIV	include\minix\com.h	337;"	d
+CTL_MM_PRIV	include\minix\com.h	339;"	d
 CTL_NOECC	drivers\at_wini\at_wini.c	81;"	d	file:
 CTL_NORETRY	drivers\at_wini\at_wini.c	80;"	d	file:
-CTL_PROC_NR	include\minix\com.h	335;"	d
-CTL_REQUEST	include\minix\com.h	336;"	d
+CTL_PROC_NR	include\minix\com.h	337;"	d
+CTL_REQUEST	include\minix\com.h	338;"	d
 CTL_RESET	drivers\at_wini\at_wini.c	83;"	d	file:
 CTRL	commands\elle\elle.h	138;"	d
 CTRL	include\minix\keymap.h	12;"	d
@@ -2174,13 +2174,13 @@ C_C_K_CHAR	commands\elvis\vi.c	32;"	d	file:
 C_C_K_CUT	commands\elvis\vi.c	30;"	d	file:
 C_C_K_MARK	commands\elvis\vi.c	31;"	d	file:
 C_C_K_REP1	commands\elvis\vi.c	29;"	d	file:
-C_EXT	include\a.out.h	108;"	d
+C_EXT	include\a.out.h	125;"	d
 C_HS	commands\simple\host.c	74;"	d	file:
 C_HS	include\net\gen\nameser.h	119;"	d
 C_IN	include\net\gen\nameser.h	117;"	d
-C_INDEX	kernel\protect.h	22;"	d
-C_NULL	include\a.out.h	107;"	d
-C_STAT	include\a.out.h	109;"	d
+C_INDEX	kernel\protect.h	23;"	d
+C_NULL	include\a.out.h	124;"	d
+C_STAT	include\a.out.h	126;"	d
 C_int_decl	commands\flex-2.5.4\gen.c	/^static char C_int_decl[] = "static yyconst int %s[%d] =\\n    {   0,\\n";$/;"	v	file:
 C_long_decl	commands\flex-2.5.4\gen.c	/^static char C_long_decl[] = "static yyconst long int %s[%d] =\\n    {   0,\\n";$/;"	v	file:
 C_plus_plus	commands\flex-2.5.4\main.c	/^int C_plus_plus, long_align, use_read, yytext_is_array, do_yywrap, csize;$/;"	v
@@ -2297,7 +2297,7 @@ Contlen	commands\cawf\store.c	/^int Contlen = 0;			\/* continue line append leng
 Convfont	commands\cawf\device.c	/^Convfont(nm, s, fn, fi)$/;"	f	file:
 Convstr	commands\cawf\device.c	/^Convstr(s, len)$/;"	f	file:
 CopyErrMsg	drivers\dpeth\dp.c	/^static const char CopyErrMsg[] = "unable to read\/write user data";$/;"	v	file:
-CopyMess	kernel\proc.c	75;"	d	file:
+CopyMess	kernel\proc.c	89;"	d	file:
 Copyright	commands\simple\fortune.c	/^static char *Copyright = "\\0Copyright (c) 1990 Bert Reuling";$/;"	v	file:
 Core_File	commands\mdb\core.c	/^} Core_File, *core_file;$/;"	v	typeref:struct:file
 Crc32	commands\zmodem\zm.c	/^int Crc32;		\/* Display flag indicating 32 bit CRC being received *\/$/;"	v
@@ -2318,7 +2318,7 @@ Ctl	commands\patch\common.h	83;"	d
 Curmx	commands\cawf\store.c	/^int Curmx = -1;				\/* current macro index *\/$/;"	v
 D	commands\simple\mail.c	22;"	d	file:
 D	commands\simple\mail.c	24;"	d	file:
-D	include\minix\const.h	42;"	d
+D	include\minix\const.h	43;"	d
 DAA	commands\i386\asmconv\asm86.h	/^	DAA,$/;"	e	enum:opcode
 DANGER	commands\simple\irdpd.c	41;"	d	file:
 DARK	commands\advent\turn.c	647;"	d	file:
@@ -2403,7 +2403,7 @@ DC_BITMAP_SIZE	commands\i386\mtools-3.9.7\dirCache.h	10;"	d
 DCheck	lib\zlib-1.2.3\contrib\delphi\ZLib.pas	/^function DCheck(code: Integer): Integer;$/;"	f
 DDataAvail	lib\zlib-1.2.3\contrib\dotzlib\DotZLib\UnitTests.cs	/^        private void DDataAvail(byte[] data, int startIndex, int count)$/;"	m	class:DotZLibTests.DeflateInflateTests	file:
 DEADBT	commands\advent\advent.h	245;"	d
-DEAD_CODE	include\minix\const.h	54;"	d
+DEAD_CODE	include\minix\const.h	55;"	d
 DEAD_PREF	commands\simple\irdpd.c	43;"	d	file:
 DEAD_PROCESS	include\utmp.h	28;"	d
 DEAD_TO	commands\simple\irdpd.c	42;"	d	file:
@@ -2440,7 +2440,7 @@ DEBUG_LOCK_CHECK	kernel\config.h	79;"	d
 DEBUG_SCHED_CHECK	kernel\config.h	78;"	d
 DEBUG_SELECT	servers\fs\select.c	12;"	d	file:
 DEBUG_TIME_LOCKS	kernel\config.h	80;"	d
-DEBUG_VECTOR	include\ibm\interrupt.h	19;"	d
+DEBUG_VECTOR	include\ibm\interrupt.h	22;"	d
 DEC	commands\awk\awk.h	57;"	d
 DEC	commands\i386\asmconv\asm86.h	/^	DEC,$/;"	e	enum:opcode
 DECLARE_STORAGE	servers\inet\buf.c	45;"	d	file:
@@ -2452,7 +2452,7 @@ DEFAULT	commands\elvis\vi.h	354;"	d
 DEFAULT	commands\simple\dd.c	86;"	d	file:
 DEFAULT	commands\simple\head.c	8;"	d	file:
 DEFAULT	commands\simple\look.c	/^char DEFAULT[] = "\/usr\/lib\/dict\/words";$/;"	v
-DEFAULT	kernel\protect.h	121;"	d
+DEFAULT	kernel\protect.h	122;"	d
 DEFAULTBITS	commands\simple\compress.c	79;"	d	file:
 DEFAULT_BITS	drivers\sb16\sb16.h	26;"	d
 DEFAULT_COUNT	commands\simple\tail.c	74;"	d	file:
@@ -2584,59 +2584,59 @@ DEM_SINK	drivers\dp8390\dp8390.h	288;"	d
 DEM_SINK	drivers\dpeth\dp.h	160;"	d
 DEPRESSION	commands\advent\advent.h	141;"	d
 DEPTHOF	commands\bzip2-1.0.3\huffman.c	66;"	d	file:
-DESC_386_BIT	kernel\protect.h	116;"	d
-DESC_ACCESS	kernel\protect.h	68;"	d
-DESC_BASE	kernel\protect.h	66;"	d
-DESC_BASE_HIGH	kernel\protect.h	106;"	d
-DESC_BASE_MIDDLE	kernel\protect.h	67;"	d
-DESC_GRANULARITY	kernel\protect.h	105;"	d
-DESC_SIZE	kernel\protect.h	69;"	d
+DESC_386_BIT	kernel\protect.h	117;"	d
+DESC_ACCESS	kernel\protect.h	69;"	d
+DESC_BASE	kernel\protect.h	67;"	d
+DESC_BASE_HIGH	kernel\protect.h	107;"	d
+DESC_BASE_MIDDLE	kernel\protect.h	68;"	d
+DESC_GRANULARITY	kernel\protect.h	106;"	d
+DESC_SIZE	kernel\protect.h	70;"	d
 DEST_TO	commands\simple\irdpd.c	39;"	d	file:
 DEV	commands\de\de.h	78;"	d
 DEVCONFIG	commands\cawf\cawf.h	41;"	d
 DEVCTL	include\minix\callnr.h	72;"	d
-DEVICE	include\minix\com.h	99;"	d
+DEVICE	include\minix\com.h	101;"	d
 DEVICE_REPLY	servers\inet\sr.c	63;"	d	file:
 DEV_BOOT	include\minix\dmap.h	48;"	d
 DEV_C0D0	commands\ibm\autopart.c	60;"	d	file:
 DEV_C0D0	commands\ibm\part.c	51;"	d	file:
 DEV_CANCEL	servers\inet\sr.c	62;"	d	file:
-DEV_CLONED	include\minix\com.h	93;"	d
-DEV_CLOSE	include\minix\com.h	84;"	d
+DEV_CLONED	include\minix\com.h	95;"	d
+DEV_CLOSE	include\minix\com.h	86;"	d
 DEV_DIR	commands\telnetd\pty.c	21;"	d	file:
 DEV_DIR	lib\util\openpty.c	24;"	d	file:
 DEV_FD0	boot\boot.c	1029;"	d	file:
 DEV_FD0	commands\ibm\autopart.c	59;"	d	file:
 DEV_FD0	commands\ibm\part.c	50;"	d	file:
 DEV_FD0	commands\ibm\repartition.c	22;"	d	file:
-DEV_GATHER	include\minix\com.h	86;"	d
-DEV_IOCTL	include\minix\com.h	82;"	d
+DEV_GATHER	include\minix\com.h	88;"	d
+DEV_IOCTL	include\minix\com.h	84;"	d
 DEV_IOCTL3	servers\inet\sr.c	64;"	d	file:
-DEV_IO_READY	include\minix\com.h	95;"	d
+DEV_IO_READY	include\minix\com.h	97;"	d
 DEV_LOG	commands\simple\intr.c	/^static char DEV_LOG[]= "\/dev\/console";$/;"	v	file:
 DEV_LOG	commands\simple\intr.c	/^static char DEV_LOG[]= "\/dev\/log";$/;"	v	file:
 DEV_MAP	include\unistd.h	168;"	d
-DEV_MINOR	include\minix\com.h	107;"	d
+DEV_MINOR	include\minix\com.h	109;"	d
 DEV_MOUNTED	commands\simple\badblocks.c	84;"	d	file:
-DEV_NO_STATUS	include\minix\com.h	96;"	d
-DEV_OPEN	include\minix\com.h	83;"	d
+DEV_NO_STATUS	include\minix\com.h	98;"	d
+DEV_OPEN	include\minix\com.h	85;"	d
 DEV_PATH	commands\simple\printroot.c	/^static char DEV_PATH[] = "\/dev\/";	\/* #define would step on sizeof bug *\/$/;"	v	file:
 DEV_PER_DRIVE	drivers\libdriver\drvlib.h	20;"	d
 DEV_RAM	include\minix\dmap.h	47;"	d
-DEV_READ	include\minix\com.h	80;"	d
-DEV_REPLY	include\minix\com.h	92;"	d
-DEV_REVIVE	include\minix\com.h	94;"	d
-DEV_RQ_BASE	include\minix\com.h	76;"	d
-DEV_RS_BASE	include\minix\com.h	77;"	d
-DEV_SCATTER	include\minix\com.h	85;"	d
-DEV_SELECT	include\minix\com.h	89;"	d
-DEV_SEL_OPS	include\minix\com.h	108;"	d
-DEV_SEL_WATCH	include\minix\com.h	109;"	d
-DEV_STATUS	include\minix\com.h	90;"	d
+DEV_READ	include\minix\com.h	82;"	d
+DEV_REPLY	include\minix\com.h	94;"	d
+DEV_REVIVE	include\minix\com.h	96;"	d
+DEV_RQ_BASE	include\minix\com.h	78;"	d
+DEV_RS_BASE	include\minix\com.h	79;"	d
+DEV_SCATTER	include\minix\com.h	87;"	d
+DEV_SELECT	include\minix\com.h	91;"	d
+DEV_SEL_OPS	include\minix\com.h	110;"	d
+DEV_SEL_WATCH	include\minix\com.h	111;"	d
+DEV_STATUS	include\minix\com.h	92;"	d
 DEV_TYPE_BITS	drivers\floppy\floppy.c	121;"	d	file:
 DEV_TYPE_SHIFT	drivers\floppy\floppy.c	122;"	d	file:
 DEV_UNMAP	include\unistd.h	169;"	d
-DEV_WRITE	include\minix\com.h	81;"	d
+DEV_WRITE	include\minix\com.h	83;"	d
 DE_PORT_NR	drivers\dp8390\dp8390.c	61;"	d	file:
 DE_PORT_NR	drivers\dpeth\dp.h	82;"	d
 DFLALL	commands\elvis\ex.c	25;"	d	file:
@@ -2687,11 +2687,11 @@ DHF_RD	include\net\gen\nameser.h	46;"	d
 DHF_TC	include\net\gen\nameser.h	45;"	d
 DHF_UNUSED	include\net\gen\nameser.h	50;"	d
 DI	commands\dis88\dis.h	76;"	d
-DIAGNOSTICS	include\minix\com.h	407;"	d
-DIAG_BUF_COUNT	include\minix\com.h	409;"	d
+DIAGNOSTICS	include\minix\com.h	409;"	d
+DIAG_BUF_COUNT	include\minix\com.h	411;"	d
 DIAG_BUF_SIZE	servers\is\glo.h	4;"	d
-DIAG_PRINT_BUF	include\minix\com.h	408;"	d
-DIAG_PROC_NR	include\minix\com.h	410;"	d
+DIAG_PRINT_BUF	include\minix\com.h	410;"	d
+DIAG_PROC_NR	include\minix\com.h	412;"	d
 DIAL	commands\advent\advent.h	187;"	d
 DIAMOND	lib\curses\cursesio.c	107;"	d	file:
 DICT	commands\simple\sort.c	66;"	d	file:
@@ -2708,18 +2708,18 @@ DIOCGETP	include\sys\ioc_disk.h	12;"	d
 DIOCOPENCT	include\sys\ioc_disk.h	15;"	d
 DIOCSETP	include\sys\ioc_disk.h	11;"	d
 DIOCTIMEOUT	include\sys\ioc_disk.h	14;"	d
-DIO_BYTE	include\minix\com.h	236;"	d
-DIO_INPUT	include\minix\com.h	233;"	d
-DIO_LONG	include\minix\com.h	238;"	d
-DIO_OUTPUT	include\minix\com.h	234;"	d
-DIO_PORT	include\minix\com.h	239;"	d
-DIO_REQUEST	include\minix\com.h	232;"	d
-DIO_TYPE	include\minix\com.h	235;"	d
-DIO_VALUE	include\minix\com.h	240;"	d
-DIO_VEC_ADDR	include\minix\com.h	241;"	d
-DIO_VEC_PROC	include\minix\com.h	243;"	d
-DIO_VEC_SIZE	include\minix\com.h	242;"	d
-DIO_WORD	include\minix\com.h	237;"	d
+DIO_BYTE	include\minix\com.h	238;"	d
+DIO_INPUT	include\minix\com.h	235;"	d
+DIO_LONG	include\minix\com.h	240;"	d
+DIO_OUTPUT	include\minix\com.h	236;"	d
+DIO_PORT	include\minix\com.h	241;"	d
+DIO_REQUEST	include\minix\com.h	234;"	d
+DIO_TYPE	include\minix\com.h	237;"	d
+DIO_VALUE	include\minix\com.h	242;"	d
+DIO_VEC_ADDR	include\minix\com.h	243;"	d
+DIO_VEC_PROC	include\minix\com.h	245;"	d
+DIO_VEC_SIZE	include\minix\com.h	244;"	d
+DIO_WORD	include\minix\com.h	239;"	d
 DIR	commands\ibm\dosread.c	52;"	d	file:
 DIR	include\dirent.h	/^} DIR;$/;"	t	typeref:struct:__anon77
 DIRBLKSIZ	include\sys\dir.h	8;"	d
@@ -2756,7 +2756,7 @@ DIV	commands\awk\awk.h	58;"	d
 DIV	commands\dis88\distabs.c	/^     DIV[]   = "\\tdiv",$/;"	v
 DIV	commands\i386\asmconv\asm86.h	/^	DIV,$/;"	e	enum:opcode
 DIVEQ	commands\awk\awk.h	59;"	d
-DIVIDE_VECTOR	include\ibm\interrupt.h	18;"	d
+DIVIDE_VECTOR	include\ibm\interrupt.h	21;"	d
 DIVISOR	commands\simple\readall.c	31;"	d	file:
 DIVISOR	drivers\floppy\floppy.c	129;"	d	file:
 DIVNAM	commands\m4\mdef.h	102;"	d
@@ -2769,31 +2769,31 @@ DL	commands\elvis\curses.c	/^char	*DL;		\/* :dl=: delete a line *\/$/;"	v
 DLABL	commands\simple\sed.c	/^static char DLABL[] = "sed: duplicate label %s\\n";$/;"	v	file:
 DLE	commands\simple\ed.c	63;"	d	file:
 DLN	commands\mined\mined2.c	/^void DLN()$/;"	f
-DL_ADDR	include\minix\com.h	162;"	d
-DL_BROAD_REQ	include\minix\com.h	174;"	d
-DL_CLCK	include\minix\com.h	161;"	d
-DL_COUNT	include\minix\com.h	159;"	d
-DL_GETSTAT	include\minix\com.h	150;"	d
-DL_INIT	include\minix\com.h	148;"	d
-DL_INIT_REPLY	include\minix\com.h	153;"	d
-DL_MODE	include\minix\com.h	160;"	d
-DL_MULTI_REQ	include\minix\com.h	173;"	d
-DL_NOMODE	include\minix\com.h	171;"	d
-DL_PACK_RECV	include\minix\com.h	167;"	d
-DL_PACK_SEND	include\minix\com.h	166;"	d
-DL_PORT	include\minix\com.h	157;"	d
-DL_PROC	include\minix\com.h	158;"	d
-DL_PROMISC_REQ	include\minix\com.h	172;"	d
-DL_READ	include\minix\com.h	146;"	d
-DL_READV	include\minix\com.h	147;"	d
-DL_READ_IP	include\minix\com.h	168;"	d
-DL_RQ_BASE	include\minix\com.h	140;"	d
-DL_RS_BASE	include\minix\com.h	141;"	d
-DL_STAT	include\minix\com.h	163;"	d
-DL_STOP	include\minix\com.h	149;"	d
-DL_TASK_REPLY	include\minix\com.h	154;"	d
-DL_WRITE	include\minix\com.h	144;"	d
-DL_WRITEV	include\minix\com.h	145;"	d
+DL_ADDR	include\minix\com.h	164;"	d
+DL_BROAD_REQ	include\minix\com.h	176;"	d
+DL_CLCK	include\minix\com.h	163;"	d
+DL_COUNT	include\minix\com.h	161;"	d
+DL_GETSTAT	include\minix\com.h	152;"	d
+DL_INIT	include\minix\com.h	150;"	d
+DL_INIT_REPLY	include\minix\com.h	155;"	d
+DL_MODE	include\minix\com.h	162;"	d
+DL_MULTI_REQ	include\minix\com.h	175;"	d
+DL_NOMODE	include\minix\com.h	173;"	d
+DL_PACK_RECV	include\minix\com.h	169;"	d
+DL_PACK_SEND	include\minix\com.h	168;"	d
+DL_PORT	include\minix\com.h	159;"	d
+DL_PROC	include\minix\com.h	160;"	d
+DL_PROMISC_REQ	include\minix\com.h	174;"	d
+DL_READ	include\minix\com.h	148;"	d
+DL_READV	include\minix\com.h	149;"	d
+DL_READ_IP	include\minix\com.h	170;"	d
+DL_RQ_BASE	include\minix\com.h	142;"	d
+DL_RS_BASE	include\minix\com.h	143;"	d
+DL_STAT	include\minix\com.h	165;"	d
+DL_STOP	include\minix\com.h	151;"	d
+DL_TASK_REPLY	include\minix\com.h	156;"	d
+DL_WRITE	include\minix\com.h	146;"	d
+DL_WRITEV	include\minix\com.h	147;"	d
 DM	commands\telnetd\telnet.h	30;"	d
 DMA16_ADDR	drivers\sb16\sb16.h	54;"	d
 DMA16_AUTO_PLAY	drivers\sb16\sb16.h	78;"	d
@@ -2926,7 +2926,7 @@ DOT_TEXT	commands\i386\asmconv\asm86.h	/^	DOT_TEXT,	DOT_ROM,	DOT_DATA,	DOT_BSS,	
 DOT_USE16	commands\i386\asmconv\asm86.h	/^	DOT_USE16,	DOT_USE32,$/;"	e	enum:opcode
 DOT_USE32	commands\i386\asmconv\asm86.h	/^	DOT_USE16,	DOT_USE32,$/;"	e	enum:opcode
 DOUBLE	lib\float\FP_types.h	/^}	DOUBLE;$/;"	t	typeref:struct:__anon107
-DOUBLE_FAULT_VECTOR	kernel\protect.h	54;"	d
+DOUBLE_FAULT_VECTOR	kernel\protect.h	55;"	d
 DOUBLE_QUOTE	commands\byacc\defs.h	51;"	d
 DOWN	commands\ibm\mixer.c	22;"	d	file:
 DOWN	commands\simple\cleantmp.c	/^enum level { TOP, DOWN };$/;"	e	enum:level	file:
@@ -2988,8 +2988,8 @@ DOstou	commands\ftp\file.c	/^int DOstou()$/;"	f
 DOsyst	commands\ftp\other.c	/^int DOsyst()$/;"	f
 DOuser	commands\ftp\other.c	/^int DOuser()$/;"	f
 DPC	commands\mined\mined2.c	/^void DPC()$/;"	f
-DPL	kernel\protect.h	76;"	d
-DPL_SHIFT	kernel\protect.h	77;"	d
+DPL	kernel\protect.h	77;"	d
+DPL_SHIFT	kernel\protect.h	78;"	d
 DPRINTF	commands\simple\synctree.c	122;"	d	file:
 DPRINTF	commands\simple\synctree.c	124;"	d	file:
 DPRINTF	servers\is\is.c	14;"	d	file:
@@ -3096,9 +3096,9 @@ DROPBITS	lib\zlib-1.2.3\contrib\infback9\infback9.c	161;"	d	file:
 DROPBITS	lib\zlib-1.2.3\infback.c	185;"	d	file:
 DROPBITS	lib\zlib-1.2.3\inflate.c	454;"	d	file:
 DROPNAME	commands\simple\mail.c	29;"	d	file:
-DRVR_PROC_NR	include\minix\com.h	40;"	d
-DRV_C	kernel\table.c	85;"	d	file:
-DRV_M	kernel\table.c	72;"	d	file:
+DRVR_PROC_NR	include\minix\com.h	42;"	d
+DRV_C	kernel\table.c	87;"	d	file:
+DRV_M	kernel\table.c	74;"	d	file:
 DS	commands\dis88\dis.h	80;"	d
 DSEG	commands\i386\asmconv\asm86.h	/^	DEFSEG,	CSEG,	DSEG,	ESEG,	FSEG,	GSEG,	SSEG$/;"	e	enum:segment
 DSEG	commands\mdb\mdb.h	92;"	d
@@ -3146,16 +3146,16 @@ DSP_READ	drivers\sb16\sb16.h	86;"	d
 DSP_RESET	drivers\sb16\sb16.h	85;"	d
 DSP_STATUS	drivers\sb16\sb16.h	89;"	d
 DSP_WRITE	drivers\sb16\sb16.h	87;"	d
-DS_286_INDEX	kernel\protect.h	18;"	d
-DS_286_SELECTOR	kernel\protect.h	35;"	d
+DS_286_INDEX	kernel\protect.h	19;"	d
+DS_286_SELECTOR	kernel\protect.h	36;"	d
 DS_EOF	commands\simple\mt.c	21;"	d	file:
 DS_ERR	commands\simple\mt.c	20;"	d	file:
-DS_INDEX	kernel\protect.h	12;"	d
-DS_LDT_INDEX	kernel\protect.h	40;"	d
+DS_INDEX	kernel\protect.h	13;"	d
+DS_LDT_INDEX	kernel\protect.h	41;"	d
 DS_OK	commands\simple\mt.c	19;"	d	file:
 DS_SELECTOR	boot\boothead.s	/^	DS_SELECTOR =	   3*8	! Kernel data selector$/;"	d
 DS_SELECTOR	boot\doshead.s	/^	DS_SELECTOR =	   3*8	! Kernel data selector$/;"	d
-DS_SELECTOR	kernel\protect.h	28;"	d
+DS_SELECTOR	kernel\protect.h	29;"	d
 DState	commands\bzip2-1.0.3\bzlib_private.h	/^   DState;$/;"	t	typeref:struct:__anon20
 DT	commands\mined\mined2.c	/^void DT()$/;"	f
 DT	servers\fs\dmap.c	16;"	d	file:
@@ -3184,7 +3184,7 @@ DX	commands\dis88\dis.h	71;"	d
 DYNAMIC_CRC_TABLE	lib\zlib-1.2.3\crc32.c	25;"	d	file:
 DYN_TREES	lib\zlib-1.2.3\zutil.h	78;"	d
 D_CODES	lib\zlib-1.2.3\deflate.h	39;"	d
-D_INDEX	kernel\protect.h	23;"	d
+D_INDEX	kernel\protect.h	24;"	d
 Dac	include\minix\sound.h	/^  Dac,        \/* DSP, digitized sound *\/$/;"	e	enum:Device
 Dad	lib\zlib-1.2.3\deflate.h	75;"	d
 Dash	commands\cawf\bsfilt.c	/^int Dash = 1;				\/* underline with dashes *\/$/;"	v
@@ -3646,10 +3646,10 @@ END_BLOCK	lib\zlib-1.2.3\trees.c	49;"	d	file:
 END_FILE	test\test17.c	32;"	d	file:
 END_LINE	commands\mined\mined.h	111;"	d
 END_OF_FILE	servers\fs\const.h	59;"	d
-END_OF_INT	include\ibm\interrupt.h	15;"	d
+END_OF_INT	include\ibm\interrupt.h	18;"	d
 END_OF_KMESS	kernel\utility.c	24;"	d	file:
 END_PRIV_ADDR	kernel\priv.h	49;"	d
-END_PROC_ADDR	kernel\proc.h	84;"	d
+END_PROC_ADDR	kernel\proc.h	88;"	d
 END_TTY	drivers\tty\tty.c	90;"	d	file:
 ENDseen	commands\yap\getline.c	/^static int	ENDseen;$/;"	v	file:
 ENFILE	include\errno.h	59;"	d
@@ -3944,12 +3944,12 @@ ESQT	lib\h\pc_err.h	9;"	d
 ESRCH	include\errno.h	39;"	d
 ESTACK	lib\h\em_abs.h	24;"	d
 ESTACK	lib\i386\head\em_abs.h	24;"	d
-ES_286_INDEX	kernel\protect.h	19;"	d
-ES_286_SELECTOR	kernel\protect.h	36;"	d
-ES_INDEX	kernel\protect.h	13;"	d
+ES_286_INDEX	kernel\protect.h	20;"	d
+ES_286_SELECTOR	kernel\protect.h	37;"	d
+ES_INDEX	kernel\protect.h	14;"	d
 ES_SELECTOR	boot\boothead.s	/^	ES_SELECTOR =	   4*8	! Flat 4 Gb$/;"	d
 ES_SELECTOR	boot\doshead.s	/^	ES_SELECTOR =	   4*8	! Flat 4 Gb$/;"	d
-ES_SELECTOR	kernel\protect.h	29;"	d
+ES_SELECTOR	kernel\protect.h	30;"	d
 EState	commands\bzip2-1.0.3\bzlib_private.h	/^   EState;$/;"	t	typeref:struct:__anon19
 ETB	commands\simple\ed.c	70;"	d	file:
 ETH0_SELECTOR	drivers\lance\lance.h	62;"	d
@@ -3959,7 +3959,7 @@ ETHERSTRLEN	lib\ip\ethere2a.c	13;"	d	file:
 ETHER_ALLTYPES	lib\ip\ether.h	148;"	d
 ETHER_ALLTYPES	lib\ip\ether.h	150;"	d
 ETHER_DST	lib\ip\ether.h	135;"	d
-ETHER_IRQ	include\ibm\interrupt.h	43;"	d
+ETHER_IRQ	include\ibm\interrupt.h	47;"	d
 ETHER_MAX	lib\ip\ether.h	140;"	d
 ETHER_MAXTYPE	lib\ip\ether.h	143;"	d
 ETHER_MCAST	lib\ip\ether.h	145;"	d
@@ -4048,7 +4048,7 @@ EXCLUDE	test\test33.c	410;"	d	file:
 EXCLUSIVE_OPTIONS	commands\simple\diff.c	59;"	d	file:
 EXDEV	include\errno.h	54;"	d
 EXEC	include\minix\callnr.h	47;"	d
-EXECUTABLE	kernel\protect.h	81;"	d
+EXECUTABLE	kernel\protect.h	82;"	d
 EXEC_FAILED	servers\rs\manager.c	20;"	d	file:
 EXERROR	commands\ash\error.h	69;"	d
 EXE_MODES	commands\simple\chmod.c	27;"	d	file:
@@ -4074,7 +4074,7 @@ EXP	commands\awk\awk.h	118;"	d
 EXPAND_BUF	commands\i386\mtools-3.9.7\expand.c	5;"	d	file:
 EXPAND_BUF	commands\i386\mtools-3.9.7\mtools.h	221;"	d
 EXPAND_BUF	commands\i386\mtools-3.9.7\precmd.c	5;"	d	file:
-EXPAND_DOWN	kernel\protect.h	83;"	d
+EXPAND_DOWN	kernel\protect.h	84;"	d
 EXPAND_FLAG	commands\ibm\partition.c	63;"	d	file:
 EXPIRE_TIME	servers\inet\generic\eth.c	24;"	d	file:
 EXPLODE	commands\i386\acd.c	/^typedef enum how { SUPERFICIAL, PARTIAL, FULL, EXPLODE, IMPLODE } how_t;$/;"	e	enum:how	file:
@@ -4149,7 +4149,7 @@ EXTRA	commands\elvis\ex.c	22;"	d	file:
 EXTRA	lib\zlib-1.2.3\inflate.h	/^    EXTRA,      \/* i: waiting for extra bytes (gzip) *\/$/;"	e	enum:__anon127
 EXTRA_ENV	commands\simple\login.c	87;"	d	file:
 EXTRA_FIELD	lib\zlib-1.2.3\gzio.c	51;"	d	file:
-EXTRA_LDT_INDEX	kernel\protect.h	41;"	d
+EXTRA_LDT_INDEX	kernel\protect.h	42;"	d
 EXTRA_STATE	lib\zlib-1.2.3\deflate.h	52;"	d
 EXTRA_SYMBOLS	commands\mdb\mdb.h	32;"	d
 EXTRA_SYMBOLS	commands\mdb\mdb.h	34;"	d
@@ -4521,7 +4521,7 @@ FIRSTDAYOF	lib\ansi\loc_time.h	12;"	d
 FIRSTP	commands\awk\awk.h	17;"	d
 FIRSTSUNDAY	lib\ansi\loc_time.h	11;"	d
 FIRST_BUFFER	commands\simple\grep.c	242;"	d	file:
-FIRST_LDT_INDEX	kernel\protect.h	24;"	d
+FIRST_LDT_INDEX	kernel\protect.h	25;"	d
 FIRST_MATCH_DIFF_PERCENTAGE	commands\flex-2.5.4\flexdef.h	260;"	d
 FIRST_TTY	drivers\tty\tty.c	89;"	d	file:
 FISSURE	commands\advent\advent.h	68;"	d
@@ -4537,14 +4537,14 @@ FIX	commands\simple\ci.c	23;"	d	file:
 FIXLCODES	lib\zlib-1.2.3\contrib\puff\puff.c	80;"	d	file:
 FIX_BLKSIZ	commands\simple\vol.c	39;"	d	file:
 FKEY	commands\elvis\curses.c	/^char	*FKEY[NFKEYS];	\/* :k0=: ... :k9=: sequences sent by function keys *\/$/;"	v
-FKEY_CONTROL	include\minix\com.h	400;"	d
-FKEY_EVENTS	include\minix\com.h	404;"	d
-FKEY_FKEYS	include\minix\com.h	405;"	d
-FKEY_MAP	include\minix\com.h	402;"	d
-FKEY_PRESSED	include\minix\com.h	62;"	d
-FKEY_REQUEST	include\minix\com.h	401;"	d
-FKEY_SFKEYS	include\minix\com.h	406;"	d
-FKEY_UNMAP	include\minix\com.h	403;"	d
+FKEY_CONTROL	include\minix\com.h	402;"	d
+FKEY_EVENTS	include\minix\com.h	406;"	d
+FKEY_FKEYS	include\minix\com.h	407;"	d
+FKEY_MAP	include\minix\com.h	404;"	d
+FKEY_PRESSED	include\minix\com.h	64;"	d
+FKEY_REQUEST	include\minix\com.h	403;"	d
+FKEY_SFKEYS	include\minix\com.h	408;"	d
+FKEY_UNMAP	include\minix\com.h	405;"	d
 FLAG	commands\mined\mined.h	/^typedef int FLAG;$/;"	t
 FLAG	commands\simple\grep.c	49;"	d	file:
 FLAGS	commands\i86\cc.c	/^struct arglist FLAGS;$/;"	v	typeref:struct:arglist
@@ -4552,7 +4552,7 @@ FLAGS	lib\zlib-1.2.3\inflate.h	/^    FLAGS,      \/* i: waiting for method and f
 FLAGS_OFF	boot\bootimage.c	63;"	d	file:
 FLAG_DIR	commands\simple\writeisofs.c	30;"	d	file:
 FLAG_LOCALHEADER_OFFSET	lib\zlib-1.2.3\contrib\minizip\zip.c	92;"	d	file:
-FLAT_DS_SELECTOR	kernel\protect.h	30;"	d
+FLAT_DS_SELECTOR	kernel\protect.h	31;"	d
 FLD	commands\awk\awk.h	167;"	d
 FLD1	commands\i386\asmconv\asm86.h	/^	FLD1,	FLDL2T,	FLDL2E,	FLDPI,	FLDLG2,	FLDLN2,	FLDZ,$/;"	e	enum:opcode
 FLDCW	commands\i386\asmconv\asm86.h	/^	FLDCW,$/;"	e	enum:opcode
@@ -4578,7 +4578,7 @@ FLOPPY	commands\ibm\part.c	/^typedef enum parttype { DUNNO, SUBPART, PRIMARY, FL
 FLOPPYD_DEFAULT_PORT	commands\i386\mtools-3.9.7\floppyd_io.h	13;"	d
 FLOPPYD_FLAG	commands\i386\mtools-3.9.7\mtools.h	18;"	d
 FLOPPYD_PROTOCOL_VERSION	commands\i386\mtools-3.9.7\floppyd_io.h	14;"	d
-FLOPPY_IRQ	include\ibm\interrupt.h	47;"	d
+FLOPPY_IRQ	include\ibm\interrupt.h	51;"	d
 FLOPPY_MAJOR	include\minix\dmap.h	50;"	d
 FLOWER	commands\advent\advent.h	69;"	d
 FLT_DIG	include\float.h	9;"	d
@@ -4842,8 +4842,8 @@ FSYNC	include\minix\callnr.h	78;"	d
 FS_BITCHUNK_BITS	servers\fs\const.h	72;"	d
 FS_BITMAP_CHUNKS	servers\fs\const.h	71;"	d
 FS_BITS_PER_BLOCK	servers\fs\const.h	73;"	d
-FS_C	kernel\table.c	83;"	d	file:
-FS_PROC_NR	include\minix\com.h	35;"	d
+FS_C	kernel\table.c	85;"	d	file:
+FS_PROC_NR	include\minix\com.h	37;"	d
 FTOFFSET	commands\zmodem\zm.c	47;"	d	file:
 FTPD_LOG	commands\ftpd200\ftpd.c	71;"	d	file:
 FTPD_MSG	commands\ftpd200\ftpd.c	72;"	d	file:
@@ -4871,7 +4871,7 @@ FUN	commands\awk\awk.h	176;"	d
 FUNC	commands\awk\awk.h	65;"	d
 FUNCT	commands\bc\const.h	76;"	d
 FUTURE	commands\simple\ls.c	286;"	d	file:
-FUTURE_CODE	include\minix\const.h	55;"	d
+FUTURE_CODE	include\minix\const.h	56;"	d
 FWD	lib\regex\regexec.c	111;"	d	file:
 FWD	lib\regex\regexec.c	136;"	d	file:
 FWD	lib\regex\regexec.c	87;"	d	file:
@@ -5149,8 +5149,8 @@ GA_SEQUENCER_INDEX	drivers\tty\console.c	56;"	d	file:
 GA_VIDEO_ADDRESS	drivers\tty\console.c	60;"	d	file:
 GCMD	commands\simple\sed.c	44;"	d	file:
 GDB_HACK	commands\ash\parser.c	91;"	d	file:
-GDT_INDEX	kernel\protect.h	10;"	d
-GDT_SELECTOR	kernel\protect.h	26;"	d
+GDT_INDEX	kernel\protect.h	11;"	d
+GDT_SELECTOR	kernel\protect.h	27;"	d
 GDT_SIZE	kernel\protect.h	4;"	d
 GE	commands\awk\awk.h	66;"	d
 GEN	commands\i386\mtools-3.9.7\devices.c	46;"	d	file:
@@ -5175,30 +5175,30 @@ GETPROCNR	include\minix\callnr.h	71;"	d
 GETSYSINFO	include\minix\callnr.h	70;"	d
 GETTIMEOFDAY	include\minix\callnr.h	81;"	d
 GETUID	include\minix\callnr.h	26;"	d
-GET_BIOSBUFFER	include\minix\com.h	319;"	d
+GET_BIOSBUFFER	include\minix\com.h	321;"	d
 GET_BIT	commands\bzip2-1.0.3\decompress.c	110;"	d	file:
-GET_BIT	kernel\const.h	38;"	d
+GET_BIT	kernel\const.h	40;"	d
 GET_BITS	commands\bzip2-1.0.3\decompress.c	83;"	d	file:
 GET_DATA	commands\i386\mtools-3.9.7\stream.c	47;"	d	file:
 GET_DATA	commands\i386\mtools-3.9.7\stream.h	36;"	d
-GET_IMAGE	include\minix\com.h	306;"	d
-GET_IRQHOOKS	include\minix\com.h	311;"	d
-GET_KADDRESSES	include\minix\com.h	314;"	d
-GET_KENV	include\minix\com.h	310;"	d
-GET_KINFO	include\minix\com.h	305;"	d
-GET_KMESSAGES	include\minix\com.h	312;"	d
+GET_IMAGE	include\minix\com.h	308;"	d
+GET_IRQHOOKS	include\minix\com.h	313;"	d
+GET_KADDRESSES	include\minix\com.h	316;"	d
+GET_KENV	include\minix\com.h	312;"	d
+GET_KINFO	include\minix\com.h	307;"	d
+GET_KMESSAGES	include\minix\com.h	314;"	d
 GET_LL	commands\bzip2-1.0.3\bzlib_private.h	502;"	d
 GET_LL4	commands\bzip2-1.0.3\bzlib_private.h	494;"	d
-GET_LOCKTIMING	include\minix\com.h	318;"	d
-GET_MACHINE	include\minix\com.h	317;"	d
+GET_LOCKTIMING	include\minix\com.h	320;"	d
+GET_MACHINE	include\minix\com.h	319;"	d
 GET_META	commands\elvis\regexp.c	56;"	d	file:
-GET_MONPARAMS	include\minix\com.h	309;"	d
+GET_MONPARAMS	include\minix\com.h	311;"	d
 GET_MTF_VAL	commands\bzip2-1.0.3\decompress.c	114;"	d	file:
-GET_PRIVTAB	include\minix\com.h	313;"	d
-GET_PROC	include\minix\com.h	316;"	d
-GET_PROCTAB	include\minix\com.h	307;"	d
-GET_RANDOMNESS	include\minix\com.h	308;"	d
-GET_SCHEDINFO	include\minix\com.h	315;"	d
+GET_PRIVTAB	include\minix\com.h	315;"	d
+GET_PROC	include\minix\com.h	318;"	d
+GET_PROCTAB	include\minix\com.h	309;"	d
+GET_RANDOMNESS	include\minix\com.h	310;"	d
+GET_SCHEDINFO	include\minix\com.h	317;"	d
 GET_UCHAR	commands\bzip2-1.0.3\decompress.c	107;"	d	file:
 GF2_DIM	lib\zlib-1.2.3\crc32.c	339;"	d	file:
 GLOBAL	commands\simple\sort.c	90;"	d	file:
@@ -5231,8 +5231,8 @@ GOT_ONE	commands\i386\mtools-3.9.7\mainloop.h	72;"	d
 GR	commands\mined\mined2.c	/^void GR()$/;"	f
 GRABSIZE	commands\ash\test\malloc.c	449;"	d	file:
 GRAIL	commands\advent\advent.h	73;"	d
-GRANULAR	kernel\protect.h	120;"	d
-GRANULARITY_SHIFT	kernel\protect.h	111;"	d
+GRANULAR	kernel\protect.h	121;"	d
+GRANULARITY_SHIFT	kernel\protect.h	112;"	d
 GRATE	commands\advent\advent.h	74;"	d
 GREYSQUARE	lib\curses\cursesio.c	104;"	d	file:
 GRIPE	commands\advent\advent.h	196;"	d
@@ -5300,8 +5300,8 @@ H	commands\simple\sed.c	301;"	d	file:
 H	lib\editline\editline.c	/^STATIC HISTORY		H;$/;"	v
 HADBS	commands\elvis\vi.h	95;"	d
 HADNUL	commands\elvis\vi.h	91;"	d
-HARDWARE	include\minix\com.h	28;"	d
-HARD_INT	include\minix\com.h	60;"	d
+HARDWARE	include\minix\com.h	29;"	d
+HARD_INT	include\minix\com.h	62;"	d
 HARMLESS	commands\simple\badblocks.c	82;"	d	file:
 HASCAPS	include\minix\keymap.h	16;"	d
 HASHBANG	commands\ash\shell.h	68;"	d
@@ -5343,7 +5343,7 @@ HAVE_MEMCPY	lib\zlib-1.2.3\zutil.h	222;"	d
 HAVE_MEMMOVE	commands\i386\mtools-3.9.7\config.h	127;"	d
 HAVE_MEMSET	commands\i386\mtools-3.9.7\config.h	130;"	d
 HAVE_RANDOM	commands\i386\mtools-3.9.7\config.h	136;"	d
-HAVE_SCATTERED_IO	include\minix\const.h	67;"	d
+HAVE_SCATTERED_IO	include\minix\const.h	68;"	d
 HAVE_SGTTY_H	commands\i386\mtools-3.9.7\config.h	232;"	d
 HAVE_SIGNAL_H	commands\i386\mtools-3.9.7\config.h	235;"	d
 HAVE_SNPRINTF	commands\i386\mtools-3.9.7\config.h	145;"	d
@@ -5388,8 +5388,8 @@ HAVE_UTIME	commands\i386\mtools-3.9.7\config.h	193;"	d
 HAVE_UTIME_H	commands\i386\mtools-3.9.7\config.h	289;"	d
 HAVE_VSNPRINTF	lib\zlib-1.2.3\zutil.h	180;"	d
 HAVE_VSNPRINTF	lib\zlib-1.2.3\zutil.h	185;"	d
-HCLICK_SHIFT	include\minix\const.h	85;"	d
-HCLICK_SIZE	include\minix\const.h	86;"	d
+HCLICK_SHIFT	include\minix\const.h	86;"	d
+HCLICK_SIZE	include\minix\const.h	87;"	d
 HCMD	commands\simple\sed.c	46;"	d	file:
 HCRC	lib\zlib-1.2.3\inflate.h	/^    HCRC,       \/* i: waiting for header crc (gzip) *\/$/;"	e	enum:__anon127
 HCRC_STATE	lib\zlib-1.2.3\deflate.h	55;"	d
@@ -5426,7 +5426,7 @@ HF_LINK	commands\autil\out.h	31;"	d
 HIGH	commands\mined\mined2.c	/^void HIGH()$/;"	f
 HIGHCOUNT	kernel\debug.c	17;"	d	file:
 HIGHER	commands\simple\sort.c	63;"	d	file:
-HIGHEST_ZONE	include\minix\const.h	118;"	d
+HIGHEST_ZONE	include\minix\const.h	119;"	d
 HIGH_BYTE	commands\mined\mined2.c	1322;"	d	file:
 HIGH_MEM_BEGIN	include\ibm\memory.h	35;"	d
 HIGH_MEM_END	include\ibm\memory.h	36;"	d
@@ -5616,24 +5616,24 @@ ICPS_ERROR	servers\inet\generic\icmp.c	48;"	d	file:
 ICPS_IPOPT	servers\inet\generic\icmp.c	46;"	d	file:
 ICPS_MAIN	servers\inet\generic\icmp.c	47;"	d	file:
 ICRNL	include\termios.h	26;"	d
-ICW1_AT	kernel\i8259.c	12;"	d	file:
-ICW1_PC	kernel\i8259.c	13;"	d	file:
-ICW1_PS	kernel\i8259.c	14;"	d	file:
-ICW4_AT_MASTER	kernel\i8259.c	16;"	d	file:
-ICW4_AT_SLAVE	kernel\i8259.c	15;"	d	file:
-ICW4_PC_MASTER	kernel\i8259.c	18;"	d	file:
-ICW4_PC_SLAVE	kernel\i8259.c	17;"	d	file:
+ICW1_AT	kernel\i8259.c	19;"	d	file:
+ICW1_PC	kernel\i8259.c	20;"	d	file:
+ICW1_PS	kernel\i8259.c	21;"	d	file:
+ICW4_AT_MASTER	kernel\i8259.c	23;"	d	file:
+ICW4_AT_SLAVE	kernel\i8259.c	22;"	d	file:
+ICW4_PC_MASTER	kernel\i8259.c	25;"	d	file:
+ICW4_PC_SLAVE	kernel\i8259.c	24;"	d	file:
 IDENT	commands\awk\awk.h	68;"	d
 IDENT	commands\byacc\defs.h	74;"	d
 IDENTIFIED	drivers\at_wini\at_wini.c	182;"	d	file:
 IDIV	commands\i386\asmconv\asm86.h	/^	IDIV,$/;"	e	enum:opcode
-IDLE	include\minix\com.h	24;"	d
+IDLE	include\minix\com.h	25;"	d
 IDLE_PID	commands\cron\tab.h	51;"	d
-IDLE_Q	kernel\proc.h	79;"	d
-IDL_F	kernel\table.c	49;"	d	file:
+IDLE_Q	kernel\proc.h	83;"	d
+IDL_F	kernel\table.c	50;"	d	file:
 IDL_S	kernel\table.c	40;"	d	file:
-IDT_INDEX	kernel\protect.h	11;"	d
-IDT_SELECTOR	kernel\protect.h	27;"	d
+IDT_INDEX	kernel\protect.h	12;"	d
+IDT_SELECTOR	kernel\protect.h	28;"	d
 IDT_SIZE	kernel\protect.h	6;"	d
 ID_IPSELF	commands\simple\nonamed.c	762;"	d	file:
 ID_PROBE	commands\simple\nonamed.c	763;"	d	file:
@@ -5671,7 +5671,7 @@ IFF_OPTSET	servers\inet\generic\ip_int.h	122;"	d
 IFF_READ_IP	servers\inet\generic\ip_int.h	124;"	d
 IFILE	commands\dis88\dismain.c	/^static char *IFILE = NULL;    \/* Points to input file name  *\/$/;"	v	file:
 IFNDEF	lib\zlib-1.2.3\contrib\masmx86\gvmat32.asm	/^IFNDEF NOOLDPENTIUMCODE$/;"	l
-IF_MASK	kernel\const.h	58;"	d
+IF_MASK	kernel\const.h	61;"	d
 IGN	commands\indent\args.c	45;"	d	file:
 IGN	commands\simple\ifdef.c	26;"	d	file:
 IGN	commands\simple\mt.c	38;"	d	file:
@@ -5829,10 +5829,10 @@ INIT_NOOP	commands\i386\mtools-3.9.7\devices.c	989;"	d	file:
 INIT_PID	servers\pm\const.h	20;"	d
 INIT_PRINTER	drivers\printer\printer.c	57;"	d	file:
 INIT_PROCESS	include\utmp.h	25;"	d
-INIT_PROC_NR	include\minix\com.h	41;"	d
-INIT_PSW	kernel\const.h	53;"	d
+INIT_PROC_NR	include\minix\com.h	43;"	d
+INIT_PSW	kernel\const.h	56;"	d
 INIT_STATE	lib\zlib-1.2.3\deflate.h	51;"	d
-INIT_TASK_PSW	kernel\const.h	54;"	d
+INIT_TASK_PSW	kernel\const.h	57;"	d
 INLCR	include\termios.h	30;"	d
 INODE1_DIRECT_OFF	commands\simple\swapfs.c	81;"	d	file:
 INODE1_IND1_OFF	commands\simple\swapfs.c	82;"	d	file:
@@ -5880,8 +5880,8 @@ INT	commands\i386\asmconv\asm86.h	/^	INT,	INTO,$/;"	e	enum:opcode
 INT16_C	include\stdint.h	189;"	d
 INT16_MAX	include\stdint.h	103;"	d
 INT16_MIN	include\stdint.h	96;"	d
-INT2_CTL	include\ibm\interrupt.h	11;"	d
-INT2_CTLMASK	include\ibm\interrupt.h	12;"	d
+INT2_CTL	include\ibm\interrupt.h	14;"	d
+INT2_CTLMASK	include\ibm\interrupt.h	15;"	d
 INT32_C	include\stdint.h	191;"	d
 INT32_C	include\stdint.h	193;"	d
 INT32_MAX	include\stdint.h	104;"	d
@@ -5889,7 +5889,7 @@ INT32_MIN	include\stdint.h	97;"	d
 INT64_C	include\stdint.h	196;"	d
 INT64_MAX	include\stdint.h	106;"	d
 INT64_MIN	include\stdint.h	99;"	d
-INT86_REG86	include\minix\com.h	367;"	d
+INT86_REG86	include\minix\com.h	369;"	d
 INT8_C	include\stdint.h	188;"	d
 INT8_MAX	include\stdint.h	102;"	d
 INT8_MIN	include\stdint.h	95;"	d
@@ -5908,13 +5908,13 @@ INTPTR_MAX	include\stdint.h	170;"	d
 INTPTR_MAX	include\stdint.h	174;"	d
 INTPTR_MIN	include\stdint.h	169;"	d
 INTPTR_MIN	include\stdint.h	173;"	d
-INTR_PRIVILEGE	kernel\protect.h	44;"	d
+INTR_PRIVILEGE	kernel\protect.h	45;"	d
 INTSIZE	commands\mdb\mdb.h	85;"	d
-INT_286_GATE	kernel\protect.h	95;"	d
+INT_286_GATE	kernel\protect.h	96;"	d
 INT_AdapterFail	drivers\dpeth\3c509.h	41;"	d
 INT_BITS	commands\simple\badblocks.c	493;"	d	file:
-INT_CTL	include\ibm\interrupt.h	9;"	d
-INT_CTLMASK	include\ibm\interrupt.h	10;"	d
+INT_CTL	include\ibm\interrupt.h	12;"	d
+INT_CTLMASK	include\ibm\interrupt.h	13;"	d
 INT_FAST16_MAX	include\stdint.h	146;"	d
 INT_FAST16_MAX	include\stdint.h	149;"	d
 INT_FAST16_MIN	include\stdint.h	138;"	d
@@ -5951,8 +5951,8 @@ INT_TxComplete	drivers\dpeth\3c509.h	42;"	d
 INT_UpdateStats	drivers\dpeth\3c509.h	47;"	d
 INVALID_HANDLE_VALUE	lib\zlib-1.2.3\contrib\minizip\iowin32.c	17;"	d	file:
 INVALID_SET_FILE_POINTER	lib\zlib-1.2.3\contrib\minizip\iowin32.c	21;"	d	file:
-INVAL_OP_VECTOR	kernel\protect.h	52;"	d
-INVAL_TSS_VECTOR	kernel\protect.h	56;"	d
+INVAL_OP_VECTOR	kernel\protect.h	53;"	d
+INVAL_TSS_VECTOR	kernel\protect.h	57;"	d
 INVD	commands\i386\asmconv\asm86.h	/^	INVD,$/;"	e	enum:opcode
 INVENTORY	commands\advent\advent.h	168;"	d
 INVLPG	commands\i386\asmconv\asm86.h	/^	INVLPG,$/;"	e	enum:opcode
@@ -5980,7 +5980,7 @@ IOCTL	include\minix\callnr.h	45;"	d
 IODEFAULT	commands\sh\sh.h	137;"	d
 IODUP	commands\sh\sh.h	134;"	d
 IOHERE	commands\sh\sh.h	130;"	d
-IOPL_MASK	kernel\const.h	59;"	d
+IOPL_MASK	kernel\const.h	62;"	d
 IOREAD	commands\sh\sh.h	129;"	d
 IOVEC_NR	drivers\dp8390\dp8390.h	191;"	d
 IOVEC_NR	drivers\dpeth\dp.h	84;"	d
@@ -6077,21 +6077,21 @@ IROUTE_HASH_ASS_NR	servers\inet\generic\ipr.c	44;"	d	file:
 IROUTE_HASH_MASK	servers\inet\generic\ipr.c	46;"	d	file:
 IROUTE_HASH_NR	servers\inet\generic\ipr.c	45;"	d	file:
 IROUTE_NR	servers\inet\generic\ipr.c	43;"	d	file:
-IRQ0_VECTOR	include\ibm\interrupt.h	35;"	d
-IRQ8_VECTOR	include\ibm\interrupt.h	36;"	d
-IRQ_BYTE	include\minix\com.h	261;"	d
-IRQ_DISABLE	include\minix\com.h	257;"	d
-IRQ_ENABLE	include\minix\com.h	256;"	d
-IRQ_HOOK_ID	include\minix\com.h	265;"	d
-IRQ_LONG	include\minix\com.h	263;"	d
-IRQ_POLICY	include\minix\com.h	259;"	d
-IRQ_PROC_NR	include\minix\com.h	264;"	d
-IRQ_REENABLE	include\minix\com.h	260;"	d
-IRQ_REQUEST	include\minix\com.h	253;"	d
-IRQ_RMPOLICY	include\minix\com.h	255;"	d
-IRQ_SETPOLICY	include\minix\com.h	254;"	d
-IRQ_VECTOR	include\minix\com.h	258;"	d
-IRQ_WORD	include\minix\com.h	262;"	d
+IRQ0_VECTOR	include\ibm\interrupt.h	38;"	d
+IRQ8_VECTOR	include\ibm\interrupt.h	39;"	d
+IRQ_BYTE	include\minix\com.h	263;"	d
+IRQ_DISABLE	include\minix\com.h	259;"	d
+IRQ_ENABLE	include\minix\com.h	258;"	d
+IRQ_HOOK_ID	include\minix\com.h	267;"	d
+IRQ_LONG	include\minix\com.h	265;"	d
+IRQ_POLICY	include\minix\com.h	261;"	d
+IRQ_PROC_NR	include\minix\com.h	266;"	d
+IRQ_REENABLE	include\minix\com.h	262;"	d
+IRQ_REQUEST	include\minix\com.h	255;"	d
+IRQ_RMPOLICY	include\minix\com.h	257;"	d
+IRQ_SETPOLICY	include\minix\com.h	256;"	d
+IRQ_VECTOR	include\minix\com.h	260;"	d
+IRQ_WORD	include\minix\com.h	264;"	d
 IRREL	commands\i86\cc.c	21;"	d	file:
 IRR_COD	drivers\at_wini\at_wini.c	108;"	d	file:
 IRR_IO	drivers\at_wini\at_wini.c	107;"	d	file:
@@ -6225,24 +6225,24 @@ ITERATIONS	test\test8.c	16;"	d	file:
 IXANY	include\termios.h	148;"	d
 IXOFF	include\termios.h	33;"	d
 IXON	include\termios.h	34;"	d
-I_BLOCK_SPECIAL	include\minix\const.h	100;"	d
-I_CHAR_SPECIAL	include\minix\const.h	102;"	d
-I_DIRECTORY	include\minix\const.h	101;"	d
+I_BLOCK_SPECIAL	include\minix\const.h	101;"	d
+I_CHAR_SPECIAL	include\minix\const.h	103;"	d
+I_DIRECTORY	include\minix\const.h	102;"	d
 I_MAP_SLOTS	commands\de\de.h	202;"	d
 I_MOUNT	servers\fs\inode.h	42;"	d
-I_NAMED_PIPE	include\minix\const.h	103;"	d
-I_NOT_ALLOC	include\minix\const.h	111;"	d
+I_NAMED_PIPE	include\minix\const.h	104;"	d
+I_NOT_ALLOC	include\minix\const.h	112;"	d
 I_PIPE	servers\fs\inode.h	40;"	d
-I_PROC_NR	include\minix\com.h	320;"	d
-I_REGULAR	include\minix\const.h	99;"	d
-I_REQUEST	include\minix\com.h	304;"	d
-I_SET_GID_BIT	include\minix\const.h	105;"	d
-I_SET_UID_BIT	include\minix\const.h	104;"	d
-I_TYPE	include\minix\const.h	98;"	d
-I_VAL_LEN	include\minix\com.h	322;"	d
-I_VAL_LEN2	include\minix\com.h	324;"	d
-I_VAL_PTR	include\minix\com.h	321;"	d
-I_VAL_PTR2	include\minix\com.h	323;"	d
+I_PROC_NR	include\minix\com.h	322;"	d
+I_REGULAR	include\minix\const.h	100;"	d
+I_REQUEST	include\minix\com.h	306;"	d
+I_SET_GID_BIT	include\minix\const.h	106;"	d
+I_SET_UID_BIT	include\minix\const.h	105;"	d
+I_TYPE	include\minix\const.h	99;"	d
+I_VAL_LEN	include\minix\com.h	324;"	d
+I_VAL_LEN2	include\minix\com.h	326;"	d
+I_VAL_PTR	include\minix\com.h	323;"	d
+I_VAL_PTR2	include\minix\com.h	325;"	d
 I_can_chown	test\test34.c	/^int I_can_chown;$/;"	v
 I_can_chown	test\test35.c	/^int I_can_chown;$/;"	v
 Ib	commands\mdb\mdbdis86.c	/^PRIVATE void Ib()$/;"	f
@@ -6423,13 +6423,13 @@ KE	commands\elvis\curses.c	/^char	*KE = "";	\/* :ke=: restore string for cursor 
 KEEP_STATE	commands\simple\remsync.c	80;"	d	file:
 KEEP_TRAVERSE	commands\simple\remsync.c	81;"	d	file:
 KERNEL	boot\bootimage.c	48;"	d	file:
-KERNEL	include\minix\com.h	27;"	d
-KERNEL_CALL	include\minix\com.h	184;"	d
+KERNEL	include\minix\com.h	28;"	d
+KERNEL_CALL	include\minix\com.h	186;"	d
 KERNEL_D_MAGIC	boot\bootimage.c	64;"	d	file:
 KERNEL_H	kernel\kernel.h	2;"	d
 KEY	commands\indent\args.c	48;"	d	file:
 KEYBD	drivers\tty\keyboard.c	28;"	d	file:
-KEYBOARD_IRQ	include\ibm\interrupt.h	41;"	d
+KEYBOARD_IRQ	include\ibm\interrupt.h	45;"	d
 KEYBUFSIZE	commands\elvis\config.h	524;"	d
 KEYMAP	lib\editline\editline.c	/^} KEYMAP;$/;"	t	typeref:struct:_KEYMAP	file:
 KEYMODE	commands\elvis\vi.c	35;"	d	file:
@@ -6508,7 +6508,7 @@ LASTTELOPT	commands\telnetd\telnet.c	37;"	d	file:
 LAST_CLUSTER	commands\ibm\dosread.c	58;"	d	file:
 LAST_CLUSTER12	commands\ibm\dosread.c	57;"	d	file:
 LAST_FEW	servers\pm\forkexit.c	24;"	d	file:
-LATCH_COUNT	kernel\clock.c	44;"	d	file:
+LATCH_COUNT	kernel\clock.c	111;"	d	file:
 LATERN	lib\curses\cursesio.c	106;"	d	file:
 LAruleno	commands\byacc\lalr.c	/^short *LAruleno;$/;"	v
 LCASE	commands\simple\dd.c	80;"	d	file:
@@ -6544,7 +6544,7 @@ LDH_DEFAULT	drivers\at_wini\at_wini.c	41;"	d	file:
 LDH_LBA	drivers\at_wini\at_wini.c	42;"	d	file:
 LDIRS	commands\i86\cc.c	/^struct arglist LDIRS;$/;"	v	typeref:struct:arglist
 LDS	commands\i386\asmconv\asm86.h	/^	LGS,	LSS,	LDS,	LES,	LFS,$/;"	e	enum:opcode
-LDT	kernel\protect.h	91;"	d
+LDT	kernel\protect.h	92;"	d
 LDT_SIZE	kernel\protect.h	7;"	d
 LE	commands\awk\awk.h	70;"	d
 LEA	commands\i386\asmconv\asm86.h	/^	LEA,$/;"	e	enum:opcode
@@ -6577,7 +6577,7 @@ LENS	lib\zlib-1.2.3\inftrees.h	/^    LENS,$/;"	e	enum:__anon129
 LEQ	commands\m4\expr.c	61;"	d	file:
 LES	commands\i386\asmconv\asm86.h	/^	LGS,	LSS,	LDS,	LES,	LFS,$/;"	e	enum:opcode
 LETTER	commands\i386\acd.c	/^	LETTER,		\/* A letter. *\/$/;"	e	enum:type	file:
-LEVEL0_VECTOR	include\ibm\interrupt.h	27;"	d
+LEVEL0_VECTOR	include\ibm\interrupt.h	30;"	d
 LF	commands\elle\elle.h	142;"	d
 LF	commands\mined\mined2.c	/^void LF()$/;"	f
 LF	commands\simple\ed.c	56;"	d	file:
@@ -6595,7 +6595,7 @@ LIBM2	commands\i86\cc.c	37;"	d	file:
 LIBP	commands\i86\cc.c	36;"	d	file:
 LIDT	commands\i386\asmconv\asm86.h	/^	LGDT,	LIDT,$/;"	e	enum:opcode
 LIGHT	commands\advent\advent.h	236;"	d
-LIMIT_HIGH	kernel\protect.h	124;"	d
+LIMIT_HIGH	kernel\protect.h	125;"	d
 LINDIRECT	commands\mdb\mdbdis86.c	34;"	d	file:
 LINE	commands\cawf\cawf.h	73;"	d
 LINE	commands\mined\mined.h	/^typedef struct Line LINE;$/;"	t	typeref:struct:Line
@@ -6676,7 +6676,7 @@ LOCALHEADERMAGIC	lib\zlib-1.2.3\contrib\minizip\zip.c	88;"	d	file:
 LOCALHOST	commands\dhcpd\ether.c	25;"	d	file:
 LOCALWIN	commands\talk\screen.h	12;"	d
 LOCAL_CONF_FILE	commands\i386\mtools-3.9.7\mtoolsPaths.h	17;"	d
-LOCAL_SEG	include\minix\const.h	39;"	d
+LOCAL_SEG	include\minix\const.h	40;"	d
 LOCK	commands\advent\advent.h	197;"	d
 LOCK	commands\i386\asmconv\asm86.h	/^	LOCK,$/;"	e	enum:opcode
 LOCKBT	commands\advent\advent.h	243;"	d
@@ -6708,7 +6708,7 @@ LOG_MAJOR	include\minix\dmap.h	56;"	d
 LOG_MAX_SIZE	commands\ash\test\malloc.c	114;"	d	file:
 LOG_MINOR	drivers\tty\tty.h	7;"	d
 LOG_MIN_SIZE	commands\ash\test\malloc.c	113;"	d	file:
-LOG_PROC_NR	include\minix\com.h	38;"	d
+LOG_PROC_NR	include\minix\com.h	40;"	d
 LOG_SIZE	drivers\log\log.h	12;"	d
 LOG_ZONE_SIZE_OFFSET	commands\simple\swapfs.c	68;"	d	file:
 LONGKEY	commands\elvis\vi.h	57;"	d
@@ -7138,7 +7138,7 @@ MAP	commands\elvis\tio.c	/^} MAP;$/;"	t	typeref:struct:_map	file:
 MAP	lib\regex\regcomp.c	1019;"	d	file:
 MAP_BITS_PER_BLOCK	commands\de\de.h	107;"	d
 MAP_BLOCK	servers\fs\buf.h	71;"	d
-MAP_CHUNK	kernel\const.h	36;"	d
+MAP_CHUNK	kernel\const.h	37;"	d
 MAP_COLS	include\minix\keymap.h	139;"	d
 MAP_MASK	commands\de\de.h	108;"	d
 MARGIN	lib\zlib-1.2.3\examples\fitblk.c	124;"	d	file:
@@ -7172,7 +7172,7 @@ MATHFUN	commands\awk\awk.h	35;"	d
 MAX	commands\bc\number.h	51;"	d
 MAX	commands\bc\number.h	53;"	d
 MAX	commands\flex-2.5.4\flexdef.h	109;"	d
-MAX	include\minix\const.h	70;"	d
+MAX	include\minix\const.h	71;"	d
 MAX32	commands\i386\mtools-3.9.7\msdos.h	42;"	d
 MAXADDRS	lib\ip\gethnmadr.c	52;"	d	file:
 MAXALIASES	lib\ip\gethnmadr.c	51;"	d	file:
@@ -7347,7 +7347,7 @@ MAX_ARP_RETRIES	servers\inet\generic\arp.c	28;"	d	file:
 MAX_ASSOC_RULES	commands\flex-2.5.4\flexdef.h	302;"	d
 MAX_BITS	lib\zlib-1.2.3\deflate.h	48;"	d
 MAX_BLOCK	lib\zlib-1.2.3\examples\gzlog.c	223;"	d	file:
-MAX_BLOCK_NR	include\minix\const.h	117;"	d
+MAX_BLOCK_NR	include\minix\const.h	118;"	d
 MAX_BLOCK_SIZE	include\dirent.h	50;"	d
 MAX_BL_BITS	lib\zlib-1.2.3\trees.c	46;"	d	file:
 MAX_BUF2	servers\fs\cache2.c	23;"	d	file:
@@ -7413,11 +7413,11 @@ MAX_EXTRA_1_NEW_SIZE	commands\simple\rlogin.c	1021;"	d	file:
 MAX_FD	test\test39.c	28;"	d	file:
 MAX_FIELD	commands\simple\cut.c	31;"	d	file:
 MAX_FIELDS_EXEEDED_ERROR	commands\simple\cut.c	62;"	d	file:
-MAX_FILE_POS	include\minix\const.h	120;"	d
+MAX_FILE_POS	include\minix\const.h	121;"	d
 MAX_FLIST	commands\ash\test\malloc.c	133;"	d	file:
 MAX_INIT	commands\simple\mkfs.c	67;"	d	file:
 MAX_INIT	commands\simple\origmkfs.c	64;"	d	file:
-MAX_INODE_NR	include\minix\const.h	119;"	d
+MAX_INODE_NR	include\minix\const.h	120;"	d
 MAX_INPUT	include\limits.h	77;"	d
 MAX_IOCTL_S	servers\inet\generic\sr.h	10;"	d
 MAX_KB_ACK_RETRIES	drivers\tty\keyboard.c	37;"	d	file:
@@ -7491,7 +7491,7 @@ MAX_TOKENS	commands\simple\origmkfs.c	50;"	d	file:
 MAX_TOTAL	lib\editline\complete.c	59;"	d	file:
 MAX_TYPES	lib\other\random.c	117;"	d	file:
 MAX_UNSIGNED_CHAR	commands\mdb\mdbdis86.c	57;"	d	file:
-MAX_USER_Q	kernel\proc.h	76;"	d
+MAX_USER_Q	kernel\proc.h	80;"	d
 MAX_VFAT_SUBENTRIES	commands\i386\mtools-3.9.7\vfat.h	18;"	d
 MAX_VNAMELEN	commands\i386\mtools-3.9.7\vfat.h	43;"	d
 MAX_WBITS	lib\zlib-1.2.3\zconf.h	148;"	d
@@ -7539,20 +7539,20 @@ MEMORY_SIZE	commands\mined\mined.h	58;"	d
 MEMORY_SIZE	commands\simple\sort.c	46;"	d	file:
 MEMORY_SIZE	commands\simple\sort.c	48;"	d	file:
 MEMSPACE	commands\make\h.h	246;"	d
-MEM_C	kernel\table.c	87;"	d	file:
-MEM_CHUNK_BASE	include\minix\com.h	226;"	d
-MEM_CHUNK_SIZE	include\minix\com.h	227;"	d
-MEM_CHUNK_TAG	include\minix\com.h	229;"	d
-MEM_COUNT	include\minix\com.h	224;"	d
+MEM_C	kernel\table.c	89;"	d	file:
+MEM_CHUNK_BASE	include\minix\com.h	228;"	d
+MEM_CHUNK_SIZE	include\minix\com.h	229;"	d
+MEM_CHUNK_TAG	include\minix\com.h	231;"	d
+MEM_COUNT	include\minix\com.h	226;"	d
 MEM_DEV	include\minix\dmap.h	38;"	d
 MEM_INC	lib\editline\editline.h	38;"	d
 MEM_OUT	commands\ash\output.c	68;"	d	file:
 MEM_PATH	commands\ps\ps.c	123;"	d	file:
-MEM_PATTERN	include\minix\com.h	225;"	d
-MEM_PROC_NR	include\minix\com.h	37;"	d
-MEM_PTR	include\minix\com.h	223;"	d
-MEM_TOT_SIZE	include\minix\com.h	228;"	d
-MEM_VID_COPY	include\minix\com.h	277;"	d
+MEM_PATTERN	include\minix\com.h	227;"	d
+MEM_PROC_NR	include\minix\com.h	39;"	d
+MEM_PTR	include\minix\com.h	225;"	d
+MEM_TOT_SIZE	include\minix\com.h	230;"	d
+MEM_VID_COPY	include\minix\com.h	279;"	d
 MENUMAX	commands\elle\eecmds.c	280;"	d	file:
 MENU_HEIGHT	commands\elvis\vcmd.c	803;"	d	file:
 MENU_WIDTH	commands\elvis\vcmd.c	804;"	d	file:
@@ -7771,7 +7771,7 @@ MIN	commands\flex-2.5.4\flexdef.h	106;"	d
 MIN	commands\ibm\dosread.c	792;"	d	file:
 MIN	commands\simple\date.c	11;"	d	file:
 MIN	commands\simple\leave.c	27;"	d	file:
-MIN	include\minix\const.h	71;"	d
+MIN	include\minix\const.h	72;"	d
 MINDIRLEN	commands\simple\writeisofs.c	253;"	d	file:
 MININT	commands\aal\rd_bytes.c	6;"	d	file:
 MININT	commands\aal\wr_bytes.c	6;"	d	file:
@@ -7828,7 +7828,7 @@ MIN_MATCH	lib\zlib-1.2.3\zutil.h	81;"	d
 MIN_REGION_SECTORS	commands\ibm\autopart.c	64;"	d	file:
 MIN_SAMPLES	drivers\random\random.c	20;"	d	file:
 MIN_SIZE	commands\ash\test\malloc.c	132;"	d	file:
-MIN_USER_Q	kernel\proc.h	78;"	d
+MIN_USER_Q	kernel\proc.h	82;"	d
 MIOCRAMSIZE	include\sys\ioc_memory.h	12;"	d
 MIRROR	commands\advent\advent.h	85;"	d
 MISC	commands\advent\advent.h	216;"	d
@@ -7912,8 +7912,8 @@ MONO_SIZE	drivers\tty\console.c	32;"	d	file:
 MONTH	commands\ibm\dosread.c	794;"	d	file:
 MONTHS_PER_LINE	commands\simple\cal.c	15;"	d	file:
 MONTH_SPACE	commands\simple\cal.c	16;"	d	file:
-MON_CS_INDEX	kernel\protect.h	16;"	d
-MON_CS_SELECTOR	kernel\protect.h	33;"	d
+MON_CS_INDEX	kernel\protect.h	17;"	d
+MON_CS_SELECTOR	kernel\protect.h	34;"	d
 MORE	commands\simple\synctree.c	/^	MORE,		\/* Send more file contents. *\/$/;"	e	enum:orders	file:
 MORE	lib\regex\regcomp.c	140;"	d	file:
 MORE2	lib\regex\regcomp.c	141;"	d	file:
@@ -8341,7 +8341,7 @@ NEWLINE	commands\bc\y.tab.h	1;"	d
 NEWLINE	commands\byacc\defs.h	43;"	d
 NEWLINE	lib\editline\editline.c	/^STATIC char		NEWLINE[]= CRLF;$/;"	v
 NEW_CONTEXT_DIFF	commands\patch\common.h	151;"	d
-NEW_KSIG	include\minix\com.h	61;"	d
+NEW_KSIG	include\minix\com.h	63;"	d
 NEW_PROTO_DIFF_PERCENTAGE	commands\flex-2.5.4\flexdef.h	278;"	d
 NEW_ROUTE	commands\simple\irdpd.c	40;"	d	file:
 NEXITS	lib\ansi\atexit.c	5;"	d	file:
@@ -8401,17 +8401,17 @@ NIL_MERGE	commands\simple\sort.c	85;"	d	file:
 NIL_MESS	include\minix\const.h	33;"	d
 NIL_MPROC	servers\pm\mproc.h	74;"	d
 NIL_MPROC	servers\pm\trace.c	30;"	d	file:
-NIL_PROC	kernel\proc.h	86;"	d
+NIL_PROC	kernel\proc.h	90;"	d
 NIL_PTR	commands\aal\archiver.c	71;"	d	file:
 NIL_PTR	commands\ibm\dosread.c	67;"	d	file:
 NIL_PTR	commands\mined\mined.h	131;"	d
 NIL_PTR	commands\simple\sort.c	58;"	d	file:
 NIL_PTR	commands\simple\tar.c	158;"	d	file:
 NIL_PTR	commands\simple\tr.c	15;"	d	file:
-NIL_PTR	include\minix\const.h	66;"	d
+NIL_PTR	include\minix\const.h	67;"	d
 NIL_REG	commands\mined\mined.h	133;"	d
 NIL_SUPER	servers\fs\super.h	57;"	d
-NIL_SYS_PROC	kernel\proc.h	87;"	d
+NIL_SYS_PROC	kernel\proc.h	91;"	d
 NINODES_OFFSET	commands\simple\swapfs.c	63;"	d	file:
 NITER	lib\libp\sqt.c	14;"	d	file:
 NITER	lib\math\sqrt.c	13;"	d	file:
@@ -8429,7 +8429,7 @@ NMAX	commands\rlogind\rlogind.h	5;"	d
 NMAX	commands\simple\finger.c	80;"	d	file:
 NMAX	lib\zlib-1.2.3\adler32.c	12;"	d	file:
 NMIN	include\minix\keymap.h	32;"	d
-NMI_VECTOR	include\ibm\interrupt.h	20;"	d
+NMI_VECTOR	include\ibm\interrupt.h	23;"	d
 NNAMES	commands\aal\archiver.c	736;"	d	file:
 NNAMES	commands\simple\ls.c	140;"	d	file:
 NNCACHE	commands\simple\nonamed.c	/^static char NNCACHE[]=	"\/usr\/adm\/nonamed.cache";$/;"	v	file:
@@ -8522,13 +8522,13 @@ NOTHING	lib\other\v8regexp.c	86;"	d	file:
 NOTHING	lib\regex\engine.c	102;"	d	file:
 NOTIFY	kernel\ipc.h	21;"	d
 NOTIFY	lib\i386\rts\_ipc.s	/^NOTIFY = 4$/;"	d
-NOTIFY_ARG	include\minix\com.h	67;"	d
-NOTIFY_FLAGS	include\minix\com.h	69;"	d
-NOTIFY_FROM	include\minix\com.h	57;"	d
-NOTIFY_MESSAGE	include\minix\com.h	56;"	d
-NOTIFY_SOURCE	include\minix\com.h	65;"	d
-NOTIFY_TIMESTAMP	include\minix\com.h	68;"	d
-NOTIFY_TYPE	include\minix\com.h	66;"	d
+NOTIFY_ARG	include\minix\com.h	69;"	d
+NOTIFY_FLAGS	include\minix\com.h	71;"	d
+NOTIFY_FROM	include\minix\com.h	59;"	d
+NOTIFY_MESSAGE	include\minix\com.h	58;"	d
+NOTIFY_SOURCE	include\minix\com.h	67;"	d
+NOTIFY_TIMESTAMP	include\minix\com.h	70;"	d
+NOTIFY_TYPE	include\minix\com.h	68;"	d
 NOTIMP	include\net\gen\nameser.h	81;"	d
 NOTSET	commands\simple\cut.c	46;"	d	file:
 NOT_ESCAPED	drivers\tty\tty.h	100;"	d
@@ -8550,19 +8550,19 @@ NO_ADDRESS	include\net\gen\netdb.h	94;"	d
 NO_ARG	lib\editline\editline.c	14;"	d	file:
 NO_ARGS	commands\elvis\vi.c	19;"	d	file:
 NO_BIT	servers\fs\const.h	42;"	d
-NO_BLOCK	include\minix\const.h	122;"	d
+NO_BLOCK	include\minix\const.h	123;"	d
 NO_CWD	commands\i386\mtools-3.9.7\mainloop.h	73;"	d
 NO_CYL	drivers\floppy\floppy.c	138;"	d	file:
 NO_DATA	commands\simple\host.c	71;"	d	file:
 NO_DATA	include\net\gen\netdb.h	93;"	d
 NO_DELETE	commands\mined\mined.h	82;"	d
 NO_DENS	drivers\floppy\floppy.c	139;"	d	file:
-NO_DEV	include\minix\const.h	125;"	d
+NO_DEV	include\minix\const.h	126;"	d
 NO_DEVICE	commands\simple\remsync.c	42;"	d	file:
 NO_DOTS	commands\i386\mtools-3.9.7\vfat.h	94;"	d
 NO_DUMMY_DECL	lib\zlib-1.2.3\zconf.h	130;"	d
 NO_DUMMY_DECL	lib\zlib-1.2.3\zconf.in.h	130;"	d
-NO_ENTRY	include\minix\const.h	123;"	d
+NO_ENTRY	include\minix\const.h	124;"	d
 NO_FD	commands\simple\nonamed.c	52;"	d	file:
 NO_FLAGS	commands\elvis\vi.h	540;"	d
 NO_FUNC	commands\elvis\vi.c	17;"	d	file:
@@ -8571,7 +8571,7 @@ NO_INFO	commands\simple\host.c	61;"	d	file:
 NO_INPUT	commands\mined\mined.h	53;"	d
 NO_IRQ	drivers\at_wini\at_wini.c	134;"	d	file:
 NO_LINE	commands\mined\mined.h	51;"	d
-NO_MAP	kernel\proc.h	61;"	d
+NO_MAP	kernel\proc.h	65;"	d
 NO_MATCH	commands\mined\mined.h	106;"	d
 NO_MATCH	commands\simple\grep.c	44;"	d	file:
 NO_MEM	servers\pm\const.h	3;"	d
@@ -8579,7 +8579,7 @@ NO_MEMCPY	lib\zlib-1.2.3\zutil.h	212;"	d
 NO_MEMCPY	lib\zlib-1.2.3\zutil.h	219;"	d
 NO_MOUNT	servers\fs\inode.h	41;"	d
 NO_MSG	commands\i386\mtools-3.9.7\vfat.h	93;"	d
-NO_NUM	include\minix\const.h	65;"	d
+NO_NUM	include\minix\const.h	66;"	d
 NO_OFFSET	commands\i386\mtools-3.9.7\plain_io.h	12;"	d
 NO_PAPER	drivers\printer\printer.c	68;"	d	file:
 NO_PART	include\ibm\partition.h	23;"	d
@@ -8588,7 +8588,7 @@ NO_PID	commands\cron\tab.h	52;"	d
 NO_PID	servers\init\init.c	49;"	d	file:
 NO_PIPE	servers\fs\inode.h	39;"	d
 NO_PRIV	commands\i386\mtools-3.9.7\plain_io.h	11;"	d
-NO_PRIV	kernel\proc.h	67;"	d
+NO_PRIV	kernel\proc.h	71;"	d
 NO_READ	servers\fs\const.h	34;"	d
 NO_RECOVERY	include\net\gen\netdb.h	92;"	d
 NO_SAVINGS	commands\simple\backup.c	54;"	d	file:
@@ -8599,7 +8599,7 @@ NO_TERMIO	commands\i386\mtools-3.9.7\devices.c	10;"	d	file:
 NO_TRANSITION	commands\flex-2.5.4\flexdef.h	193;"	d
 NO_UNIX	commands\i386\mtools-3.9.7\vfat.h	98;"	d
 NO_VID	drivers\libpci\pci.h	62;"	d
-NO_ZONE	include\minix\const.h	124;"	d
+NO_ZONE	include\minix\const.h	125;"	d
 NO_vsnprintf	lib\zlib-1.2.3\zconf.h	305;"	d
 NO_vsnprintf	lib\zlib-1.2.3\zconf.h	309;"	d
 NO_vsnprintf	lib\zlib-1.2.3\zconf.in.h	305;"	d
@@ -8622,8 +8622,8 @@ NR	commands\cawf\store.c	/^int NR = 0;                             \/* number of
 NREL	commands\elvis\vi.h	547;"	d
 NROFF	commands\simple\man.c	/^enum ROFF { NROFF, TROFF } rofftype= NROFF;$/;"	e	enum:ROFF	file:
 NR_ALREADY	commands\simple\du.c	53;"	d	file:
-NR_BIOS_SEGS	include\minix\const.h	49;"	d
-NR_BOOT_PROCS	include\minix\com.h	44;"	d
+NR_BIOS_SEGS	include\minix\const.h	50;"	d
+NR_BOOT_PROCS	include\minix\com.h	46;"	d
 NR_BUFS	include\minix\config.h	44;"	d
 NR_BUFS	include\minix\config.h	51;"	d
 NR_BUFS	include\minix\config.h	56;"	d
@@ -8657,10 +8657,10 @@ NR_INDIRECTS	commands\simple\fsck1.c	8;"	d	file:
 NR_INODES	servers\fs\const.h	8;"	d
 NR_IOREQS	include\minix\const.h	28;"	d
 NR_IRQ_HOOKS	kernel\config.h	68;"	d
-NR_IRQ_VECTORS	include\ibm\interrupt.h	39;"	d
-NR_LOCAL_SEGS	include\minix\const.h	40;"	d
+NR_IRQ_VECTORS	include\ibm\interrupt.h	43;"	d
+NR_LOCAL_SEGS	include\minix\const.h	41;"	d
 NR_LOCKS	servers\fs\const.h	10;"	d
-NR_MEMS	kernel\const.h	71;"	d
+NR_MEMS	kernel\const.h	74;"	d
 NR_MINORS	drivers\at_wini\at_wini.c	166;"	d	file:
 NR_MINORS	drivers\bios_wini\bios_wini.c	40;"	d	file:
 NR_OF_BLANKS	commands\simple\isoread.c	133;"	d	file:
@@ -8674,17 +8674,17 @@ NR_POOLS	drivers\random\random.c	19;"	d	file:
 NR_PROCS	include\minix\config.h	39;"	d
 NR_PTYS	include\minix\config.h	99;"	d
 NR_REGIONS	commands\ibm\autopart.c	301;"	d	file:
-NR_REMOTE_SEGS	include\minix\const.h	46;"	d
+NR_REMOTE_SEGS	include\minix\const.h	47;"	d
 NR_RS_LINES	include\minix\config.h	98;"	d
 NR_SCAN_CODES	include\minix\keymap.h	140;"	d
-NR_SCHED_QUEUES	kernel\proc.h	74;"	d
+NR_SCHED_QUEUES	kernel\proc.h	78;"	d
 NR_SUBDEVS	drivers\at_wini\at_wini.c	168;"	d	file:
 NR_SUBDEVS	drivers\bios_wini\bios_wini.c	42;"	d	file:
 NR_SUPERS	servers\fs\const.h	9;"	d
-NR_SYS_CALLS	include\minix\com.h	220;"	d
-NR_SYS_CHUNKS	kernel\const.h	48;"	d
+NR_SYS_CALLS	include\minix\com.h	222;"	d
+NR_SYS_CHUNKS	kernel\const.h	51;"	d
 NR_SYS_PROCS	include\minix\config.h	40;"	d
-NR_TASKS	include\minix\com.h	31;"	d
+NR_TASKS	include\minix\com.h	32;"	d
 NR_TYPES	commands\ibm\format.c	37;"	d	file:
 NR_ZONE_NUMS	commands\simple\fsck.c	9;"	d	file:
 NR_ZONE_NUMS	commands\simple\fsck1.c	9;"	d	file:
@@ -8933,37 +8933,37 @@ NWUO_RWDATALL	include\net\gen\udp_io.h	40;"	d
 NWUO_RWDATONLY	include\net\gen\udp_io.h	39;"	d
 NWUO_RW_MASK	include\net\gen\udp_io.h	38;"	d
 NWUO_SHARED	include\net\gen\udp_io.h	20;"	d
-NW_CANCEL	include\minix\com.h	137;"	d
-NW_CLOSE	include\minix\com.h	133;"	d
-NW_IOCTL	include\minix\com.h	136;"	d
+NW_CANCEL	include\minix\com.h	139;"	d
+NW_CLOSE	include\minix\com.h	135;"	d
+NW_IOCTL	include\minix\com.h	138;"	d
 NW_OK	servers\inet\const.h	26;"	d
-NW_OPEN	include\minix\com.h	132;"	d
-NW_READ	include\minix\com.h	134;"	d
+NW_OPEN	include\minix\com.h	134;"	d
+NW_READ	include\minix\com.h	136;"	d
 NW_SUSPEND	servers\inet\const.h	24;"	d
 NW_WOULDBLOCK	servers\inet\const.h	25;"	d
-NW_WRITE	include\minix\com.h	135;"	d
+NW_WRITE	include\minix\com.h	137;"	d
 NXDOMAIN	include\net\gen\nameser.h	80;"	d
 NXT	commands\awk\awk.h	171;"	d
 N_ABS	commands\mdb\a.out.h	203;"	d
-N_ABS	include\a.out.h	99;"	d
+N_ABS	include\a.out.h	116;"	d
 N_BADMAG	commands\mdb\a.out.h	106;"	d
 N_BLOCKS	commands\simple\mkfs.c	58;"	d	file:
 N_BLOCKS	commands\simple\origmkfs.c	55;"	d	file:
 N_BLOCKS16	commands\simple\mkfs.c	59;"	d	file:
 N_BLOCKS16	commands\simple\origmkfs.c	56;"	d	file:
 N_BSS	commands\mdb\a.out.h	212;"	d
-N_BSS	include\a.out.h	102;"	d
+N_BSS	include\a.out.h	119;"	d
 N_BSSADDR	commands\mdb\a.out.h	182;"	d
 N_BUF	commands\bzip2-1.0.3\spewG.c	20;"	d	file:
 N_CHARS	commands\i386\acd.c	277;"	d	file:
-N_CLASS	include\a.out.h	106;"	d
+N_CLASS	include\a.out.h	123;"	d
 N_COLOUR	commands\ash\test\malloc.c	1230;"	d	file:
-N_COMM	include\a.out.h	103;"	d
+N_COMM	include\a.out.h	120;"	d
 N_DATA	commands\mdb\a.out.h	209;"	d
 N_DATA	commands\simple\fsck.c	107;"	d	file:
 N_DATA	commands\simple\fsck.c	60;"	d	file:
 N_DATA	commands\simple\fsck1.c	92;"	d	file:
-N_DATA	include\a.out.h	101;"	d
+N_DATA	include\a.out.h	118;"	d
 N_DATADDR	commands\mdb\a.out.h	175;"	d
 N_DATAMAX	commands\simple\nonamed.c	50;"	d	file:
 N_DATOFF	commands\mdb\a.out.h	121;"	d
@@ -8997,7 +8997,7 @@ N_PREC	commands\make\h.h	138;"	d
 N_REG16	commands\mdb\mdb.h	96;"	d
 N_REG16	commands\mdb\mdb.h	99;"	d
 N_RX_BUF	drivers\fxp\fxp.c	66;"	d	file:
-N_SECT	include\a.out.h	97;"	d
+N_SECT	include\a.out.h	114;"	d
 N_SETA	commands\mdb\a.out.h	250;"	d
 N_SETB	commands\mdb\a.out.h	253;"	d
 N_SETD	commands\mdb\a.out.h	252;"	d
@@ -9016,7 +9016,7 @@ N_SUPER	commands\simple\fsck1.c	88;"	d	file:
 N_SYMOFF	commands\mdb\a.out.h	133;"	d
 N_TARG	commands\make\h.h	137;"	d
 N_TEXT	commands\mdb\a.out.h	206;"	d
-N_TEXT	include\a.out.h	100;"	d
+N_TEXT	include\a.out.h	117;"	d
 N_TRELOFF	commands\mdb\a.out.h	125;"	d
 N_TXTADDR	commands\mdb\a.out.h	142;"	d
 N_TXTOFF	commands\mdb\a.out.h	115;"	d
@@ -9025,7 +9025,7 @@ N_TX_BUF	drivers\rtl8139\rtl8139.c	89;"	d	file:
 N_TYPE	commands\mdb\a.out.h	222;"	d
 N_TYPES	commands\i386\acd.c	/^	N_TYPES		\/* number of different types *\/$/;"	e	enum:type	file:
 N_UNDF	commands\mdb\a.out.h	200;"	d
-N_UNDF	include\a.out.h	98;"	d
+N_UNDF	include\a.out.h	115;"	d
 N_WORDS	commands\ash\test\malloc.c	164;"	d	file:
 N_WORDS	commands\ash\test\malloc.c	169;"	d	file:
 N_ZMAP	commands\simple\fsck.c	105;"	d	file:
@@ -9135,7 +9135,7 @@ OFFS	commands\i386\mtools-3.9.7\config.c	146;"	d	file:
 OFFSET	commands\i386\mtools-3.9.7\buffer.c	89;"	d	file:
 OFFSET	commands\i386\mtools-3.9.7\buffer.c	90;"	d	file:
 OFFSET	commands\i386\mtools-3.9.7\msdos.h	168;"	d
-OFFSET_HIGH_SHIFT	kernel\protect.h	112;"	d
+OFFSET_HIGH_SHIFT	kernel\protect.h	113;"	d
 OFFSET_SUPER_BLOCK	commands\simple\fsck.c	110;"	d	file:
 OFF_CHAR	commands\aal\out.h	124;"	d
 OFF_CHAR	commands\autil\out.h	124;"	d
@@ -9358,7 +9358,7 @@ OUTTEMP	commands\ash\mkinit.c	73;"	d	file:
 OUT_FD	commands\flex-2.5.4\MISC\VMS\vms-code.c	10;"	d	file:
 OUT_OF_SPACE	commands\simple\backup.c	55;"	d	file:
 OVERFLOW_DIR_NR	test\test24.c	25;"	d	file:
-OVERFLOW_VECTOR	include\ibm\interrupt.h	22;"	d
+OVERFLOW_VECTOR	include\ibm\interrupt.h	25;"	d
 OVERRIDING_PREVIOUS_MODE	commands\simple\cut.c	51;"	d	file:
 OWAKEUP	drivers\tty\rs232.c	190;"	d	file:
 OWORD	commands\i386\asmconv\asm86.h	/^	PSEUDO,	JUMP,	BYTE,	WORD,	OWORD		\/* Ordered list! *\/$/;"	e	enum:optype
@@ -9486,14 +9486,14 @@ PAD_AVAIL_OUT	lib\zlib-1.2.3\contrib\inflate86\inffas86.c	102;"	d	file:
 PAD_AVAIL_OUT	lib\zlib-1.2.3\contrib\masmx64\inffas8664.c	118;"	d	file:
 PAGER	commands\simple\man.c	/^char PAGER[]=	"more";$/;"	v
 PAGESIZE	commands\mdb\io.c	14;"	d	file:
-PAGE_FAULT_VECTOR	kernel\protect.h	101;"	d
-PAGE_GRAN_SHIFT	kernel\protect.h	113;"	d
+PAGE_FAULT_VECTOR	kernel\protect.h	102;"	d
+PAGE_GRAN_SHIFT	kernel\protect.h	114;"	d
 PAGE_MASK	commands\de\de.h	105;"	d
 PAGE_SHIFT	commands\de\de.h	106;"	d
 PAGE_SIZE	commands\mdb\a.out.h	158;"	d
 PAGE_SIZE	commands\mdb\a.out.h	163;"	d
 PAGE_SIZE	servers\pm\const.h	10;"	d
-PANIC_DUMPS	include\minix\com.h	399;"	d
+PANIC_DUMPS	include\minix\com.h	401;"	d
 PARABLOCK	commands\elle\eesite.h	113;"	d
 PARAGRAPH	lib\curses\cursesio.c	125;"	d	file:
 PARALINE	commands\elle\eesite.h	114;"	d
@@ -9716,7 +9716,7 @@ PGUP	include\minix\keymap.h	29;"	d
 PHONE	commands\advent\advent.h	93;"	d
 PHT_MULTIFUNC	drivers\libpci\pci.h	44;"	d
 PHUCE	commands\advent\english.c	20;"	d	file:
-PHYS_SEG	include\minix\const.h	51;"	d
+PHYS_SEG	include\minix\const.h	52;"	d
 PH_SECTSIZE	commands\simple\mkfs.c	1256;"	d	file:
 PH_SECTSIZE	commands\simple\origmkfs.c	1071;"	d	file:
 PI	commands\awk\v.c	21;"	d	file:
@@ -9762,10 +9762,10 @@ PLUS	lib\other\v8regexp.c	89;"	d	file:
 PLUSMINUS	lib\curses\cursesio.c	109;"	d	file:
 PMODE	lib\stdio\fopen.c	14;"	d	file:
 PMODE	lib\stdio\freopen.c	14;"	d	file:
-PM_C	kernel\table.c	81;"	d	file:
+PM_C	kernel\table.c	83;"	d	file:
 PM_CHUNK_SIZE	servers\pm\exec.c	557;"	d	file:
 PM_PID	servers\pm\const.h	19;"	d
-PM_PROC_NR	include\minix\com.h	34;"	d
+PM_PROC_NR	include\minix\com.h	36;"	d
 POLE	commands\advent\advent.h	97;"	d
 POLYNOM1	lib\h\pc_math.h	27;"	d
 POLYNOM1	lib\math\localmath.h	27;"	d
@@ -9817,7 +9817,7 @@ PORT	test\select\test08_srv.c	30;"	d	file:
 PORT_B	include\ibm\ports.h	10;"	d
 POS	commands\awk\awk.h	175;"	d
 POS	commands\simple\mt.c	40;"	d	file:
-POSITION	include\minix\com.h	103;"	d
+POSITION	include\minix\com.h	105;"	d
 POSITION_ERROR	commands\simple\cut.c	58;"	d	file:
 POSITIVE	commands\simple\synctree.c	/^	POSITIVE,	\/* Ask a yes\/no question expecting yes. *\/$/;"	e	enum:orders	file:
 POSIX	commands\ash\shell.h	70;"	d
@@ -9858,7 +9858,7 @@ PREPOFF	commands\advent\advent.h	230;"	d
 PREPON	commands\advent\advent.h	231;"	d
 PREPOSITION	commands\advent\advent.h	217;"	d
 PREP_FLAGS	commands\i86\cc.c	115;"	d	file:
-PRESENT	kernel\protect.h	75;"	d
+PRESENT	kernel\protect.h	76;"	d
 PRESERVE	commands\elvis\config.h	500;"	d
 PRESERVE_MEMORY	include\ibm\bios.h	71;"	d
 PRESET_DICT	lib\zlib-1.2.3\zutil.h	85;"	d
@@ -9896,7 +9896,7 @@ PRINT	commands\awk\awk.h	39;"	d
 PRINT	commands\elle\sberr.c	13;"	d	file:
 PRINT0	commands\awk\awk.h	40;"	d
 PRINTER	commands\simple\lpd.c	/^char PRINTER[] =	"\/dev\/lp";$/;"	v
-PRINTER_IRQ	include\ibm\interrupt.h	48;"	d
+PRINTER_IRQ	include\ibm\interrupt.h	52;"	d
 PRINTF	commands\awk\awk.h	85;"	d
 PRIO_MAX	include\sys\resource.h	9;"	d
 PRIO_MIN	include\sys\resource.h	8;"	d
@@ -9985,8 +9985,8 @@ PRMASK	commands\awk\awk.h	137;"	d
 PROCESS_MAX	boot\bootimage.c	47;"	d	file:
 PROCLIMIT	kernel\debug.c	107;"	d	file:
 PROC_H	kernel\proc.h	2;"	d
-PROC_NAME_LEN	include\minix\const.h	59;"	d
-PROC_NR	include\minix\com.h	100;"	d
+PROC_NAME_LEN	include\minix\const.h	60;"	d
+PROC_NR	include\minix\com.h	102;"	d
 PROFILE	commands\ash\main.c	69;"	d	file:
 PROF_VER	commands\elle\eeprof.h	1;"	d
 PROG	commands\elvis\system.c	188;"	d	file:
@@ -9998,7 +9998,7 @@ PROJ	commands\simple\finger.c	/^char PROJ[] = "\/.project";		\/* what project fi
 PROMPT	commands\simple\mail.c	37;"	d	file:
 PROMPT_COLUMN	commands\de\de.h	172;"	d
 PROMPT_LINE	commands\de\de.h	173;"	d
-PROTECTION_VECTOR	kernel\protect.h	59;"	d
+PROTECTION_VECTOR	kernel\protect.h	60;"	d
 PROTO	commands\flex-2.5.4\flexdef.h	84;"	d
 PROTO	commands\flex-2.5.4\flexdef.h	86;"	d
 PROTO	commands\simple\ifconfig.c	22;"	d	file:
@@ -10029,16 +10029,16 @@ PRSVINDEX	commands\elvis\config.h	311;"	d
 PRSVINDEX	commands\elvis\config.h	345;"	d
 PRSVINDEX	commands\elvis\config.h	429;"	d
 PRT	commands\i86\cc.c	33;"	d	file:
-PR_IP_PTR	include\minix\com.h	363;"	d
-PR_MEM_PTR	include\minix\com.h	364;"	d
-PR_NAME_PTR	include\minix\com.h	362;"	d
-PR_PID	include\minix\com.h	359;"	d
-PR_PPROC_NR	include\minix\com.h	358;"	d
-PR_PRIORITY	include\minix\com.h	357;"	d
-PR_PROC_NR	include\minix\com.h	356;"	d
+PR_IP_PTR	include\minix\com.h	365;"	d
+PR_MEM_PTR	include\minix\com.h	366;"	d
+PR_NAME_PTR	include\minix\com.h	364;"	d
+PR_PID	include\minix\com.h	361;"	d
+PR_PPROC_NR	include\minix\com.h	360;"	d
+PR_PRIORITY	include\minix\com.h	359;"	d
+PR_PROC_NR	include\minix\com.h	358;"	d
 PR_SELECT	drivers\printer\printer.c	56;"	d	file:
-PR_STACK_PTR	include\minix\com.h	360;"	d
-PR_TRACING	include\minix\com.h	361;"	d
+PR_STACK_PTR	include\minix\com.h	362;"	d
+PR_TRACING	include\minix\com.h	363;"	d
 PSEUDO	commands\i386\asmconv\asm86.h	/^	PSEUDO,	JUMP,	BYTE,	WORD,	OWORD		\/* Ordered list! *\/$/;"	e	enum:optype
 PSIP_DEV_OFF	servers\inet\inet_config.h	67;"	d
 PSIP_FD_NR	servers\inet\generic\psip.c	38;"	d	file:
@@ -10148,7 +10148,7 @@ P_NAME_LEN	kernel\config.h	50;"	d
 P_PRIMARY	drivers\libdriver\drvlib.h	26;"	d
 P_SHADOW	commands\simple\synctree.c	1285;"	d	file:
 P_SIZ_OFF	boot\bootimage.c	67;"	d	file:
-P_STOP	kernel\proc.h	66;"	d
+P_STOP	kernel\proc.h	70;"	d
 P_SUB	drivers\libdriver\drvlib.h	27;"	d
 Padchar	commands\cawf\store.c	/^int Padchar[MAXOLL];			\/* padding character locations *\/$/;"	v
 Padfrom	commands\cawf\store.c	/^int Padfrom = PADLEFT;			\/* which end to pad from *\/$/;"	v
@@ -10356,12 +10356,12 @@ READ	include\minix\callnr.h	5;"	d
 READ	test\test17.c	47;"	d	file:
 READ	test\test18.c	47;"	d	file:
 READ	test\test7.c	22;"	d	file:
-READABLE	kernel\protect.h	84;"	d
+READABLE	kernel\protect.h	85;"	d
 READCHECK	commands\zmodem\rbsb.c	106;"	d	file:
 READCHECK	commands\zmodem\rbsb.c	119;"	d	file:
 READCHECK	commands\zmodem\sz.c	69;"	d	file:
 READING	commands\simple\rlogin.c	770;"	d	file:
-READING	include\minix\const.h	63;"	d
+READING	include\minix\const.h	64;"	d
 READLINE	commands\ash\shell.h	67;"	d
 READONLY	commands\elvis\vi.h	90;"	d
 READS	commands\i386\mtools-3.9.7\stream.h	27;"	d
@@ -10379,7 +10379,7 @@ REC	commands\i386\mtools-3.9.7\xdf_io.c	164;"	d	file:
 RECEIVE	kernel\ipc.h	19;"	d
 RECEIVE	lib\i386\rts\_ipc.s	/^RECEIVE = 2$/;"	d
 RECEIVE	lib\i86\rts\_sendrec.s	/^RECEIVE = 2$/;"	d
-RECEIVING	kernel\proc.h	63;"	d
+RECEIVING	kernel\proc.h	67;"	d
 RECOVER	commands\flex-2.5.4\MISC\MVS\initscan-mvs.c	242;"	d	file:
 RECOVER	commands\flex-2.5.4\initscan.c	1324;"	d	file:
 RECOVERY_TICKS	drivers\at_wini\at_wini.c	173;"	d	file:
@@ -10527,7 +10527,7 @@ REL_OP	commands\bc\bc.c	61;"	d	file:
 REL_OP	commands\bc\y.tab.h	10;"	d
 REMOTE	commands\i386\mtools-3.9.7\devices.c	56;"	d	file:
 REMOTEWIN	commands\talk\screen.h	13;"	d
-REMOTE_SEG	include\minix\const.h	45;"	d
+REMOTE_SEG	include\minix\const.h	46;"	d
 REMOVE	commands\advent\advent.h	194;"	d
 REMOVE	commands\simple\cp.c	/^typedef enum action { COPY, MOVE, REMOVE, LINK } action_t;$/;"	e	enum:action	file:
 REM_DISABLED	drivers\rtl8139\rtl8139.c	161;"	d	file:
@@ -10545,9 +10545,9 @@ REPSTOP	commands\simple\life.c	26;"	d	file:
 REPZ_11_138	lib\zlib-1.2.3\trees.c	58;"	d	file:
 REPZ_3_10	lib\zlib-1.2.3\trees.c	55;"	d	file:
 REP_3_6	lib\zlib-1.2.3\trees.c	52;"	d	file:
-REP_PROC_NR	include\minix\com.h	112;"	d
-REP_STATUS	include\minix\com.h	113;"	d
-REQUEST	include\minix\com.h	102;"	d
+REP_PROC_NR	include\minix\com.h	114;"	d
+REP_STATUS	include\minix\com.h	115;"	d
+REQUEST	include\minix\com.h	104;"	d
 REQUIRE	lib\regex\regcomp.c	151;"	d	file:
 RESERVED	commands\i386\mtools-3.9.7\mk_direntry.c	68;"	d	file:
 RESERVED	lib\zlib-1.2.3\gzio.c	54;"	d	file:
@@ -10922,10 +10922,10 @@ ROUND512_0_TO_15	servers\inet\sha2.c	701;"	d	file:
 ROUND512_0_TO_15	servers\inet\sha2.c	712;"	d	file:
 ROUND_DOWN	commands\i386\mtools-3.9.7\mtools.h	231;"	d
 ROUND_UP	commands\i386\mtools-3.9.7\mtools.h	232;"	d
-RO_BIT	include\minix\const.h	114;"	d
+RO_BIT	include\minix\const.h	115;"	d
 RPAR	commands\simple\find.c	57;"	d	file:
 RPAREN	commands\m4\mdef.h	84;"	d
-RPL	kernel\protect.h	63;"	d
+RPL	kernel\protect.h	64;"	d
 RQUOTE	commands\m4\mdef.h	86;"	d
 RRFIXEDSZ	include\net\gen\nameser.h	63;"	d
 RRconflicts	commands\byacc\mkpar.c	/^short *RRconflicts;$/;"	v
@@ -10933,7 +10933,7 @@ RRcount	commands\byacc\mkpar.c	/^static int RRcount;$/;"	v	file:
 RRtotal	commands\byacc\mkpar.c	/^int RRtotal;$/;"	v
 RS	commands\awk\v.c	/^char **FS, **RS, **OFS, **ORS, **OFMT, **FILENAME;$/;"	v
 RS	commands\simple\ed.c	77;"	d	file:
-RS232_IRQ	include\ibm\interrupt.h	45;"	d
+RS232_IRQ	include\ibm\interrupt.h	49;"	d
 RS232_MINOR	drivers\tty\tty.h	8;"	d
 RSHIFT_SCAN	drivers\tty\keyboard.c	44;"	d	file:
 RSR_CRC	drivers\dp8390\dp8390.h	147;"	d
@@ -10953,13 +10953,13 @@ RSR_PRX	drivers\dp8390\dp8390.h	146;"	d
 RSR_PRX	drivers\dpeth\8390.h	151;"	d
 RSTART	commands\awk\v.c	/^double *FNR, *ARGC, *RSTART, *RLENGTH;$/;"	v
 RSUB	commands\awk\awk.h	126;"	d
-RS_C	kernel\table.c	80;"	d	file:
+RS_C	kernel\table.c	82;"	d	file:
 RS_IBUFSIZE	drivers\tty\rs232.c	90;"	d	file:
 RS_IHIGHWATER	drivers\tty\rs232.c	99;"	d	file:
 RS_ILOWWATER	drivers\tty\rs232.c	98;"	d	file:
 RS_OBUFSIZE	drivers\tty\rs232.c	91;"	d	file:
 RS_OLOWWATER	drivers\tty\rs232.c	105;"	d	file:
-RS_PROC_NR	include\minix\com.h	36;"	d
+RS_PROC_NR	include\minix\com.h	38;"	d
 RT	commands\mined\mined2.c	/^void RT()$/;"	f
 RTC_A_DV	include\ibm\cmos.h	34;"	d
 RTC_A_DV_OK	include\ibm\cmos.h	35;"	d
@@ -11004,7 +11004,7 @@ RW	test\test17.c	39;"	d	file:
 RW	test\test18.c	39;"	d	file:
 RWX	test\test17.c	41;"	d	file:
 RWX	test\test18.c	41;"	d	file:
-RWX_MODES	include\minix\const.h	107;"	d
+RWX_MODES	include\minix\const.h	108;"	d
 RXS_CRC	drivers\dpeth\3c509.h	58;"	d
 RXS_Dribble	drivers\dpeth\3c509.h	55;"	d
 RXS_ErrType	drivers\dpeth\3c509.h	52;"	d
@@ -11020,9 +11020,9 @@ RX_RING_LEN_BITS	drivers\lance\lance.c	246;"	d	file:
 RX_RING_MOD_MASK	drivers\lance\lance.c	245;"	d	file:
 RX_RING_SIZE	drivers\lance\lance.c	244;"	d	file:
 RZIP	commands\i386\mtools-3.9.7\devices.c	54;"	d	file:
-R_ABBS	include\a.out.h	72;"	d
+R_ABBS	include\a.out.h	89;"	d
 R_APD	commands\awk\awk.h	108;"	d
-R_BIT	include\minix\const.h	108;"	d
+R_BIT	include\minix\const.h	109;"	d
 R_BOOT	boot\boot.c	/^ 	R_NULL, R_BOOT, R_CTTY, R_DELAY, R_ECHO, R_EXIT, R_HELP,$/;"	e	enum:resnames	file:
 R_CTTY	boot\boot.c	/^ 	R_NULL, R_BOOT, R_CTTY, R_DELAY, R_ECHO, R_EXIT, R_HELP,$/;"	e	enum:resnames	file:
 R_DELAY	boot\boot.c	/^ 	R_NULL, R_BOOT, R_CTTY, R_DELAY, R_ECHO, R_EXIT, R_HELP,$/;"	e	enum:resnames	file:
@@ -11030,24 +11030,24 @@ R_ECHO	boot\boot.c	/^ 	R_NULL, R_BOOT, R_CTTY, R_DELAY, R_ECHO, R_EXIT, R_HELP,$
 R_EXIT	boot\boot.c	/^ 	R_NULL, R_BOOT, R_CTTY, R_DELAY, R_ECHO, R_EXIT, R_HELP,$/;"	e	enum:resnames	file:
 R_HELP	boot\boot.c	/^ 	R_NULL, R_BOOT, R_CTTY, R_DELAY, R_ECHO, R_EXIT, R_HELP,$/;"	e	enum:resnames	file:
 R_IN	commands\awk\awk.h	110;"	d
-R_KBRANCHE	include\a.out.h	80;"	d
+R_KBRANCHE	include\a.out.h	97;"	d
 R_LS	boot\boot.c	/^	R_LS, R_MENU, R_OFF, R_SAVE, R_SET, R_TRAP, R_UNSET$/;"	e	enum:resnames	file:
 R_MENU	boot\boot.c	/^	R_LS, R_MENU, R_OFF, R_SAVE, R_SET, R_TRAP, R_UNSET$/;"	e	enum:resnames	file:
 R_NULL	boot\boot.c	/^ 	R_NULL, R_BOOT, R_CTTY, R_DELAY, R_ECHO, R_EXIT, R_HELP,$/;"	e	enum:resnames	file:
 R_OFF	boot\boot.c	/^	R_LS, R_MENU, R_OFF, R_SAVE, R_SET, R_TRAP, R_UNSET$/;"	e	enum:resnames	file:
 R_OK	include\unistd.h	14;"	d
 R_OUT	commands\awk\awk.h	107;"	d
-R_PCRBYTE	include\a.out.h	74;"	d
-R_PCRLONG	include\a.out.h	78;"	d
-R_PCRWORD	include\a.out.h	76;"	d
+R_PCRBYTE	include\a.out.h	91;"	d
+R_PCRLONG	include\a.out.h	95;"	d
+R_PCRWORD	include\a.out.h	93;"	d
 R_PIN	commands\awk\awk.h	111;"	d
 R_PIPE	commands\awk\awk.h	109;"	d
 R_POUT	commands\awk\awk.h	112;"	d
 R_PREFER	commands\i386\acd.c	1222;"	d	file:
-R_REL3BYTE	include\a.out.h	79;"	d
-R_RELLBYTE	include\a.out.h	73;"	d
-R_RELLONG	include\a.out.h	77;"	d
-R_RELWORD	include\a.out.h	75;"	d
+R_REL3BYTE	include\a.out.h	96;"	d
+R_RELLBYTE	include\a.out.h	90;"	d
+R_RELLONG	include\a.out.h	94;"	d
+R_RELWORD	include\a.out.h	92;"	d
 R_SAVE	boot\boot.c	/^	R_LS, R_MENU, R_OFF, R_SAVE, R_SET, R_TRAP, R_UNSET$/;"	e	enum:resnames	file:
 R_SET	boot\boot.c	/^	R_LS, R_MENU, R_OFF, R_SAVE, R_SET, R_TRAP, R_UNSET$/;"	e	enum:resnames	file:
 R_STATE	commands\ps\ps.c	172;"	d	file:
@@ -11131,7 +11131,7 @@ Rxpos	commands\zmodem\zm.c	/^long Rxpos;		\/* Received file position *\/$/;"	v
 Rxtimeout	commands\zmodem\zm.c	/^int Rxtimeout = 100;		\/* Tenths of seconds to wait for something *\/$/;"	v
 Rxtype	commands\zmodem\zm.c	/^int Rxtype;		\/* Type of header received *\/$/;"	v
 S	commands\mined\mined2.c	/^void S(character)$/;"	f
-S	include\minix\const.h	43;"	d
+S	include\minix\const.h	44;"	d
 S32	drivers\random\sha2.c	185;"	d	file:
 S32	servers\inet\sha2.c	187;"	d	file:
 S64	drivers\random\sha2.c	187;"	d	file:
@@ -11367,7 +11367,7 @@ SEARCH_BUFFER	commands\de\de.h	72;"	d
 SEC9SPECIAL	commands\simple\man.c	31;"	d	file:
 SEC9SPECIAL	commands\simple\man.c	33;"	d	file:
 SECBUFS	boot\bootimage.c	277;"	d	file:
-SECONDARY_IRQ	include\ibm\interrupt.h	44;"	d
+SECONDARY_IRQ	include\ibm\interrupt.h	48;"	d
 SECONDS	commands\simple\dhrystone.c	103;"	d	file:
 SECONDS	include\minix\cdrom.h	8;"	d
 SECONDS	test\select\test01.c	23;"	d	file:
@@ -11441,7 +11441,7 @@ SEEK_SET	lib\zlib-1.2.3\zconf.h	296;"	d
 SEEK_SET	lib\zlib-1.2.3\zconf.in.h	296;"	d
 SEEK_ST0	drivers\floppy\floppy.c	70;"	d	file:
 SEETWO	lib\regex\regcomp.c	143;"	d	file:
-SEGMENT	kernel\protect.h	78;"	d
+SEGMENT	kernel\protect.h	79;"	d
 SEGMENT_INDEX	include\minix\const.h	37;"	d
 SEGMENT_SIZE	commands\mdb\a.out.h	149;"	d
 SEGMENT_SIZE	commands\mdb\a.out.h	152;"	d
@@ -11450,12 +11450,12 @@ SEGMENT_SIZE	commands\mdb\a.out.h	159;"	d
 SEGMENT_SIZE	commands\mdb\a.out.h	167;"	d
 SEGMENT_TYPE	include\minix\const.h	36;"	d
 SEGSIZE	lib\other\peekpoke.c	17;"	d	file:
-SEG_INDEX	include\minix\com.h	272;"	d
-SEG_NOT_VECTOR	kernel\protect.h	57;"	d
-SEG_OFFSET	include\minix\com.h	269;"	d
-SEG_PHYS	include\minix\com.h	270;"	d
-SEG_SELECT	include\minix\com.h	268;"	d
-SEG_SIZE	include\minix\com.h	271;"	d
+SEG_INDEX	include\minix\com.h	274;"	d
+SEG_NOT_VECTOR	kernel\protect.h	58;"	d
+SEG_OFFSET	include\minix\com.h	271;"	d
+SEG_PHYS	include\minix\com.h	272;"	d
+SEG_SELECT	include\minix\com.h	270;"	d
+SEG_SIZE	include\minix\com.h	273;"	d
 SELECT	boot\boot.c	/^enum whatfun { NOFUN, SELECT, DEFFUN, USERFUN } menufun(environment *e)$/;"	e	enum:whatfun	file:
 SELECT	include\minix\callnr.h	76;"	d
 SELF	commands\simple\mt.c	37;"	d	file:
@@ -11467,22 +11467,22 @@ SELFD_PIPE	servers\fs\select.c	41;"	d	file:
 SELFD_TTY	servers\fs\select.c	42;"	d	file:
 SEL_ERR	include\sys\select.h	42;"	d
 SEL_ERROR	servers\fs\select.h	6;"	d
-SEL_ERRORFDS	include\minix\com.h	373;"	d
+SEL_ERRORFDS	include\minix\com.h	375;"	d
 SEL_FDS	servers\fs\select.c	45;"	d	file:
-SEL_NFDS	include\minix\com.h	370;"	d
+SEL_NFDS	include\minix\com.h	372;"	d
 SEL_NOTIFY	include\sys\select.h	43;"	d
 SEL_OK	servers\fs\select.h	5;"	d
 SEL_RD	include\sys\select.h	40;"	d
-SEL_READFDS	include\minix\com.h	371;"	d
-SEL_TIMEOUT	include\minix\com.h	374;"	d
+SEL_READFDS	include\minix\com.h	373;"	d
+SEL_TIMEOUT	include\minix\com.h	376;"	d
 SEL_WR	include\sys\select.h	41;"	d
-SEL_WRITEFDS	include\minix\com.h	372;"	d
+SEL_WRITEFDS	include\minix\com.h	374;"	d
 SEMI	commands\i386\acd.c	/^	SEMI,$/;"	e	enum:type	file:
 SEMICOLON	commands\elvis\ctags.c	367;"	d	file:
 SEND	kernel\ipc.h	18;"	d
 SEND	lib\i386\rts\_ipc.s	/^SEND = 1$/;"	d
 SEND	lib\i86\rts\_sendrec.s	/^SEND = 1$/;"	d
-SENDING	kernel\proc.h	62;"	d
+SENDING	kernel\proc.h	66;"	d
 SENDQ_NR	drivers\dp8390\dp8390.h	203;"	d
 SENDQ_NR	drivers\dpeth\dp.h	83;"	d
 SENDQ_PAGES	drivers\dp8390\dp8390.h	204;"	d
@@ -11562,7 +11562,7 @@ SETP	commands\i386\asmconv\asm86.h	/^	SETLE,	SETNE,	SETNO,	SETNP,	SETNS,	SETO,	S
 SETPGRP_VOID	commands\i386\mtools-3.9.7\config.h	34;"	d
 SETPNAME	commands\mdb\ioctl.c	28;"	d	file:
 SETPRIORITY	include\minix\callnr.h	80;"	d
-SETPSW	kernel\const.h	56;"	d
+SETPSW	kernel\const.h	59;"	d
 SETS	commands\i386\asmconv\asm86.h	/^	SETLE,	SETNE,	SETNO,	SETNP,	SETNS,	SETO,	SETP,	SETS,$/;"	e	enum:opcode
 SETSID	include\minix\callnr.h	50;"	d
 SETUID	include\minix\callnr.h	25;"	d
@@ -11585,7 +11585,7 @@ SET_BINARY_MODE	lib\zlib-1.2.3\contrib\iostream2\zstream.h	35;"	d
 SET_BINARY_MODE	lib\zlib-1.2.3\contrib\iostream2\zstream.h	37;"	d
 SET_BINARY_MODE	lib\zlib-1.2.3\minigzip.c	35;"	d	file:
 SET_BINARY_MODE	lib\zlib-1.2.3\minigzip.c	37;"	d	file:
-SET_BIT	kernel\const.h	39;"	d
+SET_BIT	kernel\const.h	41;"	d
 SET_CLOEXEC	test\test29.c	35;"	d	file:
 SET_FLAG	commands\simple\grep.c	48;"	d	file:
 SET_GEOM	commands\i386\mtools-3.9.7\stream.h	33;"	d
@@ -11804,7 +11804,7 @@ SIGMASK	lib\posix\_sigset.c	22;"	d	file:
 SIGN	lib\float\cmf4.c	22;"	d	file:
 SIGN	lib\float\cmf8.c	19;"	d	file:
 SIGNAL	include\minix\callnr.h	44;"	d
-SIGNALED	kernel\proc.h	64;"	d
+SIGNALED	kernel\proc.h	68;"	d
 SIGNATOFF	boot\boot.h	38;"	d
 SIGNATPOS	include\tools.h	16;"	d
 SIGNATURE	boot\boot.h	37;"	d
@@ -11842,21 +11842,21 @@ SIG_BLOCK	include\minix\jmp_buf.h	84;"	d
 SIG_BLOCK	include\signal.h	95;"	d
 SIG_CAST	commands\i386\mtools-3.9.7\sysincludes.h	338;"	d
 SIG_CATCH	include\signal.h	75;"	d
-SIG_CTXT_PTR	include\minix\com.h	353;"	d
+SIG_CTXT_PTR	include\minix\com.h	355;"	d
 SIG_DFL	commands\elle\eesigs.h	31;"	d
 SIG_DFL	include\signal.h	72;"	d
 SIG_ERR	include\signal.h	71;"	d
-SIG_FLAGS	include\minix\com.h	351;"	d
+SIG_FLAGS	include\minix\com.h	353;"	d
 SIG_HOLD	include\signal.h	74;"	d
 SIG_IGN	commands\elle\eesigs.h	32;"	d
 SIG_IGN	include\signal.h	73;"	d
 SIG_INQUIRE	include\signal.h	98;"	d
-SIG_MAP	include\minix\com.h	352;"	d
+SIG_MAP	include\minix\com.h	354;"	d
 SIG_MESS	include\signal.h	76;"	d
-SIG_NUMBER	include\minix\com.h	350;"	d
-SIG_PENDING	kernel\proc.h	65;"	d
-SIG_PROC	include\minix\com.h	349;"	d
-SIG_REQUEST	include\minix\com.h	343;"	d
+SIG_NUMBER	include\minix\com.h	352;"	d
+SIG_PENDING	kernel\proc.h	69;"	d
+SIG_PROC	include\minix\com.h	351;"	d
+SIG_REQUEST	include\minix\com.h	345;"	d
 SIG_SETMASK	include\signal.h	97;"	d
 SIG_UNBLOCK	include\signal.h	96;"	d
 SIG_ZERO	test\test5.c	45;"	d	file:
@@ -11934,7 +11934,7 @@ SLEEP_INTERVAL	commands\simple\tail.c	76;"	d	file:
 SLIDE	commands\advent\turn.c	650;"	d	file:
 SLIPLEN	commands\simple\slip.c	30;"	d	file:
 SLOCK	include\minix\keymap.h	67;"	d
-SLOT_FREE	kernel\proc.h	60;"	d
+SLOT_FREE	kernel\proc.h	64;"	d
 SLOWDEBUG	lib\ansi\malloc.c	5;"	d	file:
 SLUGS	commands\advent\advent.h	111;"	d
 SL_CSO	commands\elle\elle.h	237;"	d
@@ -12024,27 +12024,27 @@ SPSTART	commands\cawf\regexp.c	151;"	d	file:
 SPSTART	lib\other\v8regexp.c	147;"	d	file:
 SP_MEMBER	commands\mdb\mdb.h	73;"	d
 SQRT	commands\awk\awk.h	129;"	d
-SQUARE_WAVE	kernel\clock.c	45;"	d	file:
+SQUARE_WAVE	kernel\clock.c	113;"	d	file:
 SR	commands\elvis\curses.c	/^char	*SR;		\/* :sr=: scroll reverse *\/$/;"	v
 SR	commands\mined\mined2.c	/^void SR()$/;"	f
 SR	commands\yap\term.h	/^	*SR,			\/* Scroll reverse *\/$/;"	v
 SRAND	commands\awk\awk.h	130;"	d
 SRCFILES	commands\i86\cc.c	/^struct arglist SRCFILES;$/;"	v	typeref:struct:arglist
 SRC_DST	lib\i386\rts\_ipc.s	/^SRC_DST = 8			! source\/ destination process $/;"	d
-SRV_ARGS_ADDR	include\minix\com.h	388;"	d
-SRV_ARGS_LEN	include\minix\com.h	389;"	d
-SRV_DEV_MAJOR	include\minix\com.h	390;"	d
-SRV_DOWN	include\minix\com.h	383;"	d
-SRV_F	kernel\table.c	51;"	d	file:
-SRV_M	kernel\table.c	69;"	d	file:
-SRV_PATH_ADDR	include\minix\com.h	386;"	d
-SRV_PATH_LEN	include\minix\com.h	387;"	d
-SRV_PRIV_ADDR	include\minix\com.h	391;"	d
-SRV_PRIV_LEN	include\minix\com.h	392;"	d
-SRV_RQ_BASE	include\minix\com.h	380;"	d
-SRV_STATUS	include\minix\com.h	384;"	d
-SRV_T	kernel\table.c	58;"	d	file:
-SRV_UP	include\minix\com.h	382;"	d
+SRV_ARGS_ADDR	include\minix\com.h	390;"	d
+SRV_ARGS_LEN	include\minix\com.h	391;"	d
+SRV_DEV_MAJOR	include\minix\com.h	392;"	d
+SRV_DOWN	include\minix\com.h	385;"	d
+SRV_F	kernel\table.c	52;"	d	file:
+SRV_M	kernel\table.c	71;"	d	file:
+SRV_PATH_ADDR	include\minix\com.h	388;"	d
+SRV_PATH_LEN	include\minix\com.h	389;"	d
+SRV_PRIV_ADDR	include\minix\com.h	393;"	d
+SRV_PRIV_LEN	include\minix\com.h	394;"	d
+SRV_RQ_BASE	include\minix\com.h	382;"	d
+SRV_STATUS	include\minix\com.h	386;"	d
+SRV_T	kernel\table.c	60;"	d	file:
+SRV_UP	include\minix\com.h	384;"	d
 SR_	commands\elvis\curses.c	/^char	*SR_;		\/* :sr=: scroll reverse *\/$/;"	v
 SR_CANCEL_IOCTL	servers\inet\generic\sr.h	12;"	d
 SR_CANCEL_READ	servers\inet\generic\sr.h	13;"	d
@@ -12070,7 +12070,7 @@ SS_CU_HQPA	drivers\fxp\fxp.h	38;"	d
 SS_CU_IDLE	drivers\fxp\fxp.h	35;"	d
 SS_CU_LPQA	drivers\fxp\fxp.h	37;"	d
 SS_CU_SUSP	drivers\fxp\fxp.h	36;"	d
-SS_INDEX	kernel\protect.h	14;"	d
+SS_INDEX	kernel\protect.h	15;"	d
 SS_MASK	commands\mdb\mdbdis86.c	49;"	d	file:
 SS_NORMAL	commands\zmodem\rz.c	70;"	d	file:
 SS_NORMAL	commands\zmodem\rz.c	73;"	d	file:
@@ -12084,7 +12084,7 @@ SS_RU_READY	drivers\fxp\fxp.h	43;"	d
 SS_RU_SUSP	drivers\fxp\fxp.h	41;"	d
 SS_SELECTOR	boot\boothead.s	/^	SS_SELECTOR =	   5*8	! Monitor stack$/;"	d
 SS_SELECTOR	boot\doshead.s	/^	SS_SELECTOR =	   5*8	! Monitor stack$/;"	d
-SS_SELECTOR	kernel\protect.h	31;"	d
+SS_SELECTOR	kernel\protect.h	32;"	d
 SS_SHIFT	commands\mdb\mdbdis86.c	50;"	d	file:
 ST0	drivers\floppy\floppy.c	47;"	d	file:
 ST0_BITS_SEEK	drivers\floppy\floppy.c	69;"	d	file:
@@ -12108,7 +12108,7 @@ STACK_DIR	commands\flex-2.5.4\MISC\alloca.c	100;"	d	file:
 STACK_DIR	commands\flex-2.5.4\MISC\alloca.c	105;"	d	file:
 STACK_DIRECTION	commands\flex-2.5.4\MISC\Macintosh\alloca.c	72;"	d	file:
 STACK_DIRECTION	commands\flex-2.5.4\MISC\alloca.c	95;"	d	file:
-STACK_FAULT_VECTOR	kernel\protect.h	58;"	d
+STACK_FAULT_VECTOR	kernel\protect.h	59;"	d
 STACK_GUARD	kernel\priv.h	39;"	d
 STACK_SIZE	commands\simple\compress.c	1248;"	d	file:
 STACK_STATE	commands\flex-2.5.4\dfa.c	294;"	d	file:
@@ -12332,7 +12332,7 @@ SURE_SERIOUS	commands\ibm\autopart.c	82;"	d	file:
 SURFACE	commands\simple\ls.c	/^enum depth { SURFACE, SURFACE1, SUBMERGED };$/;"	e	enum:depth	file:
 SURFACE1	commands\simple\ls.c	/^enum depth { SURFACE, SURFACE1, SUBMERGED };$/;"	e	enum:depth	file:
 SUSPEND	commands\advent\advent.h	178;"	d
-SUSPEND	include\minix\com.h	114;"	d
+SUSPEND	include\minix\com.h	116;"	d
 SUSPENDABLE	drivers\log\log.h	13;"	d
 SUSPENDED	servers\fs\fproc.h	29;"	d
 SU_UID	servers\fs\const.h	30;"	d
@@ -12370,10 +12370,10 @@ SYNCH	commands\telnetd\telnet.h	35;"	d
 SYNCNAME	commands\simple\synctree.c	/^static char SYNCNAME[]	= "synctree";$/;"	v	file:
 SYNTAXERR	commands\sh\sh2.c	42;"	d	file:
 SYNTAX_ERROR	commands\simple\cut.c	57;"	d	file:
-SYN_ALARM	include\minix\com.h	58;"	d
+SYN_ALARM	include\minix\com.h	60;"	d
 SYS16BIT	lib\zlib-1.2.3\zconf.h	79;"	d
 SYS16BIT	lib\zlib-1.2.3\zconf.in.h	79;"	d
-SYS386_VECTOR	include\ibm\interrupt.h	26;"	d
+SYS386_VECTOR	include\ibm\interrupt.h	29;"	d
 SYSCALLS_SUPPORT	commands\mdb\mdb.h	18;"	d
 SYSCALL_FLAGS	kernel\ipc.h	11;"	d
 SYSCALL_FUNC	kernel\ipc.h	10;"	d
@@ -12396,7 +12396,7 @@ SYSSIGNON	include\sys\svrctl.h	30;"	d
 SYSTASK	include\minix\syslib.h	21;"	d
 SYSTEM	commands\ash\test\malloc.c	107;"	d	file:
 SYSTEM	commands\awk\awk.h	95;"	d
-SYSTEM	include\minix\com.h	26;"	d
+SYSTEM	include\minix\com.h	27;"	d
 SYSTEM_H	kernel\system.h	31;"	d
 SYSTEM_SUSPEND	include\ibm\bios.h	72;"	d
 SYSV	commands\elle\eesite.h	24;"	d
@@ -12405,43 +12405,43 @@ SYSV	commands\elle\eesite.h	45;"	d
 SYSVEC	lib\i386\rts\_ipc.s	/^SYSVEC = 33			! trap to kernel $/;"	d
 SYSVEC	lib\i86\rts\_sendrec.s	/^SYSVEC = 32$/;"	d
 SYSVTYPE	commands\m4\mdef.h	72;"	d
-SYS_ABORT	include\minix\com.h	218;"	d
+SYS_ABORT	include\minix\com.h	220;"	d
 SYS_CONF_FILE	commands\i386\mtools-3.9.7\mtoolsPaths.h	22;"	d
-SYS_DEVIO	include\minix\com.h	211;"	d
-SYS_ENDKSIG	include\minix\com.h	195;"	d
-SYS_EXEC	include\minix\com.h	187;"	d
-SYS_EXIT	include\minix\com.h	188;"	d
-SYS_FORK	include\minix\com.h	186;"	d
-SYS_GETINFO	include\minix\com.h	217;"	d
-SYS_GETKSIG	include\minix\com.h	194;"	d
+SYS_DEVIO	include\minix\com.h	213;"	d
+SYS_ENDKSIG	include\minix\com.h	197;"	d
+SYS_EXEC	include\minix\com.h	189;"	d
+SYS_EXIT	include\minix\com.h	190;"	d
+SYS_FORK	include\minix\com.h	188;"	d
+SYS_GETINFO	include\minix\com.h	219;"	d
+SYS_GETKSIG	include\minix\com.h	196;"	d
 SYS_GID	servers\fs\const.h	32;"	d
-SYS_INT86	include\minix\com.h	210;"	d
-SYS_IRQCTL	include\minix\com.h	209;"	d
-SYS_KILL	include\minix\com.h	192;"	d
-SYS_M	kernel\table.c	70;"	d	file:
-SYS_MEMSET	include\minix\com.h	201;"	d
-SYS_NEWMAP	include\minix\com.h	199;"	d
-SYS_NICE	include\minix\com.h	189;"	d
+SYS_INT86	include\minix\com.h	212;"	d
+SYS_IRQCTL	include\minix\com.h	211;"	d
+SYS_KILL	include\minix\com.h	194;"	d
+SYS_M	kernel\table.c	72;"	d	file:
+SYS_MEMSET	include\minix\com.h	203;"	d
+SYS_NEWMAP	include\minix\com.h	201;"	d
+SYS_NICE	include\minix\com.h	191;"	d
 SYS_NOPEN	commands\aal\system.h	40;"	d
-SYS_PHYSCOPY	include\minix\com.h	205;"	d
-SYS_PHYSVCOPY	include\minix\com.h	207;"	d
-SYS_PRIVCTL	include\minix\com.h	190;"	d
+SYS_PHYSCOPY	include\minix\com.h	207;"	d
+SYS_PHYSVCOPY	include\minix\com.h	209;"	d
+SYS_PRIVCTL	include\minix\com.h	192;"	d
 SYS_PROC	kernel\priv.h	44;"	d
-SYS_SDEVIO	include\minix\com.h	212;"	d
-SYS_SEGCTL	include\minix\com.h	200;"	d
-SYS_SETALARM	include\minix\com.h	215;"	d
-SYS_SIG	include\minix\com.h	59;"	d
-SYS_SIGRETURN	include\minix\com.h	197;"	d
-SYS_SIGSEND	include\minix\com.h	196;"	d
+SYS_SDEVIO	include\minix\com.h	214;"	d
+SYS_SEGCTL	include\minix\com.h	202;"	d
+SYS_SETALARM	include\minix\com.h	217;"	d
+SYS_SIG	include\minix\com.h	61;"	d
+SYS_SIGRETURN	include\minix\com.h	199;"	d
+SYS_SIGSEND	include\minix\com.h	198;"	d
 SYS_SOCKET_H	include\sys\socket.h	6;"	d
-SYS_TIMES	include\minix\com.h	216;"	d
-SYS_TRACE	include\minix\com.h	191;"	d
+SYS_TIMES	include\minix\com.h	218;"	d
+SYS_TRACE	include\minix\com.h	193;"	d
 SYS_UID	servers\fs\const.h	31;"	d
-SYS_UMAP	include\minix\com.h	203;"	d
-SYS_VDEVIO	include\minix\com.h	213;"	d
-SYS_VECTOR	include\ibm\interrupt.h	25;"	d
-SYS_VIRCOPY	include\minix\com.h	204;"	d
-SYS_VIRVCOPY	include\minix\com.h	206;"	d
+SYS_UMAP	include\minix\com.h	205;"	d
+SYS_VDEVIO	include\minix\com.h	215;"	d
+SYS_VECTOR	include\ibm\interrupt.h	28;"	d
+SYS_VIRCOPY	include\minix\com.h	206;"	d
+SYS_VIRVCOPY	include\minix\com.h	208;"	d
 SZ	lib\libp\wri.c	31;"	d	file:
 SZ	lib\libp\wri.c	36;"	d	file:
 SZ	lib\libp\wri.c	41;"	d	file:
@@ -12458,17 +12458,17 @@ SZ_SECT	commands\autil\out.h	112;"	d
 S_ABORT	commands\aal\system.h	32;"	d
 S_ABS	commands\aal\out.h	83;"	d
 S_ABS	commands\autil\out.h	83;"	d
-S_ABS	include\a.out.h	83;"	d
-S_BSS	include\a.out.h	86;"	d
+S_ABS	include\a.out.h	100;"	d
+S_BSS	include\a.out.h	103;"	d
 S_CATCH	commands\ash\trap.c	65;"	d	file:
 S_COM	commands\aal\out.h	95;"	d
 S_COM	commands\autil\out.h	95;"	d
 S_CRS	commands\aal\out.h	86;"	d
 S_CRS	commands\autil\out.h	86;"	d
-S_DATA	include\a.out.h	85;"	d
+S_DATA	include\a.out.h	102;"	d
 S_DFL	commands\ash\trap.c	64;"	d	file:
 S_END	commands\aal\system.h	30;"	d
-S_ENDSIG	include\minix\com.h	345;"	d
+S_ENDSIG	include\minix\com.h	347;"	d
 S_ETC	commands\aal\out.h	77;"	d
 S_ETC	commands\autil\out.h	77;"	d
 S_EXIT	commands\aal\system.h	31;"	d
@@ -12477,7 +12477,7 @@ S_EXT	commands\autil\out.h	76;"	d
 S_FIL	commands\aal\out.h	93;"	d
 S_FIL	commands\autil\out.h	93;"	d
 S_FORMAT	commands\ps\ps.c	136;"	d	file:
-S_GETSIG	include\minix\com.h	344;"	d
+S_GETSIG	include\minix\com.h	346;"	d
 S_HARD_IGN	commands\ash\trap.c	67;"	d	file:
 S_HEADER	commands\ps\ps.c	135;"	d	file:
 S_IEXEC	commands\aal\archiver.c	37;"	d	file:
@@ -12528,7 +12528,7 @@ S_IWUSR	include\sys\stat.h	46;"	d
 S_IXGRP	include\sys\stat.h	52;"	d
 S_IXOTH	include\sys\stat.h	57;"	d
 S_IXUSR	include\sys\stat.h	47;"	d
-S_KILL	include\minix\com.h	348;"	d
+S_KILL	include\minix\com.h	350;"	d
 S_LEFTSHIFT	commands\i386\asmconv\token.h	21;"	d
 S_LIN	commands\aal\out.h	92;"	d
 S_LIN	commands\autil\out.h	92;"	d
@@ -12541,12 +12541,12 @@ S_MOD	commands\autil\out.h	94;"	d
 S_RIGHTSHIFT	commands\i386\asmconv\token.h	22;"	d
 S_SCT	commands\aal\out.h	91;"	d
 S_SCT	commands\autil\out.h	91;"	d
-S_SENDSIG	include\minix\com.h	346;"	d
-S_SIGRETURN	include\minix\com.h	347;"	d
+S_SENDSIG	include\minix\com.h	348;"	d
+S_SIGRETURN	include\minix\com.h	349;"	d
 S_STATE	commands\ps\ps.c	171;"	d	file:
 S_STB	commands\aal\out.h	96;"	d
 S_STB	commands\autil\out.h	96;"	d
-S_TEXT	include\a.out.h	84;"	d
+S_TEXT	include\a.out.h	101;"	d
 S_TYP	commands\aal\out.h	75;"	d
 S_TYP	commands\autil\out.h	75;"	d
 S_UND	commands\aal\out.h	82;"	d
@@ -12682,7 +12682,7 @@ System	test\test36.c	18;"	d	file:
 System	test\test38.c	25;"	d	file:
 System	test\test40.c	31;"	d	file:
 T	commands\simple\ls.c	390;"	d	file:
-T	include\minix\const.h	41;"	d
+T	include\minix\const.h	42;"	d
 TA	commands\yap\term.h	/^	*TA,			\/* Tab *\/$/;"	v
 TAB	commands\elle\elle.h	141;"	d
 TAB	commands\simple\fold.c	8;"	d	file:
@@ -12706,11 +12706,11 @@ TALKABLE	commands\simple\finger.c	77;"	d	file:
 TALK_VERSION	commands\talk\talk.h	37;"	d
 TALK_VERSION	commands\talkd\talk.h	37;"	d
 TAND	commands\sh\sh.h	73;"	d
-TAPE_STAT0	include\minix\com.h	124;"	d
-TAPE_STAT1	include\minix\com.h	125;"	d
-TASK_GATE	kernel\protect.h	94;"	d
-TASK_PRIVILEGE	kernel\protect.h	45;"	d
-TASK_Q	kernel\proc.h	75;"	d
+TAPE_STAT0	include\minix\com.h	126;"	d
+TAPE_STAT1	include\minix\com.h	127;"	d
+TASK_GATE	kernel\protect.h	95;"	d
+TASK_PRIVILEGE	kernel\protect.h	46;"	d
+TASK_Q	kernel\proc.h	79;"	d
 TASK_REPLY	include\minix\callnr.h	56;"	d
 TASYNC	commands\sh\sh.h	83;"	d
 TBDELAY	include\sgtty.h	77;"	d
@@ -12921,7 +12921,7 @@ TELQUAL_IS	commands\telnetd\telnet.h	68;"	d
 TELQUAL_SEND	commands\telnetd\telnet.h	69;"	d
 TEMPLATE_SAME_PERCENTAGE	commands\flex-2.5.4\flexdef.h	272;"	d
 TEMPSIZE	commands\ash\output.c	318;"	d	file:
-TEMP_CODE	include\minix\const.h	56;"	d
+TEMP_CODE	include\minix\const.h	57;"	d
 TEOF_DEF	commands\simple\stty.c	46;"	d	file:
 TEOF_DEF	include\termios.h	176;"	d
 TEOL_DEF	commands\simple\stty.c	50;"	d	file:
@@ -13012,7 +13012,7 @@ TH_DO_MASK	include\net\gen\tcp_hdr.h	21;"	d
 TH_FLAGS_MASK	include\net\gen\tcp_hdr.h	23;"	d
 TI	commands\elvis\curses.c	/^char	*TI = "";	\/* :ti=: terminal init *\/	\/* GB *\/$/;"	v
 TI	commands\yap\term.h	/^	*TI,			\/* initialize for CM *\/$/;"	v
-TI	kernel\protect.h	62;"	d
+TI	kernel\protect.h	63;"	d
 TIBFSIZ	commands\elle\eesite.h	105;"	d
 TIBFSIZ	commands\elle\elle.h	74;"	d
 TICKS_PER_DAY	boot\boot.h	28;"	d
@@ -13025,11 +13025,11 @@ TIMEOUT	commands\zmodem\rz.c	150;"	d	file:
 TIMEOUT	commands\zmodem\sz.c	118;"	d	file:
 TIMEOUT_MICROS	drivers\floppy\floppy.c	131;"	d	file:
 TIMEOUT_TICKS	drivers\floppy\floppy.c	132;"	d	file:
-TIMER0	include\ibm\ports.h	11;"	d
-TIMER2	include\ibm\ports.h	12;"	d
-TIMER_COUNT	kernel\clock.c	47;"	d	file:
-TIMER_FREQ	kernel\clock.c	48;"	d	file:
-TIMER_MODE	include\ibm\ports.h	13;"	d
+TIMER0	include\ibm\ports.h	13;"	d
+TIMER2	include\ibm\ports.h	14;"	d
+TIMER_COUNT	kernel\clock.c	115;"	d	file:
+TIMER_FREQ	kernel\clock.c	116;"	d	file:
+TIMER_MODE	include\ibm\ports.h	15;"	d
 TIMES	commands\simple\dhrystone.c	111;"	d	file:
 TIMES	include\minix\callnr.h	41;"	d
 TIME_MAX	lib\ansi\loc_time.h	13;"	d
@@ -13142,7 +13142,7 @@ TQUIT_DEF	commands\simple\stty.c	65;"	d	file:
 TQUIT_DEF	include\termios.h	182;"	d
 TRACE	commands\ash\shell.h	94;"	d
 TRACE	commands\ash\shell.h	96;"	d
-TRACEBIT	kernel\const.h	55;"	d
+TRACEBIT	kernel\const.h	58;"	d
 TRACED	servers\pm\mproc.h	65;"	d
 TRACKS	commands\i386\mtools-3.9.7\devices.c	156;"	d	file:
 TRACKS	commands\i386\mtools-3.9.7\devices.c	263;"	d	file:
@@ -13153,7 +13153,7 @@ TRAIL	commands\simple\sed.c	/^static char TRAIL[] = "sed: command \\"%s\\" has t
 TRANSFORM	commands\i386\acd.c	/^typedef enum ruletype { ARG, PREFER, TRANSFORM, COMBINE } ruletype_t;$/;"	e	enum:ruletype	file:
 TRANS_ST0	drivers\floppy\floppy.c	68;"	d	file:
 TRANS_STRUCT_PRINT_LENGTH	commands\flex-2.5.4\flexdef.h	142;"	d
-TRAP_286_GATE	kernel\protect.h	96;"	d
+TRAP_286_GATE	kernel\protect.h	97;"	d
 TREPRINT_DEF	include\termios.h	187;"	d
 TRIALS	test\test14.c	10;"	d	file:
 TRIDENT	commands\advent\advent.h	123;"	d
@@ -13205,9 +13205,9 @@ TR_STD	commands\dis88\dis.h	122;"	d
 TR_VLSIZE	kernel\system\do_trace.c	19;"	d	file:
 TSGID	include\tar.h	36;"	d
 TSIZLEN	include\tar.h	13;"	d
-TSK_F	kernel\table.c	50;"	d	file:
+TSK_F	kernel\table.c	51;"	d	file:
 TSK_S	kernel\table.c	42;"	d	file:
-TSK_T	kernel\table.c	57;"	d	file:
+TSK_T	kernel\table.c	59;"	d	file:
 TSPEED_DEF	commands\simple\stty.c	30;"	d	file:
 TSPEED_DEF	include\termios.h	174;"	d
 TSR_ABT	drivers\dp8390\dp8390.h	131;"	d
@@ -13227,9 +13227,9 @@ TSR_OWC	drivers\dpeth\8390.h	140;"	d
 TSR_PTX	drivers\dp8390\dp8390.h	127;"	d
 TSR_PTX	drivers\dpeth\8390.h	133;"	d
 TSS3_S_SP0	kernel\mpx386.s	/^#define TSS3_S_SP0	4$/;"	d
-TSS_BUSY	kernel\protect.h	86;"	d
-TSS_INDEX	kernel\protect.h	17;"	d
-TSS_SELECTOR	kernel\protect.h	34;"	d
+TSS_BUSY	kernel\protect.h	87;"	d
+TSS_INDEX	kernel\protect.h	18;"	d
+TSS_SELECTOR	kernel\protect.h	35;"	d
 TSS_TYPE	kernel\protect.c	12;"	d	file:
 TSS_TYPE	kernel\protect.c	15;"	d	file:
 TST	commands\elvis\recycle.c	26;"	d	file:
@@ -13248,20 +13248,20 @@ TTYLEN	commands\simple\finger.c	720;"	d	file:
 TTYPX_MINOR	drivers\tty\tty.h	9;"	d
 TTYTAB	lib\other\getttyent.c	/^static char TTYTAB[]= "\/etc\/ttytab";	\/* The table of terminal devices. *\/$/;"	v	file:
 TTY_CLOSED	drivers\tty\pty.c	63;"	d	file:
-TTY_EXIT	include\minix\com.h	88;"	d
-TTY_FLAGS	include\minix\com.h	120;"	d
+TTY_EXIT	include\minix\com.h	90;"	d
+TTY_FLAGS	include\minix\com.h	122;"	d
 TTY_GID	commands\simple\login.c	85;"	d	file:
 TTY_IN_BYTES	drivers\tty\tty.h	14;"	d
-TTY_LINE	include\minix\com.h	117;"	d
+TTY_LINE	include\minix\com.h	119;"	d
 TTY_MAJ	commands\ps\ps.c	93;"	d	file:
 TTY_MAJOR	include\minix\dmap.h	51;"	d
-TTY_PGRP	include\minix\com.h	121;"	d
-TTY_PROC_NR	include\minix\com.h	39;"	d
-TTY_REQUEST	include\minix\com.h	118;"	d
-TTY_SETPGRP	include\minix\com.h	87;"	d
+TTY_PGRP	include\minix\com.h	123;"	d
+TTY_PROC_NR	include\minix\com.h	41;"	d
+TTY_REQUEST	include\minix\com.h	120;"	d
+TTY_SETPGRP	include\minix\com.h	89;"	d
 TTY_SIZE	commands\talk\talk.h	4;"	d
 TTY_SIZE	commands\talkd\talk.h	4;"	d
-TTY_SPEK	include\minix\com.h	119;"	d
+TTY_SPEK	include\minix\com.h	121;"	d
 TTYback	lib\editline\editline.c	182;"	d	file:
 TTYbackn	lib\editline\editline.c	/^TTYbackn(n)$/;"	f
 TTYflush	lib\editline\editline.c	/^TTYflush()$/;"	f
@@ -13351,10 +13351,10 @@ TZ_LEN	lib\ansi\misc.c	40;"	d	file:
 T_A	include\net\gen\nameser.h	88;"	d
 T_ANY	include\net\gen\nameser.h	113;"	d
 T_AXFR	include\net\gen\nameser.h	110;"	d
-T_BOOT_TICKS	include\minix\com.h	332;"	d
+T_BOOT_TICKS	include\minix\com.h	334;"	d
 T_CHAR	commands\i386\asmconv\token.h	/^	T_CHAR,$/;"	e	enum:toktype
-T_CHILD_STIME	include\minix\com.h	331;"	d
-T_CHILD_UTIME	include\minix\com.h	330;"	d
+T_CHILD_STIME	include\minix\com.h	333;"	d
+T_CHILD_UTIME	include\minix\com.h	332;"	d
 T_CNAME	include\net\gen\nameser.h	92;"	d
 T_ComparFunc	commands\i386\mtools-3.9.7\htable.h	/^typedef int (*T_ComparFunc)(void *, void *);$/;"	t
 T_DIR	commands\simple\swapfs.c	101;"	d	file:
@@ -13390,7 +13390,7 @@ T_NXD	commands\simple\nonamed.c	53;"	d	file:
 T_OK	include\sys\ptrace.h	9;"	d
 T_OLD_NON_DIR	commands\simple\swapfs.c	100;"	d	file:
 T_OTHER	commands\ash\mknodes.c	64;"	d	file:
-T_PROC_NR	include\minix\com.h	327;"	d
+T_PROC_NR	include\minix\com.h	329;"	d
 T_PTR	include\net\gen\nameser.h	99;"	d
 T_RESUME	include\sys\ptrace.h	16;"	d
 T_SETDATA	include\sys\ptrace.h	14;"	d
@@ -13403,7 +13403,7 @@ T_STOP	include\sys\ptrace.h	8;"	d
 T_STRING	commands\ash\mknodes.c	62;"	d	file:
 T_STRING	commands\i386\asmconv\token.h	/^	T_STRING$/;"	e	enum:toktype
 T_STRING	commands\i386\mtools-3.9.7\config.c	/^	T_STRING,$/;"	e	enum:switches_l::__anon31	file:
-T_SYSTEM_TIME	include\minix\com.h	329;"	d
+T_SYSTEM_TIME	include\minix\com.h	331;"	d
 T_TEMP	commands\ash\mknodes.c	65;"	d	file:
 T_TXT	commands\simple\host.c	68;"	d	file:
 T_TXT	include\net\gen\nameser.h	103;"	d
@@ -13412,7 +13412,7 @@ T_UINFO	include\net\gen\nameser.h	105;"	d
 T_UINT	commands\i386\mtools-3.9.7\config.c	/^	T_UINT$/;"	e	enum:switches_l::__anon31	file:
 T_UNKNOWN	commands\simple\swapfs.c	98;"	d	file:
 T_UNSPEC	include\net\gen\nameser.h	108;"	d
-T_USER_TIME	include\minix\com.h	328;"	d
+T_USER_TIME	include\minix\com.h	330;"	d
 T_WKS	include\net\gen\nameser.h	98;"	d
 T_WORD	commands\i386\asmconv\token.h	/^	T_WORD,$/;"	e	enum:toktype
 Tabs	commands\cawf\store.c	/^int Tabs[MAXEXP+1];			\/* TAB positions *\/$/;"	v
@@ -13677,7 +13677,7 @@ UNSCHAR	lib\other\memccpy.c	14;"	d	file:
 UNSCHAR	lib\other\memccpy.c	16;"	d	file:
 UNSET	boot\boothead.s	/^	UNSET	= 0		! Must be computed$/;"	d
 UNSET	boot\doshead.s	/^	UNSET	= 0		! Must be computed$/;"	d
-UNSET_BIT	kernel\const.h	40;"	d
+UNSET_BIT	kernel\const.h	42;"	d
 UNSL	commands\zmodem\zm.c	22;"	d	file:
 UNTIL	commands\sh\sh2.c	32;"	d	file:
 UNUSED	commands\i386\mtools-3.9.7\devices.h	/^UNUSED(static inline int GET_DRIVE(int fd))$/;"	f
@@ -13769,10 +13769,10 @@ USERMEM	commands\simple\compress.c	104;"	d	file:
 USERMEM	commands\simple\compress.c	69;"	d	file:
 USER_ID	test\test17.c	20;"	d	file:
 USER_ID	test\test18.c	21;"	d	file:
-USER_PRIVILEGE	kernel\protect.h	46;"	d
+USER_PRIVILEGE	kernel\protect.h	47;"	d
 USER_PRIV_ID	kernel\priv.h	69;"	d
 USER_PROCESS	include\utmp.h	27;"	d
-USER_Q	kernel\proc.h	77;"	d
+USER_Q	kernel\proc.h	81;"	d
 USER_SIZE	commands\talk\talk.h	3;"	d
 USER_SIZE	commands\talkd\talk.h	3;"	d
 USER_SPACE	drivers\libpci\pci.c	1;"	d	file:
@@ -13828,12 +13828,12 @@ USG_REGEX	commands\yap\in_all.h	36;"	d
 USG_TTY	commands\yap\in_all.h	43;"	d
 USHRT_MAX	include\limits.h	21;"	d
 USRFUN	commands\awk\awk.h	43;"	d
-USR_F	kernel\table.c	52;"	d	file:
-USR_M	kernel\table.c	71;"	d	file:
+USR_F	kernel\table.c	53;"	d	file:
+USR_M	kernel\table.c	73;"	d	file:
 USR_MODES	commands\simple\chmod.c	25;"	d	file:
 USR_MODES	commands\simple\mkdir.c	22;"	d	file:
 USR_MODES	commands\simple\mkfifo.c	17;"	d	file:
-USR_T	kernel\table.c	59;"	d	file:
+USR_T	kernel\table.c	61;"	d	file:
 USTPUTC	commands\ash\memalloc.h	88;"	d
 USTRING	commands\i86\cc.c	/^typedef char USTRING[USTR_SIZE];$/;"	t	file:
 USTR_SIZE	commands\i86\cc.c	196;"	d	file:
@@ -13917,9 +13917,9 @@ VB	commands\elvis\curses.c	/^char	*VB;		\/* :vb=: visible bell *\/$/;"	v
 VBLIN	commands\elle\eeterm.c	1160;"	d	file:
 VBUFSIZE	commands\i386\mtools-3.9.7\vfat.h	40;"	d
 VCOPY_VEC_SIZE	kernel\config.h	70;"	d
-VCP_NR_OK	include\minix\com.h	299;"	d
-VCP_VEC_ADDR	include\minix\com.h	301;"	d
-VCP_VEC_SIZE	include\minix\com.h	300;"	d
+VCP_NR_OK	include\minix\com.h	301;"	d
+VCP_VEC_ADDR	include\minix\com.h	303;"	d
+VCP_VEC_SIZE	include\minix\com.h	302;"	d
 VD2M1	lib\math\sinh.c	50;"	d	file:
 VDEVIO_BUF_SIZE	kernel\config.h	69;"	d
 VDISCARD	include\termios.h	162;"	d
@@ -13933,7 +13933,7 @@ VDU_SCREEN_ROWS_ADDR	include\ibm\bios.h	102;"	d
 VDU_SCREEN_ROWS_SIZE	include\ibm\bios.h	103;"	d
 VDU_VIDEO_MODE_ADDR	include\ibm\bios.h	108;"	d
 VDU_VIDEO_MODE_SIZE	include\ibm\bios.h	109;"	d
-VECTOR	include\ibm\interrupt.h	55;"	d
+VECTOR	include\ibm\interrupt.h	59;"	d
 VEND	commands\advent\advent.h	127;"	d
 VENIX86	commands\elle\eesite.h	27;"	d
 VEOF	include\termios.h	65;"	d
@@ -13976,13 +13976,13 @@ VIA_ISABR_IRQ_R1	drivers\libpci\pci_via.h	13;"	d
 VIA_ISABR_IRQ_R2	drivers\libpci\pci_via.h	16;"	d
 VIA_ISABR_IRQ_R3	drivers\libpci\pci_via.h	19;"	d
 VIA_ISABR_IRQ_R4	drivers\libpci\pci_via.h	22;"	d
-VID_CP_COUNT	include\minix\com.h	281;"	d
-VID_DST_OFFSET	include\minix\com.h	280;"	d
+VID_CP_COUNT	include\minix\com.h	283;"	d
+VID_DST_OFFSET	include\minix\com.h	282;"	d
 VID_ORG	drivers\tty\console.c	48;"	d	file:
-VID_REQUEST	include\minix\com.h	275;"	d
-VID_SRC_ADDR	include\minix\com.h	278;"	d
-VID_SRC_OFFSET	include\minix\com.h	279;"	d
-VID_VID_COPY	include\minix\com.h	276;"	d
+VID_REQUEST	include\minix\com.h	277;"	d
+VID_SRC_ADDR	include\minix\com.h	280;"	d
+VID_SRC_OFFSET	include\minix\com.h	281;"	d
+VID_VID_COPY	include\minix\com.h	278;"	d
 VINTE	commands\elle\eeterm.c	1159;"	d	file:
 VINTR	include\termios.h	68;"	d
 VIRTUAL_SECTOR	commands\simple\writeisofs.c	40;"	d	file:
@@ -14250,7 +14250,7 @@ WRITE	include\minix\callnr.h	6;"	d
 WRITE	test\test17.c	46;"	d	file:
 WRITE	test\test18.c	46;"	d	file:
 WRITE	test\test7.c	23;"	d	file:
-WRITEABLE	kernel\protect.h	85;"	d
+WRITEABLE	kernel\protect.h	86;"	d
 WRITEBUFFERSIZE	lib\zlib-1.2.3\contrib\minizip\miniunz.c	27;"	d	file:
 WRITEBUFFERSIZE	lib\zlib-1.2.3\contrib\minizip\minizip.c	34;"	d	file:
 WRITES	commands\i386\mtools-3.9.7\stream.h	30;"	d
@@ -14262,7 +14262,7 @@ WRITE_IMMED	servers\fs\buf.h	65;"	d
 WRITE_PROTECT	drivers\floppy\floppy.c	74;"	d	file:
 WRITE_SIZE	commands\simple\ping.c	23;"	d	file:
 WRITING	commands\simple\rlogin.c	771;"	d	file:
-WRITING	include\minix\const.h	64;"	d
+WRITING	include\minix\const.h	65;"	d
 WSET	commands\elvis\opts.c	135;"	d	file:
 WSIZE	lib\zlib-1.2.3\contrib\infback9\infback9.c	11;"	d	file:
 WSTOPSIG	include\sys\wait.h	34;"	d
@@ -14275,7 +14275,7 @@ WTMP	commands\reboot\shutdown.c	38;"	d	file:
 WTMP	include\utmp.h	6;"	d
 WUMPUS	commands\advent\advent.h	134;"	d
 WUNTRACED	include\sys\wait.h	27;"	d
-W_BIT	include\minix\const.h	109;"	d
+W_BIT	include\minix\const.h	110;"	d
 W_BLK	commands\simple\ls.c	/^enum { W_COL, W_INO, W_BLK, W_NLINK, W_UID, W_GID, W_SIZE, W_NAME, MAXFLDS };$/;"	e	enum:__anon55	file:
 W_COL	commands\simple\ls.c	/^enum { W_COL, W_INO, W_BLK, W_NLINK, W_UID, W_GID, W_SIZE, W_NAME, MAXFLDS };$/;"	e	enum:__anon55	file:
 W_GID	commands\simple\ls.c	/^enum { W_COL, W_INO, W_BLK, W_NLINK, W_UID, W_GID, W_SIZE, W_NAME, MAXFLDS };$/;"	e	enum:__anon55	file:
@@ -14364,10 +14364,10 @@ XSELECT	servers\fs\const.h	40;"	d
 XT	commands\mined\mined1.c	/^void XT()$/;"	f
 XTABS	include\sgtty.h	32;"	d
 XTABS	include\termios.h	153;"	d
-XT_WINI_IRQ	include\ibm\interrupt.h	46;"	d
+XT_WINI_IRQ	include\ibm\interrupt.h	50;"	d
 XWT	commands\mined\mined1.c	/^void XWT()$/;"	f
 XYZZY	commands\advent\english.c	17;"	d	file:
-X_BIT	include\minix\const.h	110;"	d
+X_BIT	include\minix\const.h	111;"	d
 X_DISPLAY_MISSING	commands\i386\mtools-3.9.7\config.h	49;"	d
 X_OK	include\unistd.h	12;"	d
 X_PLUS	commands\mined\mined.h	29;"	d
@@ -14790,7 +14790,7 @@ _ARGS	include\ansi.h	48;"	d
 _ARPA_TELNET_H	commands\telnetd\telnet.h	15;"	d
 _ARPA__INET_H	include\arpa\inet.h	6;"	d
 _ASH_SYS_CDEFS	commands\ash\sys\cdefs.h	4;"	d
-_ASKDEV	include\minix\sys_config.h	50;"	d
+_ASKDEV	include\minix\sys_config.h	51;"	d
 _ASSERT_	commands\yap\assert.c	7;"	d	file:
 _Arg	commands\awk\e.c	/^_Arg(i)$/;"	f
 _Arguments_	lib\libm2\Arguments.c	/^_Arguments_()$/;"	f
@@ -14804,9 +14804,9 @@ _BZLIB_H	commands\bzip2-1.0.3\bzlib.h	63;"	d
 _BZLIB_PRIVATE_H	commands\bzip2-1.0.3\bzlib_private.h	63;"	d
 _C	include\ctype.h	21;"	d
 _CASE	lib\editline\editline.c	/^typedef enum _CASE {$/;"	g	file:
-_CHIP_INTEL	include\minix\sys_config.h	28;"	d
-_CHIP_M68000	include\minix\sys_config.h	29;"	d
-_CHIP_SPARC	include\minix\sys_config.h	30;"	d
+_CHIP_INTEL	include\minix\sys_config.h	29;"	d
+_CHIP_M68000	include\minix\sys_config.h	30;"	d
+_CHIP_SPARC	include\minix\sys_config.h	31;"	d
 _CLOCK_T	include\sys\times.h	7;"	d
 _CLOCK_T	include\sys\types.h	37;"	d
 _CLOCK_T	include\time.h	31;"	d
@@ -14855,7 +14855,7 @@ _ERRNO_H	include\errno.h	21;"	d
 _ETH_HW_H	include\minix\dl_eth.h	4;"	d
 _EXTENT	include\dirent.h	32;"	d
 _EXTRALIB_H	include\minix\sysutil.h	2;"	d
-_FASTLOAD	include\minix\sys_config.h	51;"	d
+_FASTLOAD	include\minix\sys_config.h	52;"	d
 _FCNTL_H	include\fcntl.h	11;"	d
 _FDSETBITSPERWORD	include\sys\select.h	13;"	d
 _FDSETWORDS	include\sys\select.h	25;"	d
@@ -14863,8 +14863,8 @@ _FD_BITMASK	include\sys\select.h	16;"	d
 _FD_BITWORD	include\sys\select.h	17;"	d
 _FILE_OFFSET_BITS	commands\bzip2-1.0.3\spewG.c	12;"	d	file:
 _FLOAT_H	include\float.h	7;"	d
-_FP_IEEE	include\minix\sys_config.h	34;"	d
-_FP_NONE	include\minix\sys_config.h	33;"	d
+_FP_IEEE	include\minix\sys_config.h	35;"	d
+_FP_NONE	include\minix\sys_config.h	34;"	d
 _FS_SELECT_H	servers\fs\select.h	2;"	d
 _FULLWIN	lib\curses\curspriv.h	4;"	d
 _GETCOMM_	commands\yap\getcomm.c	11;"	d	file:
@@ -14950,12 +14950,12 @@ _MINIX	servers\fs\fs.h	5;"	d
 _MINIX	servers\is\is.h	8;"	d
 _MINIX	servers\pm\pm.h	5;"	d
 _MINIX	servers\rs\rs.h	8;"	d
-_MINIX_CHIP	include\minix\sys_config.h	37;"	d
-_MINIX_CHIP	include\minix\sys_config.h	41;"	d
-_MINIX_CHIP	include\minix\sys_config.h	45;"	d
+_MINIX_CHIP	include\minix\sys_config.h	38;"	d
+_MINIX_CHIP	include\minix\sys_config.h	42;"	d
+_MINIX_CHIP	include\minix\sys_config.h	46;"	d
 _MINIX_COM_H	include\minix\com.h	2;"	d
-_MINIX_FP_FORMAT	include\minix\sys_config.h	46;"	d
-_MINIX_FP_FORMAT	include\minix\sys_config.h	55;"	d
+_MINIX_FP_FORMAT	include\minix\sys_config.h	47;"	d
+_MINIX_FP_FORMAT	include\minix\sys_config.h	56;"	d
 _MINIX_MACHINE	include\minix\sys_config.h	7;"	d
 _MINIX_PATHS_H	include\minix\paths.h	2;"	d
 _MINIX_SOURCE	commands\cron\cron.c	5;"	d	file:
@@ -14984,8 +14984,8 @@ _NET__NETLIB_H_	include\net\netlib.h	6;"	d
 _NORETURN	servers\inet\inet.h	34;"	d
 _NO_CHANGE	lib\curses\curspriv.h	7;"	d
 _NO_LIMIT	include\limits.h	61;"	d
-_NR_PROCS	include\minix\sys_config.h	21;"	d
-_NR_SYS_PROCS	include\minix\sys_config.h	22;"	d
+_NR_PROCS	include\minix\sys_config.h	22;"	d
+_NR_SYS_PROCS	include\minix\sys_config.h	23;"	d
 _NSIG	include\signal.h	28;"	d
 _N_HDROFF	commands\mdb\a.out.h	112;"	d
 _N_SEGMENT_ROUND	commands\mdb\a.out.h	170;"	d
@@ -15103,7 +15103,7 @@ _PSP	boot\doshead.s	/^_PSP:$/;"	l
 _PSP	boot\mkfhead.s	/^_PSP:$/;"	l
 _PTRACE_H	include\sys\ptrace.h	6;"	d
 _PTRDIFF_T_DEFINED	lib\zlib-1.2.3\zutil.h	159;"	d
-_PTR_SIZE	include\minix\sys_config.h	18;"	d
+_PTR_SIZE	include\minix\sys_config.h	19;"	d
 _PWD_H	include\pwd.h	4;"	d
 _REGEXP_H	include\regexp.h	5;"	d
 _REGEX_H_	include\regex.h	41;"	d
@@ -15241,7 +15241,7 @@ _WAIT_H	include\sys\wait.h	17;"	d
 _WCHAR_T	include\stddef.h	23;"	d
 _WCHAR_T	include\stdlib.h	28;"	d
 _WORD	commands\i386\mtools-3.9.7\msdos.h	18;"	d
-_WORD_SIZE	include\minix\sys_config.h	17;"	d
+_WORD_SIZE	include\minix\sys_config.h	18;"	d
 _X	commands\yap\term.c	/^struct linelist _X[100];	\/* 100 is enough ? *\/$/;"	v	typeref:struct:linelist
 _X	include\ctype.h	22;"	d
 _ZLIBIOAPI_H	lib\zlib-1.2.3\contrib\minizip\ioapi.h	10;"	d
@@ -16118,7 +16118,7 @@ a_count	commands\bc\global.h	/^EXTERN int  a_count;$/;"	v
 a_cpu	include\a.out.h	/^  unsigned char	a_cpu;		\/* cpu id *\/$/;"	m	struct:exec
 a_data	boot\boothead.s	/^	a_data	    =	    12$/;"	d
 a_data	commands\mdb\a.out.h	/^  unsigned a_data;		\/* length of data, in bytes *\/$/;"	m	struct:exec
-a_data	include\a.out.h	/^  long		a_data;		\/* size of data segment in bytes *\/$/;"	m	struct:exec
+a_data	include\a.out.h	/^  long		a_data;		\/* size of data segment in bytes *\/   \/\/n ub main()$/;"	m	struct:exec
 a_dbase	include\a.out.h	/^  long		a_dbase;	\/* data relocation base *\/$/;"	m	struct:exec
 a_depth	commands\bc\bcdefs.h	/^      short a_depth;$/;"	m	struct:bc_array
 a_dindir	boot\rawfs.c	/^static block_t a_indir, a_dindir;	\/* Addresses of the indirects. *\/$/;"	v	file:
@@ -16127,7 +16127,7 @@ a_drsize	include\a.out.h	/^  long		a_drsize;	\/* data relocation size *\/$/;"	m	
 a_entry	commands\mdb\a.out.h	/^  unsigned a_entry;		\/* start address *\/$/;"	m	struct:exec
 a_entry	include\a.out.h	/^  long		a_entry;	\/* entry point *\/$/;"	m	struct:exec
 a_flags	boot\boothead.s	/^	a_flags	    =	     2	! From a.out.h, struct exec$/;"	d
-a_flags	include\a.out.h	/^  unsigned char	a_flags;	\/* flags, see below *\/$/;"	m	struct:exec
+a_flags	include\a.out.h	/^  unsigned char	a_flags;	\/* flags, see below *\/   \/\/n ub main()$/;"	m	struct:exec
 a_free	commands\awk\v.c	/^a_free(u) CELL *u;$/;"	f
 a_hdr	servers\inet\generic\arp.c	/^			u16_t a_hdr, a_pro;$/;"	m	struct:arp46::__anon133::__anon134	file:
 a_hdrlen	include\a.out.h	/^  unsigned char	a_hdrlen;	\/* length of header *\/$/;"	m	struct:exec
@@ -16147,14 +16147,14 @@ a_sha	servers\inet\generic\arp.c	/^			ether_addr_t a_sha;$/;"	m	struct:arp46::__
 a_smagic	commands\mdb\a.out.h	/^  unsigned a_smagic;		\/* SMAGIC *\/$/;"	m	struct:exec
 a_spa	servers\inet\generic\arp.c	/^			u8_t a_spa[4];$/;"	m	struct:arp46::__anon133::__anon134	file:
 a_syms	commands\mdb\a.out.h	/^  unsigned a_syms;		\/* length of symbol table data in file, in bytes *\/$/;"	m	struct:exec
-a_syms	include\a.out.h	/^  long		a_syms;		\/* size of symbol table *\/$/;"	m	struct:exec
+a_syms	include\a.out.h	/^  long		a_syms;		\/* size of symbol table *\/ \/\/n ub main()$/;"	m	struct:exec
 a_tbase	include\a.out.h	/^  long		a_tbase;	\/* text relocation base *\/$/;"	m	struct:exec
 a_text	boot\boothead.s	/^	a_text	    =	     8$/;"	d
 a_text	commands\mdb\a.out.h	/^  unsigned a_text;		\/* length of text, in bytes *\/$/;"	m	struct:exec
-a_text	include\a.out.h	/^  long		a_text;		\/* size of text segement in bytes *\/$/;"	m	struct:exec
+a_text	include\a.out.h	/^  long		a_text;		\/* size of text segement in bytes *\/  \/\/n ub main()$/;"	m	struct:exec
 a_tha	servers\inet\generic\arp.c	/^			ether_addr_t a_tha;$/;"	m	struct:arp46::__anon133::__anon134	file:
 a_total	boot\boothead.s	/^	a_total	    =	    24$/;"	d
-a_total	include\a.out.h	/^  long		a_total;	\/* total memory allocated *\/$/;"	m	struct:exec
+a_total	include\a.out.h	/^  long		a_total;	\/* total memory allocated *\/ \/\/n ub main()$/;"	m	struct:exec
 a_tpa	servers\inet\generic\arp.c	/^			u8_t a_tpa[4];$/;"	m	struct:arp46::__anon133::__anon134	file:
 a_tree	commands\bc\bcdefs.h	/^      bc_array_node *a_tree;$/;"	m	struct:bc_array
 a_trsize	commands\mdb\a.out.h	/^  unsigned a_trsize;		\/* length of relocation info for text, in bytes *\/$/;"	m	struct:exec
@@ -17355,7 +17355,7 @@ bigdisk	boot\masterboot.s	/^bigdisk:$/;"	l
 bigmin	lib\i386\em\em_fp8087.s	/^bigmin:$/;"	l
 bigmin	lib\i86\em\em_fp8087.s	/^bigmin:$/;"	l
 bigsect	commands\i386\mtools-3.9.7\msdos.h	/^	unsigned char bigsect[4];	\/* 32 big total sectors *\/$/;"	m	struct:bootsector
-bill_ptr	kernel\glo.h	/^EXTERN struct proc *bill_ptr;	\/* process to bill for clock ticks *\/$/;"	v	typeref:struct:proc
+bill_ptr	kernel\glo.h	/^EXTERN struct proc *bill_ptr;	\/* process to bill for clock ticks *\/   \/\/n used in: clock_handler() in clock.c$/;"	v	typeref:struct:proc
 bin	kernel\type.h	/^  } bin[RANDOM_SOURCES];$/;"	m	struct:randomness	typeref:struct:randomness::__anon104
 bin	lib\zlib-1.2.3\examples\gzjoin.c	/^} bin;$/;"	t	typeref:struct:__anon125	file:
 bin_time	commands\simple\mkfs.c	/^long current_time, bin_time;$/;"	v
@@ -17395,7 +17395,7 @@ bit_t	include\sys\types.h	/^typedef unsigned long  bit_t;	   \/* bit number in a
 bit_unset	include\minix\bitmap.h	6;"	d
 bitbuf	lib\zlib-1.2.3\contrib\blast\blast.c	/^    int bitbuf;                 \/* bit buffer *\/$/;"	m	struct:state	file:
 bitbuf	lib\zlib-1.2.3\contrib\puff\puff.c	/^    int bitbuf;                 \/* bit buffer *\/$/;"	m	struct:state	file:
-bitchunk_t	include\sys\types.h	/^typedef unsigned short bitchunk_t; \/* collection of bits in a bitmap *\/$/;"	t
+bitchunk_t	include\sys\types.h	/^typedef unsigned short bitchunk_t; \/* collection of bits in a bitmap *\/  \/\/n ub sys_map_t  BITCHUNK_BITS$/;"	t
 bitcnt	lib\zlib-1.2.3\contrib\blast\blast.c	/^    int bitcnt;                 \/* number of bits in bit buffer *\/$/;"	m	struct:state	file:
 bitcnt	lib\zlib-1.2.3\contrib\puff\puff.c	/^    int bitcnt;                 \/* number of bits in bit buffer *\/$/;"	m	struct:state	file:
 bitcount	drivers\random\sha2.h	/^	u_int64_t	bitcount;$/;"	m	struct:_SHA256_CTX
@@ -17895,7 +17895,7 @@ bzwriteclose	commands\bzip2-1.0.3\manual.html	/^<a name="bzwriteclose"><\/a>3.4.
 bzwriteopen	commands\bzip2-1.0.3\manual.html	/^<a name="bzwriteopen"><\/a>3.4.5. <tt class="computeroutput">BZ2_bzWriteOpen<\/tt><\/h3><\/div><\/div>$/;"	a
 c	commands\elvis\vi.h	/^	char		c[BLKSIZE];	\/* for text blocks *\/$/;"	m	union:__anon28
 c	commands\simple\sed.c	/^static int c;			\/* Will be the next char to read, a kind of$/;"	v	file:
-c	kernel\table.c	79;"	d	file:
+c	kernel\table.c	81;"	d	file:
 c	lib\other\configfile.c	/^static int c;				\/* Next character. *\/$/;"	v	file:
 c	test\test19.c	/^char b[4] = {0, 1, 2, 3}, c[4] = {10, 20, 30, 40}, d[4] = {6, 7, 8, 9};$/;"	v
 c0	commands\awk\l.c	/^static int c0;$/;"	v	file:
@@ -18471,8 +18471,8 @@ clearsigstate	test\test37.c	/^void clearsigstate()$/;"	f
 click_shift	boot\bootimage.c	/^unsigned click_shift;$/;"	v
 click_shift	boot\bootimage.c	30;"	d	file:
 click_size	boot\bootimage.c	/^unsigned click_size;	\/* click_size = Smallest kernel memory object. *\/$/;"	v
-click_to_hclick	include\minix\const.h	88;"	d
-click_to_hclick	include\minix\const.h	90;"	d
+click_to_hclick	include\minix\const.h	89;"	d
+click_to_hclick	include\minix\const.h	91;"	d
 click_to_round_k	drivers\memory\memory.c	67;"	d	file:
 click_to_round_k	servers\is\dmp_kernel.c	13;"	d	file:
 click_to_round_k	servers\pm\main.c	36;"	d	file:
@@ -18485,14 +18485,14 @@ clock	lib\ansi\clock.c	/^clock_t clock(void)$/;"	f
 clock	lib\libp\clock.c	/^int clock() {$/;"	f
 clock2	commands\advent\advdec.h	/^  int clock, clock2, panic;	\/* timing variables	 *\/$/;"	m	struct:playinfo
 clock_handler	kernel\clock.c	/^PRIVATE int clock_handler(hook)$/;"	f
-clock_hook	kernel\clock.c	/^PRIVATE irq_hook_t clock_hook;		\/* interrupt handler hook *\/$/;"	v
+clock_hook	kernel\clock.c	/^PRIVATE irq_hook_t clock_hook;		\/* interrupt handler hook *\/ \/\/n ub  init_clock()$/;"	v
 clock_stop	kernel\clock.c	/^PUBLIC void clock_stop()$/;"	f
 clock_t	include\sys\times.h	/^typedef long clock_t;		\/* unit for system accounting *\/$/;"	t
 clock_t	include\sys\types.h	/^typedef long clock_t;		   \/* unit for system accounting *\/$/;"	t
 clock_t	include\time.h	/^typedef long clock_t;		\/* time in ticks since process started *\/$/;"	t
 clock_task	kernel\clock.c	/^PUBLIC void clock_task()$/;"	f
 clock_time	servers\fs\utility.c	/^PUBLIC time_t clock_time()$/;"	f
-clock_timers	kernel\clock.c	/^PRIVATE timer_t *clock_timers;		\/* queue of CLOCK timers *\/$/;"	v
+clock_timers	kernel\clock.c	/^PRIVATE timer_t *clock_timers;		\/* queue of CLOCK timers *\/   \/\/n ub do_clocktick set_timer() reset_timer()  ,set at do_clocktick--tmrs_exptimers$/;"	v
 clocktz	commands\ibm\backup.c	/^char clocktz[128];	\/* Timezone of the clock. *\/$/;"	v
 clocktz	commands\ibm\readclock.c	/^char clocktz[128];	\/* Timezone of the clock. *\/$/;"	v
 cloexec_test	test\test7.c	/^void cloexec_test()$/;"	f
@@ -19086,7 +19086,7 @@ cpp_open	commands\elvis\ctags.c	/^void cpp_open(name)$/;"	f
 cpp_prevch	commands\elvis\ctags.c	/^int	cpp_prevch;	\/* an ungotten character, if any *\/$/;"	v
 cpp_refsok	commands\elvis\ctags.c	/^int	cpp_refsok;	\/* boolean: can we echo characters out to "refs"? *\/$/;"	v
 cpp_ungetc	commands\elvis\ctags.c	/^cpp_ungetc(ch)$/;"	f
-cproc_addr	kernel\proc.h	88;"	d
+cproc_addr	kernel\proc.h	92;"	d
 cprompt	commands\sh\sh.h	/^Extern	struct	var	*cprompt;	\/* continuation prompt *\/$/;"	v	typeref:struct:var
 cptr	commands\byacc\reader.c	/^char *cptr, *line;$/;"	v
 cpudetect32	lib\zlib-1.2.3\contrib\masmx86\gvmat32.asm	/^cpudetect32     proc near$/;"	l
@@ -19169,7 +19169,7 @@ cset	lib\regex\regex2.h	/^} cset;$/;"	t	typeref:struct:__anon110
 csetsize	lib\regex\regex2.h	/^	int csetsize;		\/* number of bits in a cset vector *\/$/;"	m	struct:re_guts
 cshell	commands\flex-2.5.4\misc.c	/^void cshell( v, n, special_case_0 )$/;"	f
 csinit	kernel\klib386.s	/^csinit:	mov	eax, DS_SELECTOR$/;"	l
-csinit	kernel\mpx386.s	/^csinit:$/;"	l
+csinit	kernel\mpx386.s	/^csinit:		$/;"	l
 csize	commands\flex-2.5.4\main.c	/^int C_plus_plus, long_align, use_read, yytext_is_array, do_yywrap, csize;$/;"	v
 cspdtab	commands\elle\eeterm.c	/^static int cspdtab[] =$/;"	v	file:
 cstart	kernel\start.c	/^PUBLIC void cstart(cs, ds, mds, parmoff, parmsize)$/;"	f
@@ -21281,7 +21281,7 @@ ecgroup	commands\flex-2.5.4\main.c	/^int numecs, nextecm[CSIZE + 1], ecgroup[CSI
 echo	commands\elvis\curses.h	315;"	d
 echo	commands\sh\sh3.c	/^echo(wp)$/;"	f	file:
 echo	commands\simple\rlogin.c	/^echo(c)$/;"	f	file:
-echo	include\minix\ipc.h	88;"	d
+echo	include\minix\ipc.h	92;"	d
 echo	lib\curses\setterm.c	/^void echo()$/;"	f
 echoit	lib\curses\curspriv.h	/^  bool     echoit;$/;"	m	struct:__anon105
 ecommt	commands\m4\main.c	/^char ecommt = ECOMMT;		\/* end character for comment   *\/$/;"	v
@@ -23543,7 +23543,7 @@ gateway_width	commands\simple\pr_routes.c	/^int gateway_width= 15;$/;"	v
 gaveup	commands\advent\advdec.h	/^EXTERN boolean gaveup;		\/* TRUE if he quits early	*\/$/;"	v
 gcd	lib\zlib-1.2.3\examples\gzappend.c	/^local unsigned gcd(unsigned a, unsigned b)$/;"	f
 gct	test\test1.c	/^_VOLATILE int glov, gct;$/;"	v
-gdt	kernel\protect.c	/^PUBLIC struct segdesc_s gdt[GDT_SIZE];		\/* used in klib.s and mpx.s *\/$/;"	v	typeref:struct:segdesc_s
+gdt	kernel\protect.c	/^PUBLIC struct segdesc_s gdt[GDT_SIZE];		\/* used in klib.s and mpx.s *\/		\/\/n inited in prot_init()$/;"	v	typeref:struct:segdesc_s
 gen_NUL_trans	commands\flex-2.5.4\gen.c	/^void gen_NUL_trans()$/;"	f
 gen_backing_up	commands\flex-2.5.4\gen.c	/^void gen_backing_up()$/;"	f
 gen_bitlen	lib\zlib-1.2.3\trees.c	/^local void gen_bitlen(s, desc)$/;"	f
@@ -23732,7 +23732,7 @@ get_string	commands\mined\mined.h	227;"	d
 get_super	commands\simple\badblocks.c	/^void get_super()$/;"	f
 get_super	servers\fs\super.c	/^PUBLIC struct super_block *get_super(dev)$/;"	f
 get_super_block	commands\simple\mkfs.c	/^void get_super_block(buf)$/;"	f
-get_sys_bit	kernel\const.h	42;"	d
+get_sys_bit	kernel\const.h	45;"	d
 get_system_type	commands\simple\writeisofs.c	/^int get_system_type(int fd)$/;"	f
 get_tag	commands\byacc\reader.c	/^get_tag()$/;"	f
 get_term	commands\mined\mined1.c	/^void get_term()$/;"	f
@@ -24290,7 +24290,7 @@ handle_sig	servers\pm\signal.c	/^PRIVATE void handle_sig(proc_nr, sig_map)$/;"	f
 handler	commands\ash\error.c	/^struct jmploc *handler;$/;"	v	typeref:struct:jmploc
 handler	commands\cron\cron.c	/^static void handler(int sig)$/;"	f	file:
 handler	commands\simple\nonamed.c	/^	handler_t	*handler;	\/* Function to handle this job. *\/$/;"	m	struct:job	file:
-handler	kernel\type.h	/^  int (*handler)(struct irq_hook *);	\/* interrupt handler *\/$/;"	m	struct:irq_hook
+handler	kernel\type.h	/^  int (*handler)(struct irq_hook *);	\/* interrupt handler *\/		\/\/n a function with irq_hook parameter & returns int. for exp:   intr_handle,  set at put_irq_handler$/;"	m	struct:irq_hook
 handler	lib\libm2\init.c	/^int (*handler)() = catch;$/;"	v
 handler	lib\posix\_sleep.c	/^static void handler(int sig)$/;"	f	file:
 handlerIsSet	commands\i386\mtools-3.9.7\tty.c	/^static int handlerIsSet = 0;$/;"	v	file:
@@ -24382,7 +24382,7 @@ have_last_make_cmd	commands\elle\eemake.c	/^int have_last_make_cmd = 0;$/;"	v
 havedict	lib\zlib-1.2.3\inflate.h	/^    int havedict;               \/* true if dictionary provided *\/$/;"	m	struct:inflate_state
 hblock	include\tar.h	/^union hblock {$/;"	u
 hbuf	commands\autil\anm.c	/^struct	outhead	hbuf;$/;"	v	typeref:struct:outhead
-hclick_to_physb	include\minix\const.h	92;"	d
+hclick_to_physb	include\minix\const.h	93;"	d
 hcrc	lib\zlib-1.2.3\zlib.h	/^    int     hcrc;       \/* true if there was or will be a header crc *\/$/;"	m	struct:gz_header_s
 hdefsize	commands\mdb\mdbdis86.c	/^PRIVATE unsigned hdefsize;$/;"	v
 hdemu_root_changes	tools\release.sh	/^hdemu_root_changes()$/;"	f
@@ -24749,7 +24749,7 @@ id	commands\talk\talk.h	/^	u32_t id;$/;"	m	struct:talk_request
 id	commands\talkd\talk.h	/^	u32_t id;$/;"	m	struct:talk_reply
 id	commands\talkd\talk.h	/^	u32_t id;$/;"	m	struct:talk_request
 id	include\net\gen\resolv.h	/^	u16_t	id;			\/* current packet id *\/$/;"	m	struct:state
-id	kernel\type.h	/^  int id;				\/* id of this hook *\/$/;"	m	struct:irq_hook
+id	kernel\type.h	/^  int id;				\/* id of this hook *\/			\/\/n rm_irq_handler    intr_handle ,set at put_irq_handler  can be 1 10 100 1000...,records the position in its linked list.used to set irq_actids[]$/;"	m	struct:irq_hook
 id	lib\zlib-1.2.3\examples\gzlog.c	/^    int id;                 \/* object identifier *\/$/;"	m	struct:__anon126	file:
 id2id	commands\simple\nonamed.c	/^static id2id_t id2id[N_IDS];$/;"	v	file:
 id2id	commands\simple\nonamed.c	/^typedef struct id2id {$/;"	s	file:
@@ -24775,7 +24775,7 @@ idlok	lib\curses\options.c	/^void idlok(win, flag)$/;"	f
 idname	commands\simple\ls.c	/^char *idname(unsigned id, enum whatmap map)$/;"	f
 idname	commands\simple\ls.c	/^struct idname {		\/* Hash list of names. *\/$/;"	s	file:
 idstring	commands\simple\writeisofs.c	/^	char		idstring[24];	\/* id string *\/$/;"	m	struct:bc_validation	file:
-idt	kernel\protect.c	/^PRIVATE struct gatedesc_s idt[IDT_SIZE];	\/* zero-init so none present *\/$/;"	v	typeref:struct:gatedesc_s
+idt	kernel\protect.c	/^PRIVATE struct gatedesc_s idt[IDT_SIZE];	\/* zero-init so none present *\/  \/\/n used in prot_init()$/;"	v	typeref:struct:gatedesc_s
 idt_zero	kernel\klib386.s	/^idt_zero:	.data4	0, 0$/;"	l
 idx	commands\simple\cp.c	/^    size_t		idx;	\/* Index for the terminating null byte. *\/$/;"	m	struct:pathname	file:
 idx	commands\simple\remsync.c	/^	size_t		idx;	\/* Index for the terminating null byte. *\/$/;"	m	struct:pathname	file:
@@ -25704,10 +25704,10 @@ iroute_table	servers\inet\generic\ipr.c	/^PRIVATE iroute_t iroute_table[IROUTE_N
 iroute_uncache_nw	servers\inet\generic\ipr.c	/^PRIVATE	void iroute_uncache_nw(dest, netmask)$/;"	f
 irq	drivers\at_wini\at_wini.c	/^  unsigned irq;			\/* interrupt request line *\/$/;"	m	struct:wini	file:
 irq	drivers\tty\rs232.c	/^  int irq;			\/* irq for this line *\/$/;"	m	struct:rs232	file:
-irq	kernel\type.h	/^  int irq;				\/* IRQ vector number *\/ $/;"	m	struct:irq_hook
-irq_actids	kernel\glo.h	/^EXTERN int irq_actids[NR_IRQ_VECTORS];		\/* IRQ ID bits active *\/$/;"	v
+irq	kernel\type.h	/^  int irq;				\/* IRQ vector number *\/						\/\/n rm_irq_handler generic_handler set at put_irq_handler$/;"	m	struct:irq_hook
+irq_actids	kernel\glo.h	/^EXTERN int irq_actids[NR_IRQ_VECTORS];		\/* IRQ ID bits active *\/	\/\/n set at intr_handle, ub  hwint_master$/;"	v
 irq_handler_t	kernel\type.h	/^typedef int (*irq_handler_t)(struct irq_hook *);$/;"	t
-irq_handlers	kernel\glo.h	/^EXTERN irq_hook_t *irq_handlers[NR_IRQ_VECTORS];\/* list of IRQ handlers *\/$/;"	v
+irq_handlers	kernel\glo.h	/^EXTERN irq_hook_t *irq_handlers[NR_IRQ_VECTORS];\/* list of IRQ handlers *\/   \/\/n ub put_irq_handler  ,  hwint_master in mpx386.s,rm_irq_handler$/;"	v
 irq_hook	kernel\type.h	/^typedef struct irq_hook {$/;"	s
 irq_hook_id	drivers\at_wini\at_wini.c	/^  int irq_hook_id;		\/* id of irq hook at the kernel *\/$/;"	m	struct:wini	file:
 irq_hook_id	drivers\floppy\floppy.c	/^PRIVATE int irq_hook_id;	\/* id of irq hook at the kernel *\/$/;"	v
@@ -25724,7 +25724,7 @@ irq_mask	drivers\at_wini\at_wini.c	/^  unsigned irq_mask;		\/* 1 << irq *\/$/;"	
 irq_mode_pci	drivers\libpci\pci.c	26;"	d	file:
 irq_need_ack	drivers\at_wini\at_wini.c	/^  unsigned irq_need_ack;	\/* irq needs to be acknowledged *\/$/;"	m	struct:wini	file:
 irq_policy_t	kernel\type.h	/^typedef unsigned long irq_policy_t;	$/;"	t
-irq_use	kernel\glo.h	/^EXTERN int irq_use;				\/* map of all in-use irq's *\/$/;"	v
+irq_use	kernel\glo.h	/^EXTERN int irq_use;				\/* map of all in-use irq's *\/		\/\/n put_irq_handler  rm_irq_handler$/;"	v
 irq_vec	kernel\i8259.c	/^PRIVATE vecaddr_t irq_vec[] = {$/;"	v
 irqtab_dmp	servers\is\dmp_kernel.c	/^PUBLIC void irqtab_dmp()$/;"	f
 irrel	commands\i86\cc.c	/^struct pass irrel = { "irrel",$/;"	v	typeref:struct:pass
@@ -25823,8 +25823,8 @@ isdigit	lib\sysutil\kprintf.c	9;"	d	file:
 isdir	commands\simple\diff.c	/^int isdir(path)$/;"	f
 isdir	commands\simple\writeisofs.c	/^	int isdir;$/;"	m	struct:node	file:
 isempty_RL	commands\bzip2-1.0.3\bzlib.c	/^Bool isempty_RL ( EState* s )$/;"	f	file:
-isemptyn	kernel\proc.h	93;"	d
-isemptyp	kernel\proc.h	94;"	d
+isemptyn	kernel\proc.h	97;"	d
+isemptyp	kernel\proc.h	98;"	d
 iseq	lib\zlib-1.2.3\contrib\masmx86\gvmat32.asm	/^iseq:$/;"	l
 isflauto	commands\ibm\format.c	38;"	d	file:
 isfloppy	commands\ibm\format.c	29;"	d	file:
@@ -25835,8 +25835,8 @@ isgraph	lib\ansi\isgraph.c	/^int (isgraph)(int c) {$/;"	f
 isidentchar	commands\i386\asmconv\tokenize.c	/^static int isidentchar(int c)$/;"	f	file:
 isincdec	commands\awk\y.c	/^static isincdec(sym)$/;"	f	file:
 isinsets	lib\regex\regcomp.c	/^isinsets(g, c)$/;"	f	file:
-iskerneln	kernel\proc.h	96;"	d
-iskernelp	kernel\proc.h	95;"	d
+iskerneln	kernel\proc.h	100;"	d
+iskernelp	kernel\proc.h	99;"	d
 iskeywd	commands\awk\l.c	/^iskeywd(s) char *s;$/;"	f	file:
 islink	commands\simple\synctree.c	/^static char *islink()$/;"	f	file:
 islower	commands\elle\eefed.c	200;"	d	file:
@@ -25857,7 +25857,7 @@ iso_732	commands\simple\isoread.c	/^long iso_732 (c)$/;"	f
 iso_733	commands\simple\isoread.c	/^long iso_733 (c)$/;"	f
 iso_cmp	commands\simple\isoread.c	/^int iso_cmp(name, dir_ptr, dir_flag)$/;"	f
 iso_info	commands\simple\isoread.c	/^void iso_info(vol_desc)$/;"	f
-isokprocn	kernel\proc.h	92;"	d
+isokprocn	kernel\proc.h	96;"	d
 isokprocnr	servers\fs\fproc.h	35;"	d
 isoption	boot\installboot.c	/^int isoption(char *option, char *test)$/;"	f
 isperiod	commands\elvis\move1.c	/^static int isperiod(ptr)$/;"	f	file:
@@ -25889,8 +25889,8 @@ isupper	commands\elvis\ctype.h	26;"	d
 isupper	include\ctype.h	50;"	d
 isupper	lib\ansi\isupper.c	/^int (isupper)(int c) {$/;"	f
 isused	commands\yap\keys.c	/^isused(key) int key; {$/;"	f
-isusern	kernel\proc.h	98;"	d
-isuserp	kernel\proc.h	97;"	d
+isusern	kernel\proc.h	102;"	d
+isuserp	kernel\proc.h	101;"	d
 isvisible	commands\simple\synctree.c	/^static void isvisible(name) char *name;$/;"	f	file:
 isvisible	commands\simple\synctree.c	170;"	d	file:
 isxdigit	include\ctype.h	46;"	d
@@ -26100,7 +26100,7 @@ killdiv	commands\m4\misc.c	/^void killdiv() {$/;"	f
 killer_inet	servers\inet\inet.c	/^int killer_inet= 0;$/;"	v
 kinfo	drivers\memory\memory.c	/^PRIVATE struct kinfo kinfo;		\/* kernel information *\/ $/;"	v	typeref:struct:kinfo
 kinfo	include\minix\type.h	/^struct kinfo {$/;"	s
-kinfo	kernel\glo.h	/^EXTERN struct kinfo kinfo;		\/* kernel information for users *\/$/;"	v	typeref:struct:kinfo
+kinfo	kernel\glo.h	/^EXTERN struct kinfo kinfo;		\/* kernel information for users *\/			\/\/n  ub cstart$/;"	v	typeref:struct:kinfo
 kinfo	servers\pm\glo.h	/^EXTERN struct kinfo kinfo;			\/* kernel information *\/$/;"	v	typeref:struct:kinfo
 kk	test\test2.c	/^int iteration, kk = 0, errct = 0;$/;"	v
 km_abort	commands\elle\eekmac.c	/^km_abort ()$/;"	f
@@ -26661,7 +26661,7 @@ location	commands\simple\mail.c	/^  off_t location;		\/* location within mailbox
 locend	commands\simple\decomp16.c	/^unsigned locend;		\/* where in global dict local dict ends *\/$/;"	v
 lock	drivers\dpeth\dp.h	277;"	d
 lock	drivers\tty\rs232.c	/^PRIVATE void lock(void) {}$/;"	f
-lock	kernel\const.h	64;"	d
+lock	kernel\const.h	67;"	d
 lock	kernel\debug.h	64;"	d
 lock	kernel\debug.h	65;"	d
 lock	lib\other\lock.c	/^BOOLEAN lock(name)		\/* acquire lock *\/$/;"	f
@@ -26814,7 +26814,7 @@ loopDetectAbs	commands\i386\mtools-3.9.7\file.c	/^	unsigned int loopDetectAbs;$/
 loopDetectRel	commands\i386\mtools-3.9.7\file.c	/^	unsigned int loopDetectRel;$/;"	m	struct:File_t	file:
 loopnest	commands\ash\eval.c	/^MKINIT int loopnest;		\/* current loop nesting level *\/$/;"	v
 lor	commands\m4\expr.c	/^int lor()$/;"	f
-lost_ticks	kernel\glo.h	/^EXTERN unsigned lost_ticks;	\/* clock ticks counted outside clock task *\/$/;"	v
+lost_ticks	kernel\glo.h	/^EXTERN unsigned lost_ticks;	\/* clock ticks counted outside clock task *\/  \/\/n set at clock_handler() & csinit in klib386.s$/;"	v
 lostconn	commands\simple\rcp.c	/^lostconn(sig)$/;"	f
 lostpeer	commands\simple\rlogin.c	/^lostpeer(sig)$/;"	f	file:
 loud	commands\simple\cmp.c	/^static int loud = 0, silent = 0;$/;"	v	file:
@@ -26896,12 +26896,12 @@ m	commands\simple\tar.c	121;"	d	file:
 m	drivers\rtl8139\rtl8139.c	/^PRIVATE message m;$/;"	v
 m1	lib\ansi\ext_fmt.h	10;"	d
 m1	lib\float\FP_types.h	43;"	d
-m1_i1	include\minix\ipc.h	36;"	d
-m1_i2	include\minix\ipc.h	37;"	d
-m1_i3	include\minix\ipc.h	38;"	d
-m1_p1	include\minix\ipc.h	39;"	d
-m1_p2	include\minix\ipc.h	40;"	d
-m1_p3	include\minix\ipc.h	41;"	d
+m1_i1	include\minix\ipc.h	40;"	d
+m1_i2	include\minix\ipc.h	41;"	d
+m1_i3	include\minix\ipc.h	42;"	d
+m1_p1	include\minix\ipc.h	43;"	d
+m1_p2	include\minix\ipc.h	44;"	d
+m1_p3	include\minix\ipc.h	45;"	d
 m1i1	include\minix\ipc.h	/^typedef struct {int m1i1, m1i2, m1i3; char *m1p1, *m1p2, *m1p3;} mess_1;$/;"	m	struct:__anon81
 m1i2	include\minix\ipc.h	/^typedef struct {int m1i1, m1i2, m1i3; char *m1p1, *m1p2, *m1p3;} mess_1;$/;"	m	struct:__anon81
 m1i3	include\minix\ipc.h	/^typedef struct {int m1i1, m1i2, m1i3; char *m1p1, *m1p2, *m1p3;} mess_1;$/;"	m	struct:__anon81
@@ -26910,12 +26910,12 @@ m1p2	include\minix\ipc.h	/^typedef struct {int m1i1, m1i2, m1i3; char *m1p1, *m1
 m1p3	include\minix\ipc.h	/^typedef struct {int m1i1, m1i2, m1i3; char *m1p1, *m1p2, *m1p3;} mess_1;$/;"	m	struct:__anon81
 m2	lib\ansi\ext_fmt.h	11;"	d
 m2	lib\float\FP_types.h	44;"	d
-m2_i1	include\minix\ipc.h	43;"	d
-m2_i2	include\minix\ipc.h	44;"	d
-m2_i3	include\minix\ipc.h	45;"	d
-m2_l1	include\minix\ipc.h	46;"	d
-m2_l2	include\minix\ipc.h	47;"	d
-m2_p1	include\minix\ipc.h	48;"	d
+m2_i1	include\minix\ipc.h	47;"	d
+m2_i2	include\minix\ipc.h	48;"	d
+m2_i3	include\minix\ipc.h	49;"	d
+m2_l1	include\minix\ipc.h	50;"	d
+m2_l2	include\minix\ipc.h	51;"	d
+m2_p1	include\minix\ipc.h	52;"	d
 m2i1	include\minix\ipc.h	/^typedef struct {int m2i1, m2i2, m2i3; long m2l1, m2l2; char *m2p1;} mess_2;$/;"	m	struct:__anon82
 m2i2	include\minix\ipc.h	/^typedef struct {int m2i1, m2i2, m2i3; long m2l1, m2l2; char *m2p1;} mess_2;$/;"	m	struct:__anon82
 m2i3	include\minix\ipc.h	/^typedef struct {int m2i1, m2i2, m2i3; long m2l1, m2l2; char *m2p1;} mess_2;$/;"	m	struct:__anon82
@@ -26924,19 +26924,19 @@ m2l2	include\minix\ipc.h	/^typedef struct {int m2i1, m2i2, m2i3; long m2l1, m2l2
 m2p1	include\minix\ipc.h	/^typedef struct {int m2i1, m2i2, m2i3; long m2l1, m2l2; char *m2p1;} mess_2;$/;"	m	struct:__anon82
 m2rtso	lib\i386\rts\m2rtso.s	/^m2rtso:$/;"	l
 m2rtso	lib\i86\rts\nm2rtso.s	/^m2rtso:$/;"	l
-m3_ca1	include\minix\ipc.h	53;"	d
-m3_i1	include\minix\ipc.h	50;"	d
-m3_i2	include\minix\ipc.h	51;"	d
-m3_p1	include\minix\ipc.h	52;"	d
+m3_ca1	include\minix\ipc.h	57;"	d
+m3_i1	include\minix\ipc.h	54;"	d
+m3_i2	include\minix\ipc.h	55;"	d
+m3_p1	include\minix\ipc.h	56;"	d
 m3ca1	include\minix\ipc.h	/^typedef struct {int m3i1, m3i2; char *m3p1; char m3ca1[M3_STRING];} mess_3;$/;"	m	struct:__anon83
 m3i1	include\minix\ipc.h	/^typedef struct {int m3i1, m3i2; char *m3p1; char m3ca1[M3_STRING];} mess_3;$/;"	m	struct:__anon83
 m3i2	include\minix\ipc.h	/^typedef struct {int m3i1, m3i2; char *m3p1; char m3ca1[M3_STRING];} mess_3;$/;"	m	struct:__anon83
 m3p1	include\minix\ipc.h	/^typedef struct {int m3i1, m3i2; char *m3p1; char m3ca1[M3_STRING];} mess_3;$/;"	m	struct:__anon83
-m4_l1	include\minix\ipc.h	55;"	d
-m4_l2	include\minix\ipc.h	56;"	d
-m4_l3	include\minix\ipc.h	57;"	d
-m4_l4	include\minix\ipc.h	58;"	d
-m4_l5	include\minix\ipc.h	59;"	d
+m4_l1	include\minix\ipc.h	59;"	d
+m4_l2	include\minix\ipc.h	60;"	d
+m4_l3	include\minix\ipc.h	61;"	d
+m4_l4	include\minix\ipc.h	62;"	d
+m4_l5	include\minix\ipc.h	63;"	d
 m4l1	include\minix\ipc.h	/^typedef struct {long m4l1, m4l2, m4l3, m4l4, m4l5;} mess_4;$/;"	m	struct:__anon84
 m4l2	include\minix\ipc.h	/^typedef struct {long m4l1, m4l2, m4l3, m4l4, m4l5;} mess_4;$/;"	m	struct:__anon84
 m4l3	include\minix\ipc.h	/^typedef struct {long m4l1, m4l2, m4l3, m4l4, m4l5;} mess_4;$/;"	m	struct:__anon84
@@ -26944,13 +26944,13 @@ m4l4	include\minix\ipc.h	/^typedef struct {long m4l1, m4l2, m4l3, m4l4, m4l5;} m
 m4l5	include\minix\ipc.h	/^typedef struct {long m4l1, m4l2, m4l3, m4l4, m4l5;} mess_4;$/;"	m	struct:__anon84
 m4temp	commands\m4\main.c	/^char *m4temp;			\/* filename for diversions     *\/$/;"	v
 m4wraps	commands\m4\main.c	/^char *m4wraps = "";             \/* m4wrap string default..     *\/$/;"	v
-m5_c1	include\minix\ipc.h	61;"	d
-m5_c2	include\minix\ipc.h	62;"	d
-m5_i1	include\minix\ipc.h	63;"	d
-m5_i2	include\minix\ipc.h	64;"	d
-m5_l1	include\minix\ipc.h	65;"	d
-m5_l2	include\minix\ipc.h	66;"	d
-m5_l3	include\minix\ipc.h	67;"	d
+m5_c1	include\minix\ipc.h	65;"	d
+m5_c2	include\minix\ipc.h	66;"	d
+m5_i1	include\minix\ipc.h	67;"	d
+m5_i2	include\minix\ipc.h	68;"	d
+m5_l1	include\minix\ipc.h	69;"	d
+m5_l2	include\minix\ipc.h	70;"	d
+m5_l3	include\minix\ipc.h	71;"	d
 m5c1	include\minix\ipc.h	/^typedef struct {short m5c1, m5c2; int m5i1, m5i2; long m5l1, m5l2, m5l3;}mess_5;$/;"	m	struct:__anon85
 m5c2	include\minix\ipc.h	/^typedef struct {short m5c1, m5c2; int m5i1, m5i2; long m5l1, m5l2, m5l3;}mess_5;$/;"	m	struct:__anon85
 m5i1	include\minix\ipc.h	/^typedef struct {short m5c1, m5c2; int m5i1, m5i2; long m5l1, m5l2, m5l3;}mess_5;$/;"	m	struct:__anon85
@@ -26958,24 +26958,24 @@ m5i2	include\minix\ipc.h	/^typedef struct {short m5c1, m5c2; int m5i1, m5i2; lon
 m5l1	include\minix\ipc.h	/^typedef struct {short m5c1, m5c2; int m5i1, m5i2; long m5l1, m5l2, m5l3;}mess_5;$/;"	m	struct:__anon85
 m5l2	include\minix\ipc.h	/^typedef struct {short m5c1, m5c2; int m5i1, m5i2; long m5l1, m5l2, m5l3;}mess_5;$/;"	m	struct:__anon85
 m5l3	include\minix\ipc.h	/^typedef struct {short m5c1, m5c2; int m5i1, m5i2; long m5l1, m5l2, m5l3;}mess_5;$/;"	m	struct:__anon85
-m7_i1	include\minix\ipc.h	69;"	d
-m7_i2	include\minix\ipc.h	70;"	d
-m7_i3	include\minix\ipc.h	71;"	d
-m7_i4	include\minix\ipc.h	72;"	d
-m7_p1	include\minix\ipc.h	73;"	d
-m7_p2	include\minix\ipc.h	74;"	d
+m7_i1	include\minix\ipc.h	73;"	d
+m7_i2	include\minix\ipc.h	74;"	d
+m7_i3	include\minix\ipc.h	75;"	d
+m7_i4	include\minix\ipc.h	76;"	d
+m7_p1	include\minix\ipc.h	77;"	d
+m7_p2	include\minix\ipc.h	78;"	d
 m7i1	include\minix\ipc.h	/^typedef struct {int m7i1, m7i2, m7i3, m7i4; char *m7p1, *m7p2;} mess_7;$/;"	m	struct:__anon86
 m7i2	include\minix\ipc.h	/^typedef struct {int m7i1, m7i2, m7i3, m7i4; char *m7p1, *m7p2;} mess_7;$/;"	m	struct:__anon86
 m7i3	include\minix\ipc.h	/^typedef struct {int m7i1, m7i2, m7i3, m7i4; char *m7p1, *m7p2;} mess_7;$/;"	m	struct:__anon86
 m7i4	include\minix\ipc.h	/^typedef struct {int m7i1, m7i2, m7i3, m7i4; char *m7p1, *m7p2;} mess_7;$/;"	m	struct:__anon86
 m7p1	include\minix\ipc.h	/^typedef struct {int m7i1, m7i2, m7i3, m7i4; char *m7p1, *m7p2;} mess_7;$/;"	m	struct:__anon86
 m7p2	include\minix\ipc.h	/^typedef struct {int m7i1, m7i2, m7i3, m7i4; char *m7p1, *m7p2;} mess_7;$/;"	m	struct:__anon86
-m8_i1	include\minix\ipc.h	76;"	d
-m8_i2	include\minix\ipc.h	77;"	d
-m8_p1	include\minix\ipc.h	78;"	d
-m8_p2	include\minix\ipc.h	79;"	d
-m8_p3	include\minix\ipc.h	80;"	d
-m8_p4	include\minix\ipc.h	81;"	d
+m8_i1	include\minix\ipc.h	80;"	d
+m8_i2	include\minix\ipc.h	81;"	d
+m8_p1	include\minix\ipc.h	82;"	d
+m8_p2	include\minix\ipc.h	83;"	d
+m8_p3	include\minix\ipc.h	84;"	d
+m8_p4	include\minix\ipc.h	85;"	d
 m8i1	include\minix\ipc.h	/^typedef struct {int m8i1, m8i2; char *m8p1, *m8p2, *m8p3, *m8p4;} mess_8;$/;"	m	struct:__anon87
 m8i2	include\minix\ipc.h	/^typedef struct {int m8i1, m8i2; char *m8p1, *m8p2, *m8p3, *m8p4;} mess_8;$/;"	m	struct:__anon87
 m8p1	include\minix\ipc.h	/^typedef struct {int m8i1, m8i2; char *m8p1, *m8p2, *m8p3, *m8p4;} mess_8;$/;"	m	struct:__anon87
@@ -27077,7 +27077,7 @@ m_sentence	commands\elvis\move1.c	/^MARK	m_sentence(m, cnt, cmd)$/;"	f
 m_shell	commands\ibm\autopart.c	/^void m_shell(int ev, object_t *op)$/;"	f
 m_shell	commands\ibm\part.c	/^void m_shell(int ev, object_t *op)$/;"	f
 m_size	commands\simple\tar.c	115;"	d	file:
-m_source	include\minix\ipc.h	/^  int m_source;			\/* who sent the message *\/$/;"	m	struct:__anon88
+m_source	include\minix\ipc.h	/^  int m_source;			\/* who sent the message *\/			\/\/n NOTIFY_SOURCE  BuildMess$/;"	m	struct:__anon88
 m_tch	commands\elvis\move3.c	/^MARK	m_tch(m, cnt, key)$/;"	f
 m_time	commands\simple\tar.c	116;"	d	file:
 m_tocol	commands\elvis\move1.c	/^MARK	m_tocol(m, cnt, cmd)$/;"	f
@@ -27085,7 +27085,7 @@ m_toggle	commands\ibm\autopart.c	/^void m_toggle(int ev, object_t *op)$/;"	f
 m_toggle	commands\ibm\part.c	/^void m_toggle(int ev, object_t *op)$/;"	f
 m_tomark	commands\elvis\move1.c	/^MARK	m_tomark(m, cnt, key)$/;"	f
 m_transfer	drivers\memory\memory.c	/^PRIVATE int m_transfer(proc_nr, opcode, position, iov, nr_req)$/;"	f
-m_type	include\minix\ipc.h	/^  int m_type;			\/* what kind of message is it *\/$/;"	m	struct:__anon88
+m_type	include\minix\ipc.h	/^  int m_type;			\/* what kind of message is it *\/	\/\/n NOTIFY_TYPE		BuildMess$/;"	m	struct:__anon88
 m_u	include\minix\ipc.h	/^  } m_u;$/;"	m	struct:__anon88	typeref:union:__anon88::__anon89
 m_uid	commands\simple\tar.c	113;"	d	file:
 m_updnto	commands\elvis\move1.c	/^MARK	m_updnto(m, cnt, cmd)$/;"	f
@@ -27102,7 +27102,7 @@ machine	drivers\memory\memory.c	/^PRIVATE struct machine machine;		\/* machine i
 machine	drivers\tty\tty.c	/^PUBLIC struct machine machine;		\/* kernel environment variables *\/$/;"	v	typeref:struct:machine
 machine	include\minix\type.h	/^struct machine {$/;"	s
 machine	include\sys\utsname.h	/^  char machine[11+1];$/;"	m	struct:utsname
-machine	kernel\glo.h	/^EXTERN struct machine machine;		\/* machine information for users *\/$/;"	v	typeref:struct:machine
+machine	kernel\glo.h	/^EXTERN struct machine machine;		\/* machine information for users *\/	\/\/n  ub cstart$/;"	v	typeref:struct:machine
 machine_type	commands\mdb\a.out.h	/^enum machine_type {$/;"	g
 macro	commands\ash\mksyntax.c	/^char *macro[] = {$/;"	v
 macro	commands\cawf\cawf.h	/^struct macro {$/;"	s
@@ -27647,7 +27647,7 @@ map	commands\i386\mtools-3.9.7\xdf_io.c	/^	sector_map_t *map;$/;"	m	struct:Xdf_t
 map	commands\i386\mtools-3.9.7\xdf_io.c	/^  sector_map_t map[9];$/;"	m	struct:__anon38	file:
 map	commands\m4\serv.c	/^void map(dest,src,from,to)$/;"	f
 map	commands\simple\tr.c	/^void map(string1, string2)$/;"	f
-map	kernel\system.c	50;"	d	file:
+map	kernel\system.c	96;"	d	file:
 mapSuffix	commands\bzip2-1.0.3\bzip2.c	/^Bool mapSuffix ( Char* name, $/;"	f	file:
 map_addr	commands\mdb\core.c	/^PRIVATE long map_addr(d, segment)$/;"	f
 map_driver	servers\fs\dmap.c	/^PUBLIC int map_driver(major, proc_nr, style)$/;"	f
@@ -27972,7 +27972,7 @@ minexlo	lib\zlib-1.2.3\contrib\masmx86\gvmat32.asm	/^minexlo:$/;"	l
 minfo	commands\i386\mtools-3.9.7\minfo.c	/^void minfo(int argc, char **argv, int type)$/;"	f
 mini_notify	kernel\proc.c	/^PRIVATE int mini_notify(caller_ptr, dst)$/;"	f
 mini_receive	kernel\proc.c	/^PRIVATE int mini_receive(caller_ptr, src, m_ptr, flags)$/;"	f
-mini_send	kernel\proc.c	/^PRIVATE int mini_send(caller_ptr, dst, m_ptr, flags)$/;"	f
+mini_send	kernel\proc.c	/^PRIVATE int mini_send(caller_ptr, dst, m_ptr, flags)  $/;"	f
 minimize	commands\i386\mtools-3.9.7\mtools.h	82;"	d
 minix386	boot\boothead.s	/^minix386:$/;"	l
 minix386	boot\doshead.s	/^minix386:$/;"	l
@@ -28727,8 +28727,8 @@ narg	commands\awk\y.c	/^static int narg;$/;"	v	file:
 nargs	commands\elvis\vars.c	/^int		nargs;		\/* number of filenames in args[] *\/$/;"	v
 nbContainers	commands\i386\mtools-3.9.7\mainloop.c	/^	int nbContainers;$/;"	m	struct:lookupState_t	file:
 nbDirs	commands\i386\mtools-3.9.7\mainloop.c	/^	int nbDirs;$/;"	m	struct:lookupState_t	file:
-nb_receive	include\minix\ipc.h	93;"	d
-nb_send	include\minix\ipc.h	94;"	d
+nb_receive	include\minix\ipc.h	97;"	d
+nb_send	include\minix\ipc.h	98;"	d
 nbadinode	commands\simple\fsck.c	/^int nfreeinode, nregular, ndirectory, nblkspec, ncharspec, nbadinode;$/;"	v
 nbadinode	commands\simple\fsck1.c	/^int nfreeinode, nregular, ndirectory, nblkspec, ncharspec, nbadinode;$/;"	v
 nbits	commands\ash\mksyntax.c	/^int nbits;		\/* number of bits in a character *\/$/;"	v
@@ -28989,7 +28989,7 @@ next	drivers\dpeth\dp.h	/^  struct _buff_t *next;$/;"	m	struct:_buff_t	typeref:s
 next	drivers\dpeth\dp.h	/^  struct _m_hdr_t *next;$/;"	m	struct:_m_hdr_t	typeref:struct:_m_hdr_t::_m_hdr_t
 next	include\configfile.h	/^_c	struct config	*next;		\/* Next configuration file thing. *\/$/;"	m	struct:config	typeref:struct:config::config
 next	include\tools.h	/^  struct environment *next;$/;"	m	struct:environment	typeref:struct:environment::environment
-next	kernel\type.h	/^  struct irq_hook *next;		\/* next hook in chain *\/$/;"	m	struct:irq_hook	typeref:struct:irq_hook::irq_hook
+next	kernel\type.h	/^  struct irq_hook *next;		\/* next hook in chain *\/			\/\/n set at put_irq_handler,ub  rm_irq_handler   intr_handle$/;"	m	struct:irq_hook	typeref:struct:irq_hook::irq_hook
 next	lib\ansi\rand.c	/^static unsigned long int next = 1;$/;"	v	file:
 next	lib\i386\string\strchr.s	/^next:	shl	edx, 1		! Chunks become bigger each time$/;"	l
 next	lib\i86\string\strchr.s	/^next:	shl	dx, #1		! Chunks become bigger each time$/;"	l
@@ -29027,11 +29027,11 @@ next_out	lib\zlib-1.2.3\contrib\dotzlib\DotZLib\DotZLib.cs	/^        public IntP
 next_out	lib\zlib-1.2.3\old\zlib.html	/^    Bytef    *<a name="next_out">next_out<\/a>; \/* next output byte should be put there *\/$/;"	a
 next_out	lib\zlib-1.2.3\zlib.h	/^    Bytef    *next_out; \/* next output byte should be put there *\/$/;"	m	struct:z_stream_s
 next_out_strm	lib\zlib-1.2.3\contrib\inflate86\inffast.S	/^#define next_out_strm  12  \/* strm->next_out *\/$/;"	d
-next_ptr	kernel\glo.h	/^EXTERN struct proc *next_ptr;	\/* next process to run after restart() *\/$/;"	v	typeref:struct:proc
+next_ptr	kernel\glo.h	/^EXTERN struct proc *next_ptr;	\/* next process to run after restart() *\/   \/\/n used and modified in _restart(mpx386.s), and in pick_proc() in proc.c$/;"	v	typeref:struct:proc
 next_ptr	lib\zlib-1.2.3\zutil.c	/^local int next_ptr = 0;$/;"	v
 next_screen	commands\yap\commands.c	/^next_screen(sz,really) int sz, really; {$/;"	f
 next_sol	commands\simple\irdpd.c	/^time_t next_sol= IMMEDIATELY;$/;"	v
-next_timeout	kernel\clock.c	/^PRIVATE clock_t next_timeout;		\/* realtime that next timer expires *\/$/;"	v
+next_timeout	kernel\clock.c	/^PRIVATE clock_t next_timeout;		\/* realtime that next timer expires *\/  \/\/n set in set_timer() reset_timer() do_clocktick, used in handler & do_clocktick$/;"	v
 next_timeout	servers\inet\clock.c	/^PRIVATE time_t next_timeout;$/;"	v
 next_var	commands\bc\global.h	/^EXTERN int next_var;$/;"	v
 next_zone	commands\simple\mkfs.c	/^int next_zone, next_inode, zone_size, zone_shift = 0, zoff;$/;"	v
@@ -29308,7 +29308,7 @@ noraw	commands\elvis\curses.h	317;"	d
 noraw	lib\curses\setterm.c	/^void noraw()$/;"	f
 nordonly	commands\ibm\autopart.c	/^int nordonly = 0;$/;"	v
 norec_flag	commands\simple\tar.c	/^int norec_flag = 0;$/;"	v
-noret	kernel\mpx386.s	/^noret:	mov	(_mon_sp), esp	! save stack pointer for later return$/;"	l
+noret	kernel\mpx386.s	/^noret:	mov	(_mon_sp), esp	! save stack pointer for later return !_mon_sp:monitor stack,defined in c in kernel\/glo.h,of type unsigned .$/;"	l
 noret386	boot\boothead.s	/^noret386:$/;"	l
 noret86	boot\boothead.s	/^noret86:$/;"	l
 normal	commands\simple\readall.c	/^int normal = 1;			\/* set unless -b flag is given *\/$/;"	v
@@ -29347,8 +29347,8 @@ not_for_core	commands\mdb\mdb.c	/^PRIVATE void not_for_core()$/;"	f
 not_provided_option	test\test36.c	/^int not_provided_option(option)$/;"	f
 notext	lib\libp\notext.c	/^notext(f) struct file *f; {$/;"	f
 nothigh	boot\doshead.s	/^nothigh:$/;"	l
-notify	include\minix\ipc.h	89;"	d
-notify_id	kernel\type.h	/^  irq_id_t notify_id;			\/* id to return on interrupt *\/$/;"	m	struct:irq_hook
+notify	include\minix\ipc.h	93;"	d
+notify_id	kernel\type.h	/^  irq_id_t notify_id;			\/* id to return on interrupt *\/		\/\/n ub generic_handler$/;"	m	struct:irq_hook
 notlogical	boot\jumpboot.s	/^notlogical:$/;"	l
 notty	commands\i386\mtools-3.9.7\tty.c	/^static int notty=0;	$/;"	v	file:
 notuflag	boot\doshead.s	/^notuflag:$/;"	l
@@ -30488,7 +30488,7 @@ p_bfake	commands\patch\pch.c	/^static LINENUM p_bfake = -1;		\/* beg of faked up
 p_bline	commands\patch\pch.c	/^static LINENUM p_bline;			\/* line # of p_base *\/$/;"	v	file:
 p_bracket	lib\regex\regcomp.c	/^p_bracket(p)$/;"	f	file:
 p_bre	lib\regex\regcomp.c	/^p_bre(p, end1, end2)$/;"	f	file:
-p_caller_q	kernel\proc.h	/^  struct proc *p_caller_q;	\/* head of list of procs wishing to send *\/$/;"	m	struct:proc	typeref:struct:proc::proc
+p_caller_q	kernel\proc.h	/^  struct proc *p_caller_q;	\/* head of list of procs wishing to send *\/		\/\/n ub & set at the end of mini_send$/;"	m	struct:proc	typeref:struct:proc::proc
 p_char	commands\patch\pch.c	/^static char *p_char = Nullch;		\/* +, -, and ! *\/$/;"	v	file:
 p_context	commands\patch\pch.c	/^static LINENUM p_context = 3;		\/* # of context lines *\/$/;"	v	file:
 p_count	lib\regex\regcomp.c	/^p_count(p)$/;"	f	file:
@@ -30515,7 +30515,7 @@ p_gdt	boot\boothead.s	/^p_gdt:$/;"	l
 p_gdt	boot\doshead.s	/^p_gdt:$/;"	l
 p_gdt_desc	boot\boothead.s	/^p_gdt_desc:$/;"	l
 p_gdt_desc	boot\doshead.s	/^p_gdt_desc:$/;"	l
-p_getfrom	kernel\proc.h	/^  proc_nr_t p_getfrom;		\/* from whom does process want to receive? *\/$/;"	m	struct:proc
+p_getfrom	kernel\proc.h	/^  proc_nr_t p_getfrom;		\/* from whom does process want to receive? *\/   \/\/n ub mini_send$/;"	m	struct:proc
 p_hunk_beg	commands\patch\pch.c	/^static LINENUM p_hunk_beg;		\/* line number of current hunk *\/$/;"	v	file:
 p_idt_desc	boot\boothead.s	/^p_idt_desc:$/;"	l
 p_idt_desc	boot\doshead.s	/^p_idt_desc:$/;"	l
@@ -30531,8 +30531,8 @@ p_max	commands\patch\pch.c	/^static LINENUM p_max;			\/* max allowed value of p_
 p_max_priority	kernel\proc.h	/^  char p_max_priority;		\/* maximum scheduling priority *\/$/;"	m	struct:proc
 p_mcs_desc	boot\boothead.s	/^p_mcs_desc:$/;"	l
 p_mcs_desc	boot\doshead.s	/^p_mcs_desc:$/;"	l
-p_memmap	kernel\proc.h	/^  struct mem_map p_memmap[NR_LOCAL_SEGS];   \/* memory map (T, D, S) *\/$/;"	m	struct:proc	typeref:struct:proc::mem_map
-p_messbuf	kernel\proc.h	/^  message *p_messbuf;		\/* pointer to passed message buffer *\/$/;"	m	struct:proc
+p_memmap	kernel\proc.h	/^  struct mem_map p_memmap[NR_LOCAL_SEGS];   \/* memory map (T, D, S) *\/  \/\/n ub CopyMess  sys_call,set at main()$/;"	m	struct:proc	typeref:struct:proc::mem_map
+p_messbuf	kernel\proc.h	/^  message *p_messbuf;		\/* pointer to passed message buffer *\/			\/\/n ub mini_send$/;"	m	struct:proc
 p_n	commands\bc\number.c	/^p_n (num)$/;"	f
 p_name	commands\i86\cc.c	/^	char *p_name;		\/* name of this pass *\/$/;"	m	struct:passinfo	file:
 p_name	commands\indent\args.c	/^   char           *p_name;		\/* name, eg -bl, -cli *\/$/;"	m	struct:pro	file:
@@ -30540,7 +30540,7 @@ p_name	include\net\gen\netdb.h	/^	char	*p_name;	\/* official protocol name *\/$/
 p_name	kernel\proc.h	/^  char p_name[P_NAME_LEN];	\/* name of the process, including \\0 *\/$/;"	m	struct:proc
 p_newfirst	commands\patch\pch.c	/^static LINENUM p_newfirst;		\/* 1st line number of replacement *\/$/;"	v	file:
 p_nextready	kernel\proc.h	/^  struct proc *p_nextready;	\/* pointer to next ready process *\/$/;"	m	struct:proc	typeref:struct:proc::proc
-p_nr	kernel\proc.h	/^  proc_nr_t p_nr;		\/* number of this process (for fast access) *\/$/;"	m	struct:proc
+p_nr	kernel\proc.h	/^  proc_nr_t p_nr;		\/* number of this process (for fast access) *\/  \/\/n ub mini_send$/;"	m	struct:proc
 p_null_desc	boot\boothead.s	/^p_null_desc:$/;"	l
 p_null_desc	boot\doshead.s	/^p_null_desc:$/;"	l
 p_obj	commands\indent\args.c	/^   int            *p_obj;		\/* the associated variable *\/$/;"	m	struct:pro	file:
@@ -30550,15 +30550,15 @@ p_priority	kernel\proc.h	/^  char p_priority;		\/* current scheduling priority *
 p_priv	kernel\proc.h	/^  struct priv *p_priv;		\/* system privileges structure *\/$/;"	m	struct:proc	typeref:struct:proc::priv
 p_proto	include\net\gen\netdb.h	/^	int	p_proto;	\/* protocol # *\/$/;"	m	struct:protoent
 p_ptrn_lines	commands\patch\pch.c	/^static LINENUM p_ptrn_lines;		\/* # lines in pattern *\/$/;"	v	file:
-p_q_link	kernel\proc.h	/^  struct proc *p_q_link;	\/* link to next proc wishing to send *\/$/;"	m	struct:proc	typeref:struct:proc::proc
-p_quantum_size	kernel\proc.h	/^  char p_quantum_size;		\/* quantum size in ticks *\/$/;"	m	struct:proc
+p_q_link	kernel\proc.h	/^  struct proc *p_q_link;	\/* link to next proc wishing to send *\/			\/\/n ub & set at the end of mini_send$/;"	m	struct:proc	typeref:struct:proc::proc
+p_quantum_size	kernel\proc.h	/^  char p_quantum_size;		\/* quantum size in ticks *\/			\/\/n used in sched()$/;"	m	struct:proc
 p_ready	kernel\proc.h	/^  int p_ready, p_found;$/;"	m	struct:proc
-p_reg	kernel\proc.h	/^  struct stackframe_s p_reg;	\/* process' registers saved in stack frame *\/$/;"	m	struct:proc	typeref:struct:proc::stackframe_s
+p_reg	kernel\proc.h	/^  struct stackframe_s p_reg;	\/* process' registers saved in stack frame *\/  \/\/n main()$/;"	m	struct:proc	typeref:struct:proc::stackframe_s
 p_repl_lines	commands\patch\pch.c	/^static LINENUM p_repl_lines;		\/* # lines in replacement text *\/$/;"	v	file:
 p_rs_addr	drivers\tty\rs232.c	/^PRIVATE rs232_t *p_rs_addr[NR_RS_LINES];$/;"	v
-p_rts_flags	kernel\proc.h	/^  char p_rts_flags;		\/* SENDING, RECEIVING, etc. *\/$/;"	m	struct:proc
+p_rts_flags	kernel\proc.h	/^  char p_rts_flags;		\/* SENDING, RECEIVING, etc. *\/ \/\/n rts=request to send(from searching rts in google)? ub  mini_send$/;"	m	struct:proc
 p_rts_flags_str	servers\is\dmp_kernel.c	/^PRIVATE char *p_rts_flags_str(int flags)$/;"	f
-p_sendto	kernel\proc.h	/^  proc_nr_t p_sendto;		\/* to whom does process want to send? *\/$/;"	m	struct:proc
+p_sendto	kernel\proc.h	/^  proc_nr_t p_sendto;		\/* to whom does process want to send? *\/		\/\/n ub mini_send$/;"	m	struct:proc
 p_sep_by_space	include\locale.h	/^  char p_sep_by_space;		\/* CHAR_MAX *\/$/;"	m	struct:lconv
 p_sign_posn	include\locale.h	/^  char p_sign_posn;		\/* CHAR_MAX *\/$/;"	m	struct:lconv
 p_simp_re	lib\regex\regcomp.c	/^p_simp_re(p, starordinary)$/;"	f	file:
@@ -30569,11 +30569,11 @@ p_ss_desc	boot\doshead.s	/^p_ss_desc:$/;"	l
 p_stack	commands\indent\globs.h	/^   int             p_stack[STACKSIZE];	\/* this is the parsers stack *\/$/;"	m	struct:parser_state
 p_start	commands\patch\pch.c	/^static LINENUM p_start;			\/* where intuit found a patch *\/$/;"	v	file:
 p_str	lib\regex\regcomp.c	/^p_str(p)$/;"	f	file:
-p_sys_time	kernel\proc.h	/^  clock_t p_sys_time;		\/* sys time in ticks *\/$/;"	m	struct:proc
-p_ticks_left	kernel\proc.h	/^  char p_ticks_left;		\/* number of scheduling ticks left *\/$/;"	m	struct:proc
+p_sys_time	kernel\proc.h	/^  clock_t p_sys_time;		\/* sys time in ticks *\/		\/\/n used in clock_handler() in clock.c$/;"	m	struct:proc
+p_ticks_left	kernel\proc.h	/^  char p_ticks_left;		\/* number of scheduling ticks left *\/  \/\/n reduced in clock_handler() ,used in do_clocktick in clock.c,sched() $/;"	m	struct:proc
 p_to	commands\i86\cc.c	/^	char *p_to;		\/* suffix of destination *\/$/;"	m	struct:passinfo	file:
 p_type	commands\indent\args.c	/^   int             p_type;		\/* type (int, bool, special) *\/$/;"	m	struct:pro	file:
-p_user_time	kernel\proc.h	/^  clock_t p_user_time;		\/* user time in ticks *\/$/;"	m	struct:proc
+p_user_time	kernel\proc.h	/^  clock_t p_user_time;		\/* user time in ticks *\/  \/\/n added in clock_handler() in clock.c$/;"	m	struct:proc
 p_v	commands\bc\number.c	/^p_v (name, num, len)$/;"	f
 pack16	commands\simple\nonamed.c	/^static void pack16(u8_t *buf, u16_t s)$/;"	f	file:
 pack32	commands\simple\nonamed.c	/^static void pack32(u8_t *buf, u32_t l)$/;"	f	file:
@@ -30837,7 +30837,7 @@ pbuf	commands\aal\object.h	/^	char	pbuf[WBUFSIZ];$/;"	m	struct:fil
 pbuf	commands\autil\obj.h	/^	char	pbuf[WBUFSIZ];$/;"	m	struct:fil
 pc	commands\bc\global.h	/^EXTERN program_counter pc;$/;"	v
 pc	commands\i386\acd.c	/^program_t *pc;		\/* Program Counter (what else?) *\/$/;"	v
-pc	kernel\type.h	/^  reg_t pc;			\/*  ^  last item pushed by interrupt *\/$/;"	m	struct:stackframe_s
+pc	kernel\type.h	/^  reg_t pc;			\/*  ^  last item pushed by interrupt *\/					\/\/n ub struct proc and in turn in main()$/;"	m	struct:stackframe_s
 pc_addr	commands\bc\bcdefs.h	/^      int pc_addr;$/;"	m	struct:__anon10
 pc_at	drivers\bios_wini\bios_wini.c	/^PRIVATE int pc_at = 1;	\/* What about PC XTs? *\/$/;"	v
 pc_at	include\minix\type.h	/^  int pc_at;$/;"	m	struct:machine
@@ -31014,11 +31014,11 @@ phys2seg	kernel\protect.c	/^PUBLIC void phys2seg(seg, off, phys)$/;"	f
 phys_addr	drivers\lance\lance.c	/^  unsigned char   phys_addr[6];$/;"	m	struct:lance_init_block	file:
 phys_bytes	include\minix\type.h	/^typedef unsigned long phys_bytes;	\/* physical addr\/length in bytes *\/$/;"	t
 phys_clicks	include\minix\type.h	/^typedef unsigned int phys_clicks;	\/* physical addr\/length in clicks *\/$/;"	t
-phys_cp_req	include\minix\type.h	50;"	d
+phys_cp_req	include\minix\type.h	51;"	d
 phys_next_of	commands\ash\test\malloc.c	330;"	d	file:
 phys_prev_of	commands\ash\test\malloc.c	308;"	d	file:
 phys_prev_of	commands\ash\test\malloc.c	314;"	d	file:
-physb_to_hclick	include\minix\const.h	93;"	d
+physb_to_hclick	include\minix\const.h	94;"	d
 physcol	commands\elvis\vars.c	/^int		physcol;	\/* physical column number that cursor is on *\/$/;"	v
 physdrive	commands\i386\mtools-3.9.7\msdos.h	/^	unsigned char physdrive;	\/* 36 physical drive ? *\/$/;"	m	struct:label_blk_t
 physrow	commands\elvis\vars.c	/^int		physrow;	\/* physical row number that cursor is on *\/$/;"	v
@@ -31109,7 +31109,7 @@ pointer	commands\flex-2.5.4\MISC\alloca.c	/^typedef void *pointer;$/;"	t	file:
 points	commands\advent\advdec.h	/^  long points[MAXOBJ];$/;"	m	struct:playinfo
 poke	lib\other\peekpoke.c	/^int poke(segment, offset, value)$/;"	f
 police	commands\httpd\police.c	/^int police(rq, rp)$/;"	f
-policy	kernel\type.h	/^  irq_policy_t policy;			\/* bit mask for policy *\/$/;"	m	struct:irq_hook
+policy	kernel\type.h	/^  irq_policy_t policy;			\/* bit mask for policy *\/			\/\/n ub generic_handler$/;"	m	struct:irq_hook
 pool	commands\dhcpd\dhcpd.c	/^typedef struct pool {		\/* Dynamic pool entry. *\/$/;"	s	file:
 pool	commands\simple\sed.c	/^static char pool[POOLSIZE];	\/* the pool *\/$/;"	v	file:
 pool_ctx	drivers\random\random.c	/^PRIVATE SHA256_CTX pool_ctx[NR_POOLS];$/;"	v
@@ -31239,8 +31239,8 @@ pp_rd_head	servers\inet\generic\psip.c	/^	struct psip_fd *pp_rd_head;$/;"	m	stru
 pp_rd_tail	servers\inet\generic\psip.c	/^	struct psip_fd *pp_rd_tail;$/;"	m	struct:psip_port	typeref:struct:psip_port::psip_fd	file:
 pp_tail	commands\i86\cc.c	/^		char *pp_tail[MAXTAIL];	\/* args after filename *\/$/;"	m	struct:compile::pass	file:
 ppdescr	lib\libm2\confarray.c	/^static struct descr **ppdescr = descrs;$/;"	v	typeref:struct:descr	file:
-ppriv_addr	kernel\priv.h	/^EXTERN struct priv *ppriv_addr[NR_SYS_PROCS];	\/* direct slot pointers *\/$/;"	v	typeref:struct:priv
-pproc_addr	kernel\proc.h	/^EXTERN struct proc *pproc_addr[NR_TASKS + NR_PROCS];$/;"	v	typeref:struct:proc
+ppriv_addr	kernel\priv.h	/^EXTERN struct priv *ppriv_addr[NR_SYS_PROCS];	\/* direct slot pointers *\/  \/\/n inited in main()$/;"	v	typeref:struct:priv
+pproc_addr	kernel\proc.h	/^EXTERN struct proc *pproc_addr[NR_TASKS + NR_PROCS];\/\/n pointers to  process table. inited in main()$/;"	v	typeref:struct:proc
 ppushback	commands\ash\input.c	/^ppushback(string, length)$/;"	f
 pqdownheap	lib\zlib-1.2.3\trees.c	/^local void pqdownheap(s, tree, k)$/;"	f
 pqremove	lib\zlib-1.2.3\trees.c	434;"	d	file:
@@ -31383,7 +31383,7 @@ prev_length	lib\zlib-1.2.3\contrib\masmx64\gvmat64.asm	/^prev_length     equ [ r
 prev_length	lib\zlib-1.2.3\deflate.h	/^    uInt prev_length;$/;"	m	struct:internal_state
 prev_match	lib\zlib-1.2.3\deflate.h	/^    IPos prev_match;             \/* previous match *\/$/;"	m	struct:internal_state
 prev_mode	commands\de\de.h	/^  int   prev_mode[ MAX_PREV ];$/;"	m	struct:de_state
-prev_ptr	kernel\glo.h	/^EXTERN struct proc *prev_ptr;	\/* previously running process *\/$/;"	v	typeref:struct:proc
+prev_ptr	kernel\glo.h	/^EXTERN struct proc *prev_ptr;	\/* previously running process *\/  \/\/n used in clocl.c do_clocktick clock_handler(),defined in sched() in proc.c$/;"	v	typeref:struct:proc
 prev_screen	commands\yap\commands.c	/^prev_screen(sz,really) int sz, really; {$/;"	f
 prev_size_of	commands\ash\test\malloc.c	299;"	d	file:
 prev_time	servers\inet\clock.c	/^PRIVATE time_t prev_time;$/;"	v
@@ -31580,7 +31580,7 @@ proc	servers\inet\qp.c	/^	int proc;$/;"	m	struct:queryvars	file:
 proc	servers\is\dmp_kernel.c	/^PUBLIC struct proc proc[NR_TASKS + NR_PROCS];$/;"	v	typeref:struct:proc
 proc_addr	commands\ps\ps.c	/^vir_bytes proc_addr, mproc_addr, fproc_addr;	$/;"	v
 proc_addr	include\minix\type.h	/^  vir_bytes proc_addr;		\/* virtual address of process table *\/$/;"	m	struct:kinfo
-proc_addr	kernel\proc.h	89;"	d
+proc_addr	kernel\proc.h	93;"	d
 proc_calls_space	commands\indent\globs.h	/^PUBLIC int      proc_calls_space;	\/* If true, procedure calls$/;"	v
 proc_from_pid	servers\pm\utility.c	/^PUBLIC int proc_from_pid(mp_pid)$/;"	f
 proc_id	commands\yap\term.c	/^static int proc_id, saved_pgrpid;$/;"	v	file:
@@ -31591,11 +31591,11 @@ proc_nr	drivers\printer\printer.c	/^PRIVATE int proc_nr;		\/* user requesting th
 proc_nr	drivers\tty\keyboard.c	/^typedef struct observer { int proc_nr; int events; } obs_t;$/;"	m	struct:observer	file:
 proc_nr	include\minix\type.h	/^  int proc_nr;$/;"	m	struct:vir_addr
 proc_nr	include\sys\svrctl.h	/^	int		proc_nr;	\/* Process number of caller. *\/$/;"	m	struct:systaskinfo
-proc_nr	kernel\proc.h	90;"	d
-proc_nr	kernel\type.h	/^  int proc_nr;				\/* NONE if not in use *\/$/;"	m	struct:irq_hook
+proc_nr	kernel\proc.h	94;"	d
+proc_nr	kernel\type.h	/^  int proc_nr;				\/* NONE if not in use *\/				\/\/n for clock interrupt handler, this is set in init_clock. ub generic_handler$/;"	m	struct:irq_hook
 proc_nr	kernel\type.h	/^  proc_nr_t proc_nr;			\/* process number to use *\/$/;"	m	struct:boot_image
 proc_nr_t	kernel\type.h	/^typedef int proc_nr_t;			\/* process table entry number *\/$/;"	t
-proc_ptr	kernel\glo.h	/^EXTERN struct proc *proc_ptr;	\/* pointer to currently running process *\/$/;"	v	typeref:struct:proc
+proc_ptr	kernel\glo.h	/^EXTERN struct proc *proc_ptr;	\/* pointer to currently running process *\/  \/\/n used in clock_handler(hook) sys_call()$/;"	v	typeref:struct:proc
 proc_size	boot\bootimage.c	/^u32_t proc_size(struct image_header *hdr)$/;"	f
 proc_str_line	commands\indent\globs.h	/^PUBLIC int      proc_str_line;		\/* if true, the names of$/;"	v
 procargs	commands\ash\options.c	/^procargs(argc, argv)$/;"	f
@@ -31740,7 +31740,7 @@ ps_euid	commands\ps\ps.c	/^  uid_t ps_euid;		\/* effective uid *\/$/;"	m	struct:
 ps_flags	commands\ps\ps.c	/^  int ps_flags;			\/* kernel flags *\/$/;"	m	struct:pstat	file:
 ps_fproc	commands\ps\ps.c	/^struct fproc *ps_fproc;$/;"	v	typeref:struct:fproc
 ps_ftask	commands\ps\ps.c	/^  int ps_ftask;			\/* (possibly pseudo) fs suspend task *\/$/;"	m	struct:pstat	file:
-ps_mca	include\minix\type.h	/^  int ps_mca;$/;"	m	struct:machine
+ps_mca	include\minix\type.h	/^  int ps_mca;	\/\/n ub  clock_handler$/;"	m	struct:machine
 ps_mflags	commands\ps\ps.c	/^  int ps_mflags;		\/* mm flags *\/$/;"	m	struct:pstat	file:
 ps_mproc	commands\ps\ps.c	/^struct mproc *ps_mproc;$/;"	v	typeref:struct:mproc
 ps_pgrp	commands\ps\ps.c	/^  int ps_pgrp;			\/* process group id *\/$/;"	m	struct:pstat	file:
@@ -31796,7 +31796,7 @@ pspeak	commands\advent\database.c	/^void pspeak(item, state)$/;"	f
 pstat	commands\ps\ps.c	/^int pstat(p_nr, bufp)$/;"	f
 pstat	commands\ps\ps.c	/^struct pstat {			\/* structure filled by pstat() *\/$/;"	s	file:
 pstring	commands\simple\date.c	/^void pstring(s, len)$/;"	f
-psw	kernel\type.h	/^  reg_t psw;                    \/*  | *\/$/;"	m	struct:stackframe_s
+psw	kernel\type.h	/^  reg_t psw;                    \/*  | *\/	\/\/n ub struct proc and in turn in main()$/;"	m	struct:stackframe_s
 pt_cnt	commands\elle\sberr.c	/^	int pt_cnt;		\/* # of entry store attempts *\/$/;"	m	struct:ptab	file:
 pt_err	commands\elle\sberr.c	/^	char *pt_err;		\/* Error string return *\/$/;"	m	struct:ptab	file:
 pt_hidx	commands\elle\sberr.c	/^	int pt_hidx;		\/* Highest freelist entry *\/$/;"	m	struct:ptab	file:
@@ -32643,7 +32643,7 @@ reallocate_dfaacc_union	commands\flex-2.5.4\flexdef.h	684;"	d
 reallocate_int_ptr_array	commands\flex-2.5.4\flexdef.h	678;"	d
 reallocate_integer_array	commands\flex-2.5.4\flexdef.h	665;"	d
 realname	commands\simple\finger.c	/^	char *realname;			\/* pointer to full name *\/$/;"	m	struct:person	file:
-realtime	kernel\clock.c	/^PRIVATE clock_t realtime;		\/* real time clock *\/$/;"	v
+realtime	kernel\clock.c	/^PRIVATE clock_t realtime;		\/* real time clock *\/		\/\/n set(incremented) at clock_handler() in clock.c , returned by get_uptime$/;"	v
 realurl	commands\httpd\http.h	/^	char realurl[256];$/;"	m	struct:http_reply
 reap_or_find	commands\cron\tab.c	/^static cronjob_t *reap_or_find(pid_t pid)$/;"	f	file:
 rear	servers\fs\buf.h	/^EXTERN struct buf *rear;	\/* points to most recently used free block *\/$/;"	v	typeref:struct:buf
@@ -32662,7 +32662,7 @@ reboot_strlen	servers\pm\param.h	34;"	d
 recalcPreallocSize	commands\i386\mtools-3.9.7\file.c	/^static int recalcPreallocSize(File_t *This)$/;"	f	file:
 recalibrate	drivers\floppy\floppy.c	/^PRIVATE int recalibrate()$/;"	f
 receive	commands\simple\synctree.c	/^static int receive(buf, max) char *buf; int max;$/;"	f	file:
-receive	include\minix\ipc.h	91;"	d
+receive	include\minix\ipc.h	95;"	d
 reclaim_privs	commands\i386\mtools-3.9.7\privileges.c	/^void reclaim_privs(void)$/;"	f
 recnum	commands\simple\synctree.c	/^static long recnum()$/;"	f	file:
 recomp	commands\simple\sed.c	/^static char *recomp(expbuf, redelim)	\/* uses cp, bcount *\/$/;"	f	file:
@@ -32928,7 +32928,7 @@ renamed	commands\ash\redir.c	/^	short renamed[10];$/;"	m	struct:redirtab	file:
 renameit	commands\i386\mtools-3.9.7\mmove.c	/^int renameit(char *dosname,$/;"	f
 renew	commands\dhcpd\dhcpd.h	/^	time_t		renew;		\/* Next query or go into renewal. *\/$/;"	m	struct:network
 rep	commands\i386\asmconv\asm86.h	/^	repeat_t	rep;		\/* Repeat prefix used on this instr. *\/$/;"	m	struct:asm86
-rep	kernel\klib386.s	/^rep o16	ins				! input many words$/;"	l
+rep	kernel\klib386.s	/^rep o16	ins				! input many words   !n ins: input string from port$/;"	l
 rep	kernel\klib386.s	/^rep o16	outs				! output many words$/;"	l
 rep	lib\i386\misc\io_insw.s	/^rep o16	ins				! input many words$/;"	l
 rep	lib\i386\misc\io_outsw.s	/^rep o16	outs				! output many words$/;"	l
@@ -33703,7 +33703,7 @@ rzfile	commands\zmodem\rz.c	/^int rzfile()$/;"	f
 rzfiles	commands\zmodem\rz.c	/^int rzfiles()$/;"	f
 s	commands\bzip2-1.0.3\manual.html	/^  functions (could easily be added, though).<\/p><\/li>$/;"	f
 s	commands\simple\tsort.c	/^struct name { struct name *next; char *s; }$/;"	m	struct:name	file:
-s	kernel\table.c	68;"	d	file:
+s	kernel\table.c	70;"	d	file:
 s	lib\ip\res_send.c	/^static int s = -1;	\/* socket used for communications *\/$/;"	v	file:
 s	test\test4.c	/^int s, i, fd, nextb, errct = 0;$/;"	v
 s2s	commands\simple\stty.c	/^struct s2s {$/;"	s	file:
@@ -33729,15 +33729,15 @@ s_farmem	kernel\priv.h	/^  struct far_mem s_farmem[NR_REMOTE_SEGS];  \/* remote 
 s_fields	commands\ibm\playwave.c	/^} s_fields;$/;"	v	typeref:struct:specific_fields
 s_fields	commands\ibm\recwave.c	/^} s_fields;$/;"	v	typeref:struct:specific_fields
 s_firstdatazone	servers\fs\super.h	/^  zone1_t s_firstdatazone;	\/* number of first data zone *\/$/;"	m	struct:super_block
-s_flags	kernel\priv.h	/^  short s_flags;		\/* PREEMTIBLE, BILLABLE, etc. *\/$/;"	m	struct:priv
+s_flags	kernel\priv.h	/^  short s_flags;		\/* PREEMTIBLE, BILLABLE, etc. *\/  \/\/n used in do_clocktick in clock.c, sys_call()$/;"	m	struct:priv
 s_flags_str	servers\is\dmp_kernel.c	/^PRIVATE char *s_flags_str(int flags)$/;"	f
 s_id	kernel\priv.h	/^  sys_id_t s_id;		\/* index of this system structure *\/$/;"	m	struct:priv
 s_imap_blocks	servers\fs\super.h	/^  short s_imap_blocks;		\/* # of blocks used by inode bit map *\/$/;"	m	struct:super_block
 s_imount	servers\fs\super.h	/^  struct inode *s_imount;	\/* inode mounted on *\/$/;"	m	struct:super_block	typeref:struct:super_block::inode
 s_inodes_per_block	servers\fs\super.h	/^  unsigned s_inodes_per_block;	\/* precalculated from magic number *\/$/;"	m	struct:super_block
-s_int_pending	kernel\priv.h	/^  irq_id_t s_int_pending;	\/* pending hardware interrupts *\/$/;"	m	struct:priv
+s_int_pending	kernel\priv.h	/^  irq_id_t s_int_pending;	\/* pending hardware interrupts *\/	\/\/n ub BuildMess generic_handler$/;"	m	struct:priv
 s_ipc_from	kernel\priv.h	/^  sys_map_t s_ipc_from;		\/* allowed callers to receive from *\/$/;"	m	struct:priv
-s_ipc_to	kernel\priv.h	/^  sys_map_t s_ipc_to;		\/* allowed destination processes *\/$/;"	m	struct:priv
+s_ipc_to	kernel\priv.h	/^  sys_map_t s_ipc_to;		\/* allowed destination processes *\/  \/\/n sys_call$/;"	m	struct:priv
 s_isearch	servers\fs\super.h	/^  bit_t s_isearch;		\/* inodes below this bit number are in use *\/$/;"	m	struct:super_block
 s_isup	servers\fs\super.h	/^  struct inode *s_isup;		\/* inode for root dir of mounted file sys *\/$/;"	m	struct:super_block	typeref:struct:super_block::inode
 s_lab	commands\indent\globs.h	/^PUBLIC char    *s_lab;			\/* start ... *\/$/;"	v
@@ -33756,7 +33756,7 @@ s_next	commands\bc\bcdefs.h	/^	struct fstack_rec *s_next;$/;"	m	struct:fstack_re
 s_next	commands\yap\machine.h	/^    struct state *s_next;	\/* other characters to match with *\/$/;"	m	struct:state	typeref:struct:state::state
 s_nindirs	servers\fs\super.h	/^  int s_nindirs;		\/* # indirect zones per indirect block *\/$/;"	m	struct:super_block
 s_ninodes	servers\fs\super.h	/^  ino_t s_ninodes;		\/* # usable inodes on the minor device *\/$/;"	m	struct:super_block
-s_notify_pending	kernel\priv.h	/^  sys_map_t s_notify_pending;  	\/* bit map with pending notifications *\/$/;"	m	struct:priv
+s_notify_pending	kernel\priv.h	/^  sys_map_t s_notify_pending;  	\/* bit map with pending notifications *\/  \/\/n mini_receive$/;"	m	struct:priv
 s_nr_to_id	kernel\const.h	18;"	d
 s_num	commands\bc\bcdefs.h	/^	bc_num s_num;$/;"	m	struct:estack_rec
 s_nzones	servers\fs\super.h	/^  zone1_t  s_nzones;		\/* total device size, including bit maps etc *\/$/;"	m	struct:super_block
@@ -33767,9 +33767,9 @@ s_prnt	lib\ansi\strftime.c	/^s_prnt(char *s, size_t maxsize, const char *str, in
 s_proc_nr	kernel\priv.h	/^  proc_nr_t s_proc_nr;		\/* number of associated process *\/$/;"	m	struct:priv
 s_proto	include\net\gen\netdb.h	/^	char	*s_proto;	\/* protocol to use *\/$/;"	m	struct:servent
 s_rd_only	servers\fs\super.h	/^  int s_rd_only;		\/* set to 1 iff file sys mounted read only *\/$/;"	m	struct:super_block
-s_sig_pending	kernel\priv.h	/^  sigset_t s_sig_pending;	\/* pending signals *\/$/;"	m	struct:priv
-s_stack_guard	kernel\priv.h	/^  reg_t *s_stack_guard;		\/* stack guard word for kernel tasks *\/$/;"	m	struct:priv
-s_trap_mask	kernel\priv.h	/^  short s_trap_mask;		\/* allowed system call traps *\/$/;"	m	struct:priv
+s_sig_pending	kernel\priv.h	/^  sigset_t s_sig_pending;	\/* pending signals *\/		\/\/n ub BuildMess$/;"	m	struct:priv
+s_stack_guard	kernel\priv.h	/^  reg_t *s_stack_guard;		\/* stack guard word for kernel tasks *\/ \/\/n see dequeue()$/;"	m	struct:priv
+s_trap_mask	kernel\priv.h	/^  short s_trap_mask;		\/* allowed system call traps *\/	\/\/n sys_call$/;"	m	struct:priv
 s_traps_str	servers\is\dmp_kernel.c	/^PRIVATE char *s_traps_str(int flags)$/;"	f
 s_val	commands\awk\awk.h	/^  CELL *s_val;$/;"	m	struct:symbol
 s_val	commands\bc\bcdefs.h	/^	int  s_val;$/;"	m	struct:fstack_rec
@@ -34468,7 +34468,7 @@ semicolon_list	commands\bc\bc.y	/^semicolon_list		: \/* empty *\/$/;"	l
 semicolon_list	commands\bc\sbc.y	/^semicolon_list		: \/* empty *\/$/;"	l
 send	commands\dhcpd\dhcpd.c	/^static int send(network_t *np, void *data, size_t len)$/;"	f	file:
 send	commands\simple\synctree.c	/^static void send(buf, n) char *buf; int n;$/;"	f	file:
-send	include\minix\ipc.h	92;"	d
+send	include\minix\ipc.h	96;"	d
 send	lib\ip\send.c	/^ssize_t send(int socket, const void *buffer, size_t length, int flags)$/;"	f
 sendMTFValues	commands\bzip2-1.0.3\compress.c	/^void sendMTFValues ( EState* s )$/;"	f	file:
 send_all_trees	lib\zlib-1.2.3\trees.c	/^local void send_all_trees(s, lcodes, dcodes, blcodes)$/;"	f
@@ -34494,7 +34494,7 @@ sendout	commands\httpd\proxy.c	/^static int sendout(fd, data)$/;"	f	file:
 sendout	commands\httpd\reply.c	/^static int sendout(data)$/;"	f	file:
 sendq	drivers\dp8390\dp8390.h	/^	struct sendq$/;"	s	struct:dpeth
 sendq	drivers\dpeth\dp.h	/^  struct sendq {$/;"	s	struct:dpeth
-sendrec	include\minix\ipc.h	90;"	d
+sendrec	include\minix\ipc.h	94;"	d
 sendreply	commands\httpd\reply.c	/^int sendreply(rp, rq)$/;"	f
 sendreply	commands\talkd\net.c	/^int sendreply(request, reply)$/;"	f
 sendrequest	commands\talk\net.c	/^int sendrequest(request, here)$/;"	f
@@ -34622,7 +34622,7 @@ set_signals	commands\patch\util.c	/^set_signals(reset)$/;"	f
 set_ssize	commands\i386\mtools-3.9.7\devices.c	/^static inline void set_ssize(struct floppy_struct *floppy, int value)$/;"	f	file:
 set_state_table	commands\byacc\lalr.c	/^set_state_table()$/;"	f
 set_store	commands\ash\test\malloc.c	259;"	d	file:
-set_sys_bit	kernel\const.h	44;"	d
+set_sys_bit	kernel\const.h	47;"	d
 set_time	commands\ibm\backup.c	/^void set_time(struct tm *t)$/;"	f
 set_time	servers\inet\clock.c	/^PUBLIC void set_time (tim)$/;"	f
 set_timer	kernel\clock.c	/^PUBLIC void set_timer(tp, exp_time, watchdog)$/;"	f
@@ -34635,7 +34635,7 @@ set_use16	commands\i386\asmconv\asmconv.h	20;"	d
 set_use32	commands\i386\asmconv\asmconv.h	21;"	d
 set_var	commands\i386\mtools-3.9.7\config.c	/^static int set_var(struct switches_l *switches, int nr,$/;"	f	file:
 set_vec	kernel\i8259.c	/^PRIVATE void set_vec(vec_nr, addr)$/;"	f
-set_vec	kernel\i8259.c	34;"	d	file:
+set_vec	kernel\i8259.c	41;"	d	file:
 set_winsize	commands\telnetd\telnet.c	/^int set_winsize(int fd, unsigned int cols, unsigned int rows)$/;"	f
 setarea	commands\sh\sh1.c	/^setarea(cp,a)$/;"	f
 setattr	drivers\tty\tty.c	/^PRIVATE void setattr(tp)$/;"	f
@@ -35520,7 +35520,7 @@ stack_trace	commands\ibm\postmort.c	/^void stack_trace(fd)$/;"	f
 stackbase	commands\ash\memalloc.c	/^struct stack_block stackbase;$/;"	v	typeref:struct:stack_block
 stackblock	commands\ash\memalloc.h	83;"	d
 stackblocksize	commands\ash\memalloc.h	84;"	d
-stackframe_s	kernel\type.h	/^struct stackframe_s {           \/* proc_ptr points here *\/$/;"	s
+stackframe_s	kernel\type.h	/^struct stackframe_s {           \/* proc_ptr points here *\/  \/\/n ub struct proc$/;"	s
 stackmark	commands\ash\memalloc.h	/^struct stackmark {$/;"	s
 stacknleft	commands\ash\memalloc.c	/^int stacknleft = MINSIZE;$/;"	v
 stacknleft	commands\ash\memalloc.h	/^	int stacknleft;$/;"	m	struct:stackmark
@@ -37114,12 +37114,12 @@ tmpwin	lib\curses\curspriv.h	/^  WINDOW  *tmpwin;			\/* window used for updates 
 tmr_arg	include\timers.h	/^  tmr_arg_t	tmr_arg;	\/* random argument *\/$/;"	m	struct:timer
 tmr_arg	include\timers.h	43;"	d
 tmr_arg_t	include\timers.h	/^typedef union { int ta_int; long ta_long; void *ta_ptr; } tmr_arg_t;$/;"	t	typeref:union:__anon102
-tmr_exp_time	include\timers.h	/^  clock_t 	tmr_exp_time;	\/* expiration time *\/$/;"	m	struct:timer
+tmr_exp_time	include\timers.h	/^  clock_t 	tmr_exp_time;	\/* expiration time *\/  \/\/n ub tmrs_clrtimer  set_timer$/;"	m	struct:timer
 tmr_exp_time	include\timers.h	44;"	d
-tmr_func	include\timers.h	/^  tmr_func_t	tmr_func;	\/* function to call when expired *\/$/;"	m	struct:timer
+tmr_func	include\timers.h	/^  tmr_func_t	tmr_func;	\/* function to call when expired *\/  \/\/n ub tmrs_settimer  tmrs_clrtimer$/;"	m	struct:timer
 tmr_func_t	include\timers.h	/^typedef void (*tmr_func_t)(struct timer *tp);$/;"	t
 tmr_inittimer	include\timers.h	50;"	d
-tmr_next	include\timers.h	/^  struct timer	*tmr_next;	\/* next in a timer chain *\/$/;"	m	struct:timer	typeref:struct:timer::timer
+tmr_next	include\timers.h	/^  struct timer	*tmr_next;	\/* next in a timer chain *\/  \/\/n ub tmrs_clrtimer$/;"	m	struct:timer	typeref:struct:timer::timer
 tmra_inittimer	drivers\fxp\fxp.c	53;"	d	file:
 tmra_inittimer	drivers\rtl8139\rtl8139.c	76;"	d	file:
 tmra_ut	drivers\fxp\fxp.c	52;"	d	file:
@@ -37355,7 +37355,7 @@ ts_winsize	commands\elle\eesite.c	/^ts_winsize()$/;"	f
 tsf_pause	commands\elle\eesite.c	/^int tsf_pause = 0;	\/* Set if ts_pause works.  Ref'd by equit in e_main *\/$/;"	v
 tspd	drivers\tty\tty.c	/^  speed_t	tspd;$/;"	m	struct:s2s	file:
 tspd2sgspd	drivers\tty\tty.c	/^PRIVATE int tspd2sgspd(tspd)$/;"	f
-tss	kernel\protect.c	/^PUBLIC struct tss_s tss;			\/* zero init *\/$/;"	v	typeref:struct:tss_s
+tss	kernel\protect.c	/^PUBLIC struct tss_s tss;			\/* zero init *\/		\/\/n inited at the end of prot_init()$/;"	v	typeref:struct:tss_s
 tss_s	kernel\protect.c	/^struct tss_s {$/;"	s	file:
 tssiz	commands\aal\archiver.c	/^unsigned int	tssiz = 0;$/;"	v
 tstart	commands\mdb\mdb.c	/^PUBLIC void tstart(req, verbose, val, cnt)$/;"	f
@@ -37899,7 +37899,7 @@ unlink_mcwd	commands\i386\mtools-3.9.7\misc.c	/^void unlink_mcwd()$/;"	f
 unlk_buf	commands\elle\eebuff.c	/^unlk_buf(bufp)$/;"	f
 unlock	drivers\dpeth\dp.h	278;"	d
 unlock	drivers\tty\rs232.c	/^PRIVATE void unlock(void) {}$/;"	f
-unlock	kernel\const.h	65;"	d
+unlock	kernel\const.h	68;"	d
 unlock	kernel\debug.h	69;"	d
 unlock	kernel\debug.h	70;"	d
 unlock	lib\other\lock.c	/^void unlock(name)		\/* free lock *\/$/;"	f
@@ -37918,7 +37918,7 @@ unquote	commands\sh\sh4.c	/^unquote(as)$/;"	f
 unrchf	commands\elle\elle.h	/^EXT int unrchf;			\/* Stuffed character back for readcommand *\/$/;"	v
 unschedule	boot\boot.c	/^void unschedule(void)$/;"	f
 unseqToSeq	commands\bzip2-1.0.3\bzlib_private.h	/^      UChar    unseqToSeq[256];$/;"	m	struct:__anon19
-unset_sys_bit	kernel\const.h	46;"	d
+unset_sys_bit	kernel\const.h	49;"	d
 unsetcmd	commands\ash\var.c	/^unsetcmd(argc, argv)  char **argv; {$/;"	f
 unsetfunc	commands\ash\exec.c	/^unsetfunc(name)$/;"	f
 unsetvar	commands\ash\var.c	/^unsetvar(s)$/;"	f

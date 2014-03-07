@@ -20,7 +20,8 @@
  * order should correspond to the order in the task table defined in table.c. 
  */
 
-/* Kernel tasks. These all run in the same address space. */
+/* Kernel tasks. These all run in the same address space. */ 
+//n ub image[]  
 #define IDLE             -4	/* runs when no one else can run */
 #define CLOCK  		 -3	/* alarms and other clock functions */ //n in clock.c
 #define SYSTEM           -2	/* request system functionality */
@@ -30,7 +31,8 @@
 /* Number of tasks. Note that NR_PROCS is defined in <minix/config.h>. */
 #define NR_TASKS	  4 
 
-/* User-space processes, that is, device drivers, servers, and INIT. */
+/* User-space processes, that is, device drivers, servers, and INIT. */ 
+//n ub image[] 
 #define PM_PROC_NR	  0	/* process manager */
 #define FS_PROC_NR 	  1	/* file system */
 #define RS_PROC_NR 	  2	/* reincarnation server */
@@ -54,7 +56,7 @@
  * offset are used for the per-process notification bit maps. 
  */
 #define NOTIFY_MESSAGE		  0x1000
-#define NOTIFY_FROM(p_nr)	 (NOTIFY_MESSAGE | ((p_nr) + NR_TASKS))  //n ub proc.c BuildMess
+#define NOTIFY_FROM(p_nr)	 (NOTIFY_MESSAGE | ((p_nr) + NR_TASKS))  //n ub proc.c BuildMess.exp:p_nr=3,then result=0x1000|(3+4)
 #  define SYN_ALARM	NOTIFY_FROM(CLOCK) 	/* synchronous alarm */
 #  define SYS_SIG	NOTIFY_FROM(SYSTEM) 	/* system signal */
 #  define HARD_INT	NOTIFY_FROM(HARDWARE) 	/* hardware interrupt */ //n used in  clock_task()
@@ -64,9 +66,9 @@
 /* Shorthands for message parameters passed with notifications. */
 #define NOTIFY_SOURCE		m_source
 #define NOTIFY_TYPE		m_type
-#define NOTIFY_ARG		m2_l1
-#define NOTIFY_TIMESTAMP	m2_l2
-#define NOTIFY_FLAGS		m2_i1
+#define NOTIFY_ARG		m2_l1		//n BuildMess
+#define NOTIFY_TIMESTAMP	m2_l2   //n BuildMess
+#define NOTIFY_FLAGS		m2_i1	
 
 /*===========================================================================*
  *                Messages for BLOCK and CHARACTER device drivers	     *
@@ -257,7 +259,7 @@
 #  define IRQ_DISABLE       4	/* disable interrupts */
 #define IRQ_VECTOR	m5_c2   /* irq vector */
 #define IRQ_POLICY	m5_i1   /* options for IRQCTL request */
-#  define IRQ_REENABLE  0x001	/* reenable IRQ line after interrupt */
+#  define IRQ_REENABLE  0x001	/* reenable IRQ line after interrupt */  //n ub generic_handler
 #  define IRQ_BYTE      0x100	/* byte values */      
 #  define IRQ_WORD      0x200	/* word values */
 #  define IRQ_LONG      0x400	/* long values */

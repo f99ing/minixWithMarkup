@@ -5,7 +5,7 @@
 
 #include <lib.h>
 #include <minix/syslib.h>
-
+//n ub sys_irqctl
 PUBLIC int _taskcall(who, syscallnr, msgptr)
 int who;
 int syscallnr;

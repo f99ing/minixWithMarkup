@@ -242,11 +242,11 @@ _Phys_insw (line 9022), _phys_insb (line 9047), _phys_outsw (line 9072), and _ph
 !*===========================================================================*
 ! PUBLIC void phys_insw(Port_t port, phys_bytes buf, size_t count);
 ! Input an array from an I/O port.  Absolute address version of insw().
-
+!* ub: 
 _phys_insw:
 	push	ebp
 	mov	ebp, esp
-	cld
+	cld				!n CLD: Clear Direction Flag。 When the DF flag is set to 0, string operations increment the index registers (ESI and/or EDI).
 	push	edi
 	push	es
 	mov	ecx, FLAT_DS_SELECTOR
@@ -254,8 +254,8 @@ _phys_insw:
 	mov	edx, 8(ebp)		! port to read from
 	mov	edi, 12(ebp)		! destination addr
 	mov	ecx, 16(ebp)		! byte count
-	shr	ecx, 1			! word count
-rep o16	ins				! input many words
+	shr	ecx, 1			! word count		!n shift ecx right 1 bit. shift logical right (SHR) instructions shift the bits of the destination operand to the right,For each shift count, the least significant bit of the destination operand is shifted into the CF flag,  the most significant bit is cleared. 
+rep o16	ins				! input many words   !n ins: input string from port
 	pop	es
 	pop	edi
 	pop	ebp

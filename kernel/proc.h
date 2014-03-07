@@ -15,7 +15,7 @@
 #include "priv.h"
  
 struct proc {
-  struct stackframe_s p_reg;	/* process' registers saved in stack frame */
+  struct stackframe_s p_reg;	/* process' registers saved in stack frame */  //n main()
 
 #if (CHIP == INTEL)
   reg_t p_ldt_sel;		/* selector in gdt with ldt base and limit */
@@ -90,8 +90,8 @@ struct proc {
 #define NIL_PROC          ((struct proc *) 0)		
 #define NIL_SYS_PROC      ((struct proc *) 1)		
 #define cproc_addr(n)     (&(proc + NR_TASKS)[(n)])
-#define proc_addr(n)      (pproc_addr + NR_TASKS)[(n)]  //n ub mini_send mini_receive
-#define proc_nr(p) 	  ((p)->p_nr)
+#define proc_addr(n)      (pproc_addr + NR_TASKS)[(n)]  //n ub mini_send mini_receive  main
+#define proc_nr(p) 	  ((p)->p_nr)	//n main
 
 #define isokprocn(n)      ((unsigned) ((n) + NR_TASKS) < NR_PROCS + NR_TASKS) //n sys_call
 #define isemptyn(n)       isemptyp(proc_addr(n)) 
@@ -99,7 +99,7 @@ struct proc {
 #define iskernelp(p)	  iskerneln((p)->p_nr)		
 #define iskerneln(n)	  ((n) < 0)				//n sys_call
 #define isuserp(p)        isusern((p)->p_nr)
-#define isusern(n)        ((n) >= 0)
+#define isusern(n)        ((n) >= 0)			//n ub main() isuserp
 
 /* The process table and pointers to process table slots. The pointers allow
  * faster access because now a process entry can be found by indexing the

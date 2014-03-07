@@ -215,16 +215,16 @@ ebp
 	push	CS_SELECTOR	!n cs
 
 	call	_cstart		! cstart(cs, ds, mds, parmoff, parmlen). in start.c
-!n	all functions compiled by the C compiler have an underscore prepended to their names in the symbol tables, and the linker looks for such names when separately compiled modules are linked. 
+	 
 	add	esp, 5*4
-/*n 
-Reload gdtr, idtr and the segment registers to global descriptor table set up by prot_init(),which is called by cstart()
 
-prot_init() initialize the Global Descriptor Table, the central data structure used by Intel 32-bit processors to oversee memory protection, 
-and the Interrupt Descriptor Table, used to select the code to be executed for each possible interrupt type.
-the lgdt and lidt instructions make these tables effective by loading the registers which contains the address of these tables.
-*/
+	/*n 
+	Reload gdtr, idtr and the segment registers to global descriptor table set up by prot_init(),which is called by cstart()
 
+	prot_init() initialize the Global Descriptor Table, the central data structure used by Intel 32-bit processors to oversee memory protection, 
+	and the Interrupt Descriptor Table, used to select the code to be executed for each possible interrupt type.
+	the lgdt and lidt instructions make these tables effective by loading the registers which contains the address of these tables.
+	*/
 	lgdt	(_gdt+GDT_SELECTOR)
 	lidt	(_gdt+IDT_SELECTOR)
 
@@ -251,50 +251,51 @@ csinit:
 !*		interrupt handlers for 386 32-bit protected mode	     *
 !*===========================================================================*
 
+/*n
+ Irq_handlers (tables defined in glo.h) contains the hook information, including addresses of handler routines. The number of the interrupt being serviced is converted to an address within  irq_handlers. This address is then pushed onto the stack as the argument to _intr_handle, and _intr_handle is called
+
+not only does it(intr_handle) call the service routine for the interrupt that was called, it sets or resets a flag in the _irq_actids array to indicate whether this attempt to service the interrupt succeeded, and it gives other entries on the queue another chance to run and be removed from the list. 
+
+Depending upon exactly what was required of the handler, the IRQ may or may not be available to receive another interrupt upon the return from the call to _intr_handle. This is determined by checking the corresponding entry in _irq_actids.
+
+*/
+/*n
+	A nonzero value in _irq_actids shows that interrupt service for this IRQ is not complete. If so, the interrupt controller is manipulated to prevent it from responding to another interrupt from the same IRQ line.This operation masks the ability of the controller chip to respond to a particular input; the CPU's ability to respond to all interrupts is inhibited internally when it first receives the interrupt signal and has not yet been restored at this point.
+	  
+	An element of the  irq_actids array is a bitmap that records the results for all the handlers on the list in such a way that the result will be zero if and only if every one of the handlers returned TRUE. If that is not the case, the code on following 3 lines  disables the IRQ before the interrupt controller as a whole is reenabled on line _hwint01.
+
+	This mechanism ensures that none of the handlers on the chain belonging to an IRQ will be activated until all of the device drivers to which these handlers belong have completed their work. Obviously, there needs to be another way to reenable an IRQ. That is provided in a function enable_irq
+
+	Suffice it to say, each device driver must be sure that enable_irq is called when its work is done. It also is obvious that enable_irq first should reset its own bit in the element of _irq_act_ids that corresponds to the IRQ of the driver, and then should test whether all bits have been reset. Only then should the IRQ be reenabled on the interrupt controller chip.
+
+	What we have just described applies in its simplest form only to the clock driver, because the clock is the only interrupt-driven device that is compiled into the kernel binary. The address of an interrupt handler in another process is not meaningful in the context of the kernel, and the enable_irq function in the kernel cannot be called by a separate process in its own memory space. For user-space device drivers, which means all device drivers that respond to hardware-initiated interrupts except for the clock driver, the address of a common handler, generic_handler, is stored in the linked list of hooks.
+
+	The other information in each element of the list of hooks includes the process number of the associated device driver. When generic_handler is called it sends a message to the correct device driver which causes the specific handler functions of the driver to run. The system task supports the other end of the chain of events described above as well. When a user-space device driver completes its work it makes a sys_irqctl kernel call, which causes the system task to call enable_irq on behalf of that driver to prepare for the next interrupt.
+
+	*/
 !*===========================================================================*
 !*				hwint00 - 07				     *
 !*===========================================================================*
 ! Note this is a macro, it just looks like a subroutine.
 !n the reason for using macro instead of call:  In servicing an interrupt, speed is important, and doing it this way eliminates the overhead of executing code to load a parameter, call a subroutine, and retrieve the parameter.
 
-!n An entry point( _hwint00 - _hwint15) exists for each interrupt
+!n An entry point( _hwint00 - _hwint15) exists for each interrupt, these are registered in 
 !n before hwint_master begins to execute, the CPU has created a new stack in the stackframe_s of the interrupted process, within its process table slot. Several key registers have already been saved there, and all interrupts are disabled. 
 !n 
 
 #define hwint_master(irq)	\
 	call	save			/* save interrupted process state */;\  !n  Upon returning to hwint_master, the kernel stack, not a stackframe in the process table, is in use.
-/*n
-_Irq_handlers(tables defined in glo.h) contains the hook information, including addresses of handler routines. The number of the interrupt being serviced is converted to an address within _irq_handlers. This address is then pushed onto the stack as the argument to _intr_handle, and _intr_handle is called
 
-not only does it(_intr_handle) call the service routine for the interrupt that was called, it sets or resets a flag in the _irq_actids array to indicate whether this attempt to service the interrupt succeeded, and it gives other entries on the queue another chance to run and be removed from the list. 
-
-Depending upon exactly what was required of the handler, the IRQ may or may not be available to receive another interrupt upon the return from the call to _intr_handle. This is determined by checking the corresponding entry in _irq_actids.
-
-*/
 	push	(_irq_handlers+4*irq)	/* irq_handlers[irq]		  */;\
 	call	_intr_handle		/*n intr_handle(irq_handlers[irq]) in i8259.c */;\  
 	pop	ecx							    ;\
-/*n
-A nonzero value in _irq_actids shows that interrupt service for this IRQ is not complete. If so, the interrupt controller is manipulated to prevent it from responding to another interrupt from the same IRQ line.This operation masks the ability of the controller chip to respond to a particular input; the CPU's ability to respond to all interrupts is inhibited internally when it first receives the interrupt signal and has not yet been restored at this point.
-
-*/
+	
 	cmp	(_irq_actids+4*irq), 0	/* interrupt still active?	  */;\
 	jz	0f							    ;\
 	!n The 0f is not a hexadecimal number, nor is it a normal label. Ordinary label names are not permitted to begin with numeric characters. This is the way the MINIX 3 assembler specifies a local label; the 0f means a jump forward to the next numeric label 0.
 	!n when resolving a local label, the assembler uses the nearest one that matches in the specified direction, and additional occurrences of a local label are ignored.
 
-/*n
-An element of the _irq_act_ids array is a bitmap that records the results for all the handlers on the list in such a way that the result will be zero if and only if every one of the handlers returned TRUE. If that is not the case, the code on following 3 lines  disables the IRQ before the interrupt controller as a whole is reenabled on line _hwint01.
 
-This mechanism ensures that none of the handlers on the chain belonging to an IRQ will be activated until all of the device drivers to which these handlers belong have completed their work. Obviously, there needs to be another way to reenable an IRQ. That is provided in a function enable_irq
-
-Suffice it to say, each device driver must be sure that enable_irq is called when its work is done. It also is obvious that enable_irq first should reset its own bit in the element of _irq_act_ids that corresponds to the IRQ of the driver, and then should test whether all bits have been reset. Only then should the IRQ be reenabled on the interrupt controller chip.
-
-What we have just described applies in its simplest form only to the clock driver, because the clock is the only interrupt-driven device that is compiled into the kernel binary. The address of an interrupt handler in another process is not meaningful in the context of the kernel, and the enable_irq function in the kernel cannot be called by a separate process in its own memory space. For user-space device drivers, which means all device drivers that respond to hardware-initiated interrupts except for the clock driver, the address of a common handler, generic_handler, is stored in the linked list of hooks.
-
-The other information in each element of the list of hooks includes the process number of the associated device driver. When generic_handler is called it sends a message to the correct device driver which causes the specific handler functions of the driver to run. The system task supports the other end of the chain of events described above as well. When a user-space device driver completes its work it makes a sys_irqctl kernel call, which causes the system task to call enable_irq on behalf of that driver to prepare for the next interrupt.
-
-*/
 	inb	INT_CTLMASK		/* get current mask */		    ;\
 	orb	al, [1<<irq]		/* mask irq */			    ;\
 	outb	INT_CTLMASK		/* disable the irq		  */;\
@@ -407,6 +408,8 @@ _hwint15:		! Interrupt routine for irq 15
 !n  This subroutine pushes all the other registers necessary to restart the interrupted process. Save could have been written inline as part of the macro to increase speed, but this would have more than doubled the size of the macro, and in any case save is needed for calls by other functions.
 /*n
 one of its functions is to save the context of the interrupted process on the stack provided by the CPU, which is a stackframe within the process table.
+
+ub hwint_master
 */
 	.align	16
 save:

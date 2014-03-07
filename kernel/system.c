@@ -102,6 +102,7 @@ FORWARD _PROTOTYPE( void initialize, (void));
 /*===========================================================================*
  *				sys_task				     *
  *===========================================================================*/
+ //N registered in image[]
 PUBLIC void sys_task()
 {
 /* Main entry point of sys_task.  Get the message and dispatch on type. */
@@ -245,6 +246,7 @@ int proc_type;				/* system or user process flag */
 /*===========================================================================*
  *				get_randomness				     *
  *===========================================================================*/
+ //n ub generic_handler
 PUBLIC void get_randomness(source)
 int source;
 {

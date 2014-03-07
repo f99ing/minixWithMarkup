@@ -55,7 +55,7 @@ typedef unsigned reg_t;		/* machine register */
  * having 32-bit registers and more segment registers.  The same names are
  * used for the larger registers to avoid differences in the code.
  */
-struct stackframe_s {           /* proc_ptr points here */
+struct stackframe_s {           /* proc_ptr points here */  //n ub struct proc
 #if _WORD_SIZE == 4
   u16_t gs;                     /* last item pushed by save */
   u16_t fs;                     /*  ^ */
@@ -71,9 +71,9 @@ struct stackframe_s {           /* proc_ptr points here */
   reg_t cx;                     /*  | */
   reg_t retreg;			/* ax and above are all pushed by save */
   reg_t retadr;			/* return address for assembly code save() */
-  reg_t pc;			/*  ^  last item pushed by interrupt */
+  reg_t pc;			/*  ^  last item pushed by interrupt */					//n ub struct proc and in turn in main()
   reg_t cs;                     /*  | */
-  reg_t psw;                    /*  | */
+  reg_t psw;                    /*  | */	//n ub struct proc and in turn in main()
   reg_t sp;                     /*  | */
   reg_t ss;                     /* these are pushed by CPU during interrupt */
 };
@@ -92,15 +92,15 @@ struct segdesc_s {		/* segment descriptor for protected mode */
 typedef unsigned long irq_policy_t;	
 typedef unsigned long irq_id_t;	
 
-//n ub clock_hook, put_irq_handler, rm_irq_handler
+//n ub clock_hook, clock_handler, put_irq_handler, rm_irq_handler
 typedef struct irq_hook {
-  struct irq_hook *next;		/* next hook in chain */	//n put_irq_handler, rm_irq_handler  
-  int (*handler)(struct irq_hook *);	/* interrupt handler */ //n a function with irq_hook parameter & returns int.for exp: clock_handler
-  int irq;				/* IRQ vector number */		//n rm_irq_handler
-  int id;				/* id of this hook */		//n rm_irq_handler
-  int proc_nr;				/* NONE if not in use */   //n for clock interrupt handler, this is set in init_clock
-  irq_id_t notify_id;			/* id to return on interrupt */
-  irq_policy_t policy;			/* bit mask for policy */
+  struct irq_hook *next;		/* next hook in chain */			//n set at put_irq_handler,ub  rm_irq_handler   intr_handle
+  int (*handler)(struct irq_hook *);	/* interrupt handler */		//n a function with irq_hook parameter & returns int. for exp:   intr_handle,  set at put_irq_handler
+  int irq;				/* IRQ vector number */						//n rm_irq_handler generic_handler set at put_irq_handler
+  int id;				/* id of this hook */			//n rm_irq_handler    intr_handle ,set at put_irq_handler  can be 1 10 100 1000...,records the position in its linked list.used to set irq_actids[]
+  int proc_nr;				/* NONE if not in use */				//n for clock interrupt handler, this is set in init_clock. ub generic_handler
+  irq_id_t notify_id;			/* id to return on interrupt */		//n ub generic_handler
+  irq_policy_t policy;			/* bit mask for policy */			//n ub generic_handler
 } irq_hook_t;
 
 typedef int (*irq_handler_t)(struct irq_hook *);

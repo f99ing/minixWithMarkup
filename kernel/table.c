@@ -100,7 +100,7 @@ PUBLIC char *t_stack[TOT_STACK_SPACE / sizeof(char *)];
 //n queue is one of 16 priority queues
 PUBLIC struct boot_image image[] = {
 /* process nr,   pc, flags, qs,  queue, stack, traps, ipcto, call,  name */ 
- { IDLE,  idle_task, IDL_F,  8, IDLE_Q, IDL_S,     0,     0,     0, "IDLE"  },
+ { IDLE,  idle_task, IDL_F,  8, IDLE_Q, IDL_S,     0,     0,     0, "IDLE"  },  //n where is idle_task?
  { CLOCK,clock_task, TSK_F, 64, TASK_Q, TSK_S, TSK_T,     0,     0, "CLOCK" },
  { SYSTEM, sys_task, TSK_F, 64, TASK_Q, TSK_S, TSK_T,     0,     0, "SYSTEM"},
  { HARDWARE,      0, TSK_F, 64, TASK_Q, HRD_S,     0,     0,     0, "KERNEL"},

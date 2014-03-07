@@ -101,6 +101,7 @@ register message *m_ptr;	/* pointer to request message */
 /*===========================================================================*
  *			       generic_handler				     *
  *===========================================================================*/
+ //n for interrupt handling,see mpx386.s ‘interrupt handlers'。
 PRIVATE int generic_handler(hook)
 irq_hook_t *hook;	
 {

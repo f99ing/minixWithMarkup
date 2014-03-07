@@ -44,7 +44,7 @@ PRIVATE vecaddr_t irq_vec[] = {
 /*===========================================================================*
  *				intr_init				     *
  *===========================================================================*/
- //n mine =1 or 0,1 for minix ,0 for return to BIOS
+ //n mine =1 or 0. 1 for minix ,0 for return to BIOS
  //n  For each of the two i8259 chips, there is a control port that sets the mode and another port that receives a sequence of four bytes in the initialization sequence. 
 PUBLIC void intr_init(mine)
 int mine;
@@ -160,6 +160,9 @@ irq_hook_t *hook;
  *				intr_handle				     *
  *===========================================================================*/
  /*
+
+for interrupt handling,see "interrupt handlers' in mpx386.s
+
  scans a linked list of structures that hold, among other things, addresses of functions to be called to handle an interrupt for a device, and the process numbers of the device drivers. It is a linked list because a single IRQ line may be shared with several devices. The handler for each device is supposed to test whether its device actually needs service. Of course, this step is not necessary for an IRQ such as the clock interrupt, IRQ 0, which is hard wired to the chip that generates clock signals with no possibility of any other device triggering this IRQ.
 
 _Intr_handle is hardware dependent
@@ -172,6 +175,7 @@ If there is no work to be done or the interrupt service is completed immediately
  
  If the work is not complete, the handler returns FALSE. 
  
+ ub?
  */
 PUBLIC void intr_handle(hook)
 irq_hook_t *hook;

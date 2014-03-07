@@ -63,3 +63,5 @@ Klib.s  is a short file similar to mpx.s, which selects the appropriate machine-
 
 utility.c
 
+!n	all functions compiled by the C compiler have an underscore prepended to their names in the symbol tables, and the linker looks for such names when separately compiled modules are linked.
+exp like cstart()

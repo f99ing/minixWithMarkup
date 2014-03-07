@@ -19,7 +19,7 @@
 struct priv {
   proc_nr_t s_proc_nr;		/* number of associated process */
   sys_id_t s_id;		/* index of this system structure */
-  short s_flags;		/* PREEMTIBLE, BILLABLE, etc. */  //n used in do_clocktick in clock.c
+  short s_flags;		/* PREEMTIBLE, BILLABLE, etc. */  //n used in do_clocktick in clock.c, sys_call()
 
   short s_trap_mask;		/* allowed system call traps */	//n sys_call
   sys_map_t s_ipc_from;		/* allowed callers to receive from */
@@ -27,8 +27,8 @@ struct priv {
   long s_call_mask;		/* allowed kernel calls */
 
   sys_map_t s_notify_pending;  	/* bit map with pending notifications */  //n mini_receive
-  irq_id_t s_int_pending;	/* pending hardware interrupts */
-  sigset_t s_sig_pending;	/* pending signals */
+  irq_id_t s_int_pending;	/* pending hardware interrupts */	//n ub BuildMess generic_handler
+  sigset_t s_sig_pending;	/* pending signals */		//n ub BuildMess
 
   timer_t s_alarm_timer;	/* synchronous alarm timer */ 
   struct far_mem s_farmem[NR_REMOTE_SEGS];  /* remote memory map */
