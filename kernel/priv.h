@@ -26,7 +26,7 @@ struct priv {
   sys_map_t s_ipc_to;		/* allowed destination processes */  //n sys_call
   long s_call_mask;		/* allowed kernel calls */
 
-  sys_map_t s_notify_pending;  	/* bit map with pending notifications */  //n mini_receive
+  sys_map_t s_notify_pending;  	/* bit map with pending notifications */  //n mini_receive mini_notify
   irq_id_t s_int_pending;	/* pending hardware interrupts */	//n ub BuildMess generic_handler
   sigset_t s_sig_pending;	/* pending signals */		//n ub BuildMess
 

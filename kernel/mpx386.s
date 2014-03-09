@@ -310,7 +310,14 @@ If a process has been interrupted, the stack in use at this point is the kernel 
 To be complete, let us mention that if an interrupt could occur while kernel code were executing, the kernel stack would already be in use, and save would leave the address of restart1 on the kernel stack. In this case, whatever the kernel was doing previously would continue after the ret at the end of hwint_master. This is a description of handling of nested interrupts, and these are not allowed to occur in MINIX 3 interrupts are not enabled while kernel code is running. However, as mentioned previously, the mechanism is necessary in order to handle exceptions. When all the kernel routines involved in responding to an exception are complete_restart will finally execute. In response to an exception while executing kernel code it will almost certainly be true that a process different from the one that was interrupted last will be put into execution. The response to an exception in the kernel is a panic, and what happens will be an attempt to shut down the system with as little damage as possible.
 
 */
+/*n
+
+interrupt
+include\unistd.h lists system calls,goes to _syscall-- __sendrec ,_sendrec invoke SYSVEC interrupt ,SYSVEC = SYS386_VECTOR/SYS_VECTOR
+
+*/
 !n hwint01-15  are added in prot_init
+
 ! Each of these entry points is an expansion of the hwint_master macro
 	.align	16
 _hwint00:		! Interrupt routine for irq 0 (the clock).
@@ -480,7 +487,7 @@ _p_s_call:
 	xor	ebp, ebp	! for stacktrace
 				! end of inline save
 				! now set up parameters for sys_call()
-	push	ebx		! pointer to user message
+	push	ebx		! pointer to user message	!n eax ebx ecs are set at __sendrec
 	push	eax		! src/dest
 	push	ecx		! SEND/RECEIVE/BOTH
 	call	_sys_call	! sys_call(function, src_dest, m_ptr)

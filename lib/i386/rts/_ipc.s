@@ -76,7 +76,7 @@ __sendrec:
 	mov	eax, SRC_DST(ebp)	! eax = dest-src
 	mov	ebx, MESSAGE(ebp)	! ebx = message pointer
 	mov	ecx, SENDREC		! _sendrec(srcdest, ptr)
-	int	SYSVEC			! trap to the kernel
+	int	SYSVEC			! trap to the kernel   !n SYSVEC=SYS_VECTOR/SYS386_VECTOR, see _hwint00
 	pop	ebx
 	pop	ebp
 	ret

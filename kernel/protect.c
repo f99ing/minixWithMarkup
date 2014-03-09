@@ -116,7 +116,7 @@ PUBLIC void prot_init()
 	{ page_fault, PAGE_FAULT_VECTOR, INTR_PRIVILEGE },
 	{ copr_error, COPROC_ERR_VECTOR, INTR_PRIVILEGE },
 #endif
-	{ hwint00, VECTOR( 0), INTR_PRIVILEGE },//n defined in _hwint00 -_hwint16 in mpx386.s
+	{ hwint00, VECTOR( 0), INTR_PRIVILEGE },//n defined in _hwint00 - _hwint15 in mpx386.s
 	{ hwint01, VECTOR( 1), INTR_PRIVILEGE },
 	{ hwint02, VECTOR( 2), INTR_PRIVILEGE },
 	{ hwint03, VECTOR( 3), INTR_PRIVILEGE },
@@ -135,7 +135,7 @@ PUBLIC void prot_init()
 #if _WORD_SIZE == 2
 	{ p_s_call, SYS_VECTOR, USER_PRIVILEGE },	/* 286 system call */
 #else
-	{ s_call, SYS386_VECTOR, USER_PRIVILEGE },	/* 386 system call */
+	{ s_call, SYS386_VECTOR, USER_PRIVILEGE },	/* 386 system call */  //n _s_call defined in mpx386.s, invoke sys_call
 #endif
 	{ level0_call, LEVEL0_VECTOR, TASK_PRIVILEGE },
   };
